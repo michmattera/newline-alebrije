@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Work+Sans:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border : none;
+}
+
+body {
+    font-family: 'Arapey', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+/*Logo*/
+
+#logo {
+    float: left;
+    margin-left: 30px;
+    width: 20%;
+    margin-right: 30px;
+}
+
+/*Navigation links*/
+
+#menu {
+    float: right;
+    margin-right: 20px;
+    margin-top: 60px;
+    margin-left: 100px;
+    letter-spacing: 2px;
+    font-size: 18px;
+
+}
+
+#menu a{
+    text-decoration: none;
+}
+
+#menu li{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+
+/*Images*/
+
+.left-side{
+    
+}
+
+
