@@ -82,25 +82,28 @@ h1 {
 /*First section with image and text on the side*/
 
 .image-text-container {
-    grid-column: 2;
     display: grid;
+    grid-column: 2;
     width: 100%;
+    height: 500px;
+    grid-template-columns: 3fr 1fr;
 }
 
 .image-left-side {
-    height: 400px;
-    width: 70%;
+    height: 500px;
+    grid-column: 1;
     overflow: hidden;
-    columns: 1;
-    margin-right: 0;
-    display: inline-block;
 }
 
 .text-right-side {
-    columns: 2;
-    width: 30%;
-    column-width: 30%;
-    display: inline-block;
+    grid-column: 2;
+    column-width: 1%;
+    position: relative;
+    float: right;
+    text-align: center;
+    margin-right: 10%;
+    margin-top: 20%;
+    font-size: medium;
 }
 
 img {
