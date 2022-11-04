@@ -78,13 +78,24 @@ h1 {
     
 }
 
+/*First section with image and text on the side*/
 
-/*Images*/
-
-.left-side{
-    height: 350px;
+.image-text-container {
+    grid-column: 2;
+    display: grid;
     width: 100%;
-    overflow: hidden;
+    height: 40%;
 }
 
+.image-left-side {
+    height: 350px;
+    width: 70%;
+    overflow: hidden;
+    columns: 1;
+    margin-right: auto;
+}
 
+.text-right-side {
+    columns: 2;
+    width: 30%;
+}
