@@ -11,10 +11,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     color: #ff914d;
-}
-
-.header-style {
-    color: #ff914d;
+    background-color: #a26996;
 }
 
 /*Header*/
@@ -56,6 +53,7 @@ h1 {
     float: left;
     width: fit-content;
     text-align: center;
+    color: #ff914d;
 }
 
 /*Navigation links*/
@@ -70,7 +68,7 @@ h1 {
 
 #menu a{
     text-decoration: none;
-    color: #4e0562;
+    color: #ff914d;
 }
 
 #menu li{
