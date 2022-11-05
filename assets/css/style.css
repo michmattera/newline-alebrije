@@ -186,7 +186,40 @@ p {
 
 .steps-child {
     background-color: #ff914d;
-    height: 100%;
+    max-height: 100%;
     width: 100%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
     
 }
+
+.child-1 {
+    height: 100%;
+    width: 20%;
+    display: inline;
+    float: left;
+}
+
+.child-2 {
+    height: 100%;
+    width: 20%;
+    display: inline;
+    float: left;
+}
+
+.child-3 {
+    height: 100%;
+    width: 20%;
+    display: inline;
+    float: left;
+}
+
+.child-4 {
+    height: 100%;
+    width: 20%;
+    display: inline;
+    float: left;
+}
+
+
