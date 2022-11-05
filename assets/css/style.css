@@ -10,7 +10,7 @@ body {
     font-family: 'Arapey', serif;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    color: #6C7CD8;
+    color: #ff914d;
     background-color: #FAF9F5;
 
 }
@@ -71,7 +71,7 @@ h1 {
 
 #menu a{
     text-decoration: none;
-    color: #9DD3F6;
+    color: #ff914d;
 }
 
 #menu li{
@@ -81,33 +81,38 @@ h1 {
     
 }
 
-/*First section image*/
+/*First section image-text*/
 
 .image-text-container {
     display: grid;
     grid-column: 2;
     width: 100%;
-    height: 650px;
+    height: 600px;
     grid-template-columns: 3fr 1fr;
+    grid-template-rows: 50px 1fr 30px;
+
+    overflow: hidden;
 }
 
+/*First section image*/
+
 .image-left-side {
-    height: 650px;
-    grid-column: 1;
+    height: fit-content;
     overflow: hidden;
+    display: inline;
+    grid-template-areas: 3fr;
 }
 
 img {
     max-height:100%;
     max-width:100%;
-    object-fit: contain;
     width: fit-content;
 }
 
 /*First section text*/
 .text-right-side {
-    grid-column: 2;
-    position: relative;
+    grid-template-areas: 1fr;
+    overflow: hidden;
     float: right;
     height: fit-content;
     text-align: center;
@@ -128,6 +133,7 @@ hr {
 
 h2 {
     font-size: 50px;
+    display: grid;
 }
 
 p {
@@ -142,7 +148,7 @@ p {
     font-size: 80%;
     color: #ff914d;
     border: 2px solid  #ff914d;
-    margin-top: 30%;
+    margin-top: 15%;
     margin-bottom: 18%;
     border-radius: 10px;
     height: 50px;
@@ -158,4 +164,29 @@ p {
 .complete-form:hover {
     background-color: #ff914d;
     color: #FAF9F5;
+}
+
+/*main question and section with steps on what to do*/
+
+.question {
+    text-align: center;
+    color: inherit;
+    margin-top: 3%;
+}
+/*Steps*/
+
+.steps-container {
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    display: inline;
+    
+    float: left;
+}
+
+.steps-child {
+    background-color: #ff914d;
+    height: 100%;
+    width: 100%;
+    
 }
