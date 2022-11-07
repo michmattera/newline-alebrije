@@ -85,47 +85,77 @@ a{
     
 }
 
-/*First section image-text*/
+/*image-text section*/
 
 .image-text-container {
-    display: grid;
-    grid-column: 2;
+    display: table-row;
     width: 100%;
-    height: 600px;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 30px;
+    height: 100%;
 
     overflow: hidden;
 }
 
-/*First section image*/
+.view-table {
+    display: table;
+}
+
+.view-row {
+    display: table-row;
+}
+
+.view-row>div {
+    display: table-cell;
+}
+
+/*image  left side*/
 
 .image-left-side {
-    height: fit-content;
+    height: 100%;
     overflow: hidden;
-    display: flex;
-    grid-template-areas: 3fr;
+    display: table-cell;
+    width: 75%;
+}
+
+/*image right side*/
+
+.image-right-side {
+    height: 100%;
+    overflow: hidden;
+    display: table-cell;
+    width: 75%;
+    float: right;
 }
 
 img {
-    max-height:100%;
+    height: 100%;
     max-width:100%;
-    width: fit-content;
+    object-fit: cover;
 }
 
-/*First section text*/
+/* text right side */
 .text-right-side {
     overflow: hidden;
     float: right;
     text-align: center;
-    border: 2px solid ;
     padding-right: 10%;
-    padding-top: 10%;
     padding-left: 10%;
     background-color: #9DD3F6;
     color: #FAF9F5;
 
-    
+    height: 100%;
+}
+
+/*Text left-side*/
+.text-left-side {
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: #9DD3F6;
+    color: #FAF9F5;
+
+    height: 100%;
 }
 
 hr {
@@ -145,6 +175,7 @@ p {
     margin-top: 20%;
     color: #252441;
 }
+
 
 /*Button tin first section to fill the form*/
 
@@ -222,3 +253,4 @@ h3:hover {
     background-color:#252441;
     color: #ff914d;
 }
+
