@@ -116,16 +116,6 @@ a{
     width: 75%;
 }
 
-/*image right side*/
-
-.image-right-side {
-    height: 100%;
-    overflow: hidden;
-    display: table-cell;
-    width: 75%;
-    float: right;
-}
-
 img {
     height: 100%;
     max-width:100%;
@@ -145,10 +135,21 @@ img {
     height: 100%;
 }
 
+/*image right side*/
+.image-right-size {
+    height: 100%;
+    overflow: hidden;
+    display: table-cell;
+    width: 75%;
+
+    
+}
+
+
 /*Text left-side*/
 .text-left-side {
     overflow: hidden;
-    float: left;
+    float: right;
     text-align: center;
     padding-right: 10%;
     padding-left: 10%;
@@ -156,6 +157,8 @@ img {
     color: #FAF9F5;
 
     height: 100%;
+    
+    
 }
 
 hr {
@@ -202,7 +205,7 @@ p {
     color: #FAF9F5;
 }
 
-/*main question and section with steps on what to do*/
+/*main title*/
 
 .question {
     text-align: center;
