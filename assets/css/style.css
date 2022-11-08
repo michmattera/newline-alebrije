@@ -107,7 +107,7 @@ a{
     display: table-cell;
 }
 
-/*image  left side*/
+/*image section*/
 
 .image-side {
     height: 100%;
@@ -122,7 +122,7 @@ img {
     object-fit: cover;
 }
 
-/* text right side */
+/* text section*/
 .text-side {
     overflow: hidden;
     float: right;
@@ -133,33 +133,8 @@ img {
     color: #FAF9F5;
 
     height: 100%;
+
 }
-/*
-/*image right side
-.image-right-size {
-
-    height: 100%;
-    overflow: hidden;
-    display: table-cell;
-}
-
-
-/*Text left-side
-.text-left-side {
-    overflow: hidden;
-    float: left;
-    text-align: center;
-    padding-right: 10%;
-    padding-left: 10%;
-    background-color: #9DD3F6;
-    color: #FAF9F5;
-
-    height: 100%;
-    width: 25%;
-    
-    
-}
-*/
 hr {
     border-top: 3px solid #ff914d;
     width: 100%;
@@ -256,3 +231,16 @@ h3:hover {
     color: #ff914d;
 }
 
+/*central section*/
+
+.central-section {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    color: #ff914d;
+
+}
+.center-text {
+    margin-top: 5%;
+    line-height: 160%;
+}
