@@ -191,7 +191,7 @@ p {
 
 .steps-container {
     width: 90%;
-    height: 300px;
+    height: 350px;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
@@ -219,7 +219,7 @@ p {
     float: left;
 }
 
-h3 {
+.steps {
     font-size: 25px;
     color: #252441;
     background-color: #ff914d;
@@ -248,6 +248,14 @@ h3:hover {
 /*Review section*/
 
 .reviews {
-    background-color: #fff;
-    
+    background-color:#ff914d;
+    color: #fff;
+    text-align: left;
+}
+
+.reviews > .name{
+    color: #FAF9F5;
+    text-transform: uppercase;
+    padding-top: 20%;
+
 }
