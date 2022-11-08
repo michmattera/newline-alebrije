@@ -135,6 +135,12 @@ img {
     height: 100%;
 
 }
+
+.text-side > h2 {
+    font-size: 300%;
+    padding-top: 25%;
+    color: #252441;
+}
 hr {
     border-top: 3px solid #ff914d;
     width: 100%;
@@ -142,7 +148,7 @@ hr {
 }
 
 
-.text-side>p {
+.text-side >p {
     font-size: 25px;
     margin-top: 20%;
     color: #252441;
@@ -319,3 +325,9 @@ i {
     margin-left: 6%;
     
 }
+
+.line {
+    color: #ff914d;
+}
+
+/*Footer*/
