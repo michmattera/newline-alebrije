@@ -184,6 +184,7 @@ p {
 .question {
     text-align: center;
     color: inherit;
+    text-transform: uppercase;
     margin-top: 3%;
 }
 
@@ -248,7 +249,7 @@ h3:hover {
 /*Review section*/
 
 .reviews {
-    background-color:#ff914d;
+    background-color:#252441;
     color: #fff;
     text-align: left;
 }
@@ -256,6 +257,28 @@ h3:hover {
 .reviews > .name{
     color: #FAF9F5;
     text-transform: uppercase;
-    padding-top: 20%;
 
+}
+
+.reviews > .p-review {
+    
+    padding-top: 5%;
+    color: #FAF9F5;
+
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 130%;
+    text-transform: uppercase;
+    margin-top: 2%;
+}
+
+i {
+    
+    font-size: 250%;
+    margin-top: 5%;
+    margin-right: 1%;
+    margin-left: 2%;
+    
 }
