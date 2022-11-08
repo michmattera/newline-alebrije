@@ -141,13 +141,8 @@ hr {
     margin: 15% 0;
 }
 
-h2 {
-    font-size: 50px;
-    display: grid;
-    color: #252441;
-}
 
-p {
+.text-side>p {
     font-size: 25px;
     margin-top: 20%;
     color: #252441;
@@ -186,6 +181,9 @@ p {
     color: inherit;
     text-transform: uppercase;
     margin-top: 3%;
+    font-size: 50px;
+    display: grid;
+    color: #252441;
 }
 
 /*Steps*/
@@ -210,6 +208,12 @@ p {
     margin-left: 2.5%;
     overflow: hidden;
     text-align: center;
+}
+
+a > p {
+    font-size: 25px;
+    margin-top: 20%;
+    color: #252441;
 }
 
 
@@ -238,7 +242,10 @@ h3:hover {
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
-    color: #ff914d;
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #252441;
 
 }
 .center-text {
@@ -248,23 +255,53 @@ h3:hover {
 
 /*Review section*/
 
-.reviews {
-    background-color:#252441;
+.review-container {
     color: #fff;
     text-align: left;
+    width: 90%;
+    height: 200px;
+    margin-top: 3%;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+
+    float: left;
+    overflow: hidden;
+
 }
 
-.reviews > .name{
-    color: #FAF9F5;
-    text-transform: uppercase;
-
-}
-
-.reviews > .p-review {
+.review-child {
+    max-height: 100%;
+    margin-left: 2.3%;
+    margin-right: 2.3%;
+    overflow: hidden;
+    background-color: #252441;
+    position: relative;
     
-    padding-top: 5%;
-    color: #FAF9F5;
+}
 
+
+.review-container > .review-child {
+    height: 100%;
+    width: 20%;
+    display: inline;
+    float: left;
+    border: 2px solid #ff914d;
+}
+
+.reviews > .text-review {
+    
+    color: #FAF9F5;
+    margin-left: 3%;
+    margin-top: 10%;
+    font-size: 120%;
+
+}
+
+.name {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    font-size: 130%;
 }
 
 .subtitle {
@@ -276,9 +313,9 @@ h3:hover {
 
 i {
     
-    font-size: 250%;
+    font-size: 140%;
     margin-top: 5%;
-    margin-right: 1%;
-    margin-left: 2%;
+    margin-right: 3%;
+    margin-left: 6%;
     
 }
