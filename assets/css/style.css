@@ -337,17 +337,25 @@ i {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 5%;
+    height: 200px;
     text-align: center;
-    background-color: #ff914d;
 }
 
+.container-social-media{
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
 .social-media {
     display: inline-block;
-    width: 100%;
-    height: fit-content;
+    width: 30%;
+    
+    background-color: #ff914d;
 }
+.social-media > a {
+    font-size: 180%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding-bottom: 10%;
 
-a > i {
-    color: #252441;
 }
