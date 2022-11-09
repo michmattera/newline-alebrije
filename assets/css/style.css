@@ -270,6 +270,7 @@ a > p {
     margin-top: 3%;
     margin-left: 4.5%;
     margin-right: 4.5%;
+    margin-bottom: 3%;
 
     float: left;
     overflow: hidden;
@@ -292,7 +293,6 @@ a > p {
     width: 20%;
     display: inline;
     float: left;
-    border: 2px solid #ff914d;
 }
 
 .reviews > .text-review {
@@ -323,7 +323,7 @@ i {
     font-size: 140%;
     margin-top: 5%;
     margin-right: 3%;
-    margin-left: 6%;
+    margin-left: 0;
     
 }
 
@@ -332,12 +332,4 @@ i {
 }
 
 /*Footer*/
-.footer {
-    text-align: center;
-    font-size: 130%;
-}
 
-.footer > li {
-    display: inline;
-
-}
