@@ -70,12 +70,12 @@ h1 {
 }
 
 #menu a:hover {
-    border-bottom: 3px solid #9DD3F6;
+    border-bottom: 3px solid #ff914d;
 }
 
 a{
     text-decoration: none;
-    color: #ff914d;
+    color: #252441;
 }
 
 #menu li{
@@ -129,17 +129,18 @@ img {
     text-align: center;
     padding-right: 10%;
     padding-left: 10%;
-    background-color: #9DD3F6;
+    background-color: #252441;
     color: #FAF9F5;
 
     height: 100%;
 
 }
+    
 
 .text-side > h2 {
     font-size: 300%;
     padding-top: 25%;
-    color: #252441;
+    color: #FAF9F5;
 }
 hr {
     border-top: 3px solid #ff914d;
@@ -151,16 +152,16 @@ hr {
 .text-side >p {
     font-size: 25px;
     margin-top: 20%;
-    color: #252441;
+    color: #FAF9F5;
 }
 
 
 /*Button tin first section to fill the form*/
 
 .complete-form {
-    background-color: #FAF9F5;
+    background-color: #ff914d;
     font-size: 80%;
-    color: #ff914d;
+    color: #252441;
     border: 2px solid  #ff914d;
     margin-top: 15%;
     margin-bottom: 18%;
@@ -176,8 +177,8 @@ hr {
 }
 
 .complete-form:hover {
-    background-color: #ff914d;
-    color: #FAF9F5;
+    background-color: #FAF9F5;
+    color: #ff914d;
 }
 
 /*main title*/
@@ -237,7 +238,7 @@ a > p {
     text-transform: uppercase;
 }
 
-h3:hover {
+.steps-child > h3:hover {
     background-color:#252441;
     color: #ff914d;
 }
@@ -331,3 +332,12 @@ i {
 }
 
 /*Footer*/
+.footer {
+    text-align: center;
+    font-size: 130%;
+}
+
+.footer > li {
+    display: inline;
+
+}
