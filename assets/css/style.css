@@ -238,7 +238,7 @@ a > p {
     text-transform: uppercase;
 }
 
-.steps-child > h3:hover {
+a > h3:hover {
     background-color:#252441;
     color: #ff914d;
 }
@@ -359,4 +359,6 @@ a > p {
     padding-bottom: 50%;
 }
 
-i 
+.social-media > a:hover {
+    color: #FAF9F5;
+} 
