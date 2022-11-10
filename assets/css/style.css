@@ -337,27 +337,37 @@ i {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 65px;
-    text-align: center;
+    height: 55px;
+    background-color: #ff914d;
+    opacity: 0.9;
+    margin-left:auto; 
+     margin-right:auto;
+    overflow-x: hidden;
 }
 
 .container-social-media{
     width: 100%;
     text-align: center;
+    display: inline-block;
+    width: 33%;
+    margin-left: 33%;
 }
+/*
 .social-media {
     display: inline-block;
     width: 33%;
     text-align: center;
     
-    background-color: #ff914d;
-    opacity: 0.9;
+    
 }
-.social-media > a {
-    font-size: 220%;
+*/
+a > iframe {
+    font-size: 200%;
     margin-right: 5%;
-    margin-left: 5%;
-    padding-bottom: 5%;
-    text-align: center;
+    margin-left: 6%;
+    margin-bottom: 20%;
+    #iframe{
+        width: 60%;
+        height: 55px;
 
 }
