@@ -61,6 +61,10 @@ h1 {
 
 /*Navigation links*/
 
+.active {
+    border-bottom: 3px solid #ff914d;
+}
+
 #menu {
     float: right;
     margin-right: 20px;
@@ -362,3 +366,36 @@ a > h3:hover {
 .social-media > a:hover {
     color: #FAF9F5;
 } 
+
+/*alebrije page*/
+/*central section*/
+.container-central-section {
+    border: 10px solid #ff914d;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    border-radius: 15%;
+    margin-bottom: 5%;
+}
+
+.child-central-section {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 150%;
+    margin-bottom: 5%;
+
+}
+.child-central-section > ul {
+    list-style-type: none;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/*types of alebrije*/
+.water{
+    background-image: url('../css/images/bird-alebrije.jpg');
+    height: 100%;
+    max-width: auto-resize;
+    object-fit: cover;
+}
