@@ -186,7 +186,7 @@ hr {
 
 /*main title*/
 
-.question {
+.main-title {
     text-align: center;
     color: inherit;
     text-transform: uppercase;
@@ -397,7 +397,7 @@ a > h3:hover {
 
 .water, .fire, .earth, .air  {
     height: 100%;
-    width: 95%;
+    width: 100%;
     background-size: cover;
     margin-bottom: 10%;
 }
@@ -428,6 +428,7 @@ a > h3:hover {
         overflow: hidden;
         display: table-cell;
         width: 25%;
+        margin-top: 5%;
 }
 
 .big-text-side {
@@ -438,6 +439,16 @@ a > h3:hover {
     color: #252441;
     border: 2px solid #ff914d;
     height: 600px;
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    box-sizing: border-box;
+
+    
+    border: 10px solid #ff914d;
+    border-radius: 15%;
 
 }
+
+
