@@ -137,7 +137,6 @@ img {
     color: #FAF9F5;
 
     height: 100%;
-
 }
     
 
@@ -367,7 +366,8 @@ a > h3:hover {
     color: #FAF9F5;
 } 
 
-/*alebrije page*/
+/* SECOND PAGE - ALEBRIJE PAGE*/
+
 /*central section*/
 .container-central-section {
     border: 10px solid #ff914d;
@@ -397,8 +397,9 @@ a > h3:hover {
 
 .water, .fire, .earth, .air  {
     height: 100%;
-    width: 100%;
+    width: 95%;
     background-size: cover;
+    margin-bottom: 10%;
 }
 
 .water{
@@ -415,7 +416,28 @@ a > h3:hover {
     
 }
 
-.Earth{
+.earth{
     background-image: url('../css/images/earth-alebrije.jpg');
     
+}
+
+/*Text-small image section*/
+
+.small-image-side{
+        height: 600px;
+        overflow: hidden;
+        display: table-cell;
+        width: 25%;
+}
+
+.big-text-side {
+    overflow: hidden;
+    float: right;
+    text-align: center;
+    background-color: #FAF9F5;
+    color: #252441;
+    border: 2px solid #ff914d;
+    height: 600px;
+    width: 100%;
+
 }
