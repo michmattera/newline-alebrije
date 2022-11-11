@@ -392,10 +392,30 @@ a > h3:hover {
     margin-top: 2%;
     margin-bottom: 2%;
 }
-/*types of alebrije*/
-.water{
-    background-image: url('../css/images/bird-alebrije.jpg');
+
+/*types of alebrije section*/
+
+.water, .fire, .earth, .air  {
     height: 100%;
-    max-width: auto-resize;
-    object-fit: cover;
+    width: 100%;
+    background-size: cover;
+}
+
+.water{
+    background-image: url('../css/images/water-alebrije.jpg');
+}
+
+.fire{
+    background-image: url('../css/images/fire-alebrije.jpg');
+    
+}
+
+.air{
+    background-image: url('../css/images/air-alebrije.jpg');
+    
+}
+
+.Earth{
+    background-image: url('../css/images/earth-alebrije.jpg');
+    
 }
