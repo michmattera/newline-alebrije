@@ -427,17 +427,15 @@ a > h3:hover {
         height: 600px;
         overflow: hidden;
         display: table-cell;
-        width: 25%;
+        width: 30%;
         margin-top: 5%;
 }
 
 .big-text-side {
     overflow: hidden;
     float: right;
-    text-align: center;
     background-color: #FAF9F5;
     color: #252441;
-    border: 2px solid #ff914d;
     height: 600px;
     width: 90%;
     margin-left: 5%;
