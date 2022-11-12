@@ -82,7 +82,7 @@ a{
     color: #252441;
 }
 
-#menu li{
+#menu > li{
     list-style-type: none;
     float: left;
     margin-right: 20px;
@@ -152,7 +152,7 @@ hr {
 }
 
 
-.text-side >p {
+.text-side > p {
     font-size: 25px;
     margin-top: 20%;
     color: #FAF9F5;
@@ -442,11 +442,27 @@ a > h3:hover {
     margin-right: 5%;
     margin-top: 5%;
     box-sizing: border-box;
-
     
+
     border: 10px solid #ff914d;
     border-radius: 15%;
-
 }
 
+.description-alebrije {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.description-alebrije > li {
+    list-style-type: circle;
+    font-size: 150%;
+}
+
+.strong {
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-size: 150%;
+    color: #ff914d;
+
+}
 
