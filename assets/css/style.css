@@ -429,6 +429,7 @@ a > h3:hover {
         display: table-cell;
         width: 30%;
         margin-top: 5%;
+        margin-left: 5%;
 }
 
 .big-text-side {
