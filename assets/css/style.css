@@ -144,7 +144,7 @@ img {
 }
 
 
-.text-side>h2 {
+.text-side > h2 {
     font-size: 300%;
     padding-top: 25%;
     color: #FAF9F5;
@@ -501,12 +501,42 @@ i {
 /*STEPS-PAGE*/
 
 /*container with 3 divs*/
-.container {
-    width: 100%;
+.image {
+    height: 100%;
+    overflow: hidden;
+    display: table-cell;
+    width: 25%;
+}
+.text {
+    overflow: hidden;
+    float: right;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #FAF9F5;
+    color: #252441;
+
     height: 100%;
 }
 
-.image {
-    width: 33%;
-    height: 100%;
+
+.text > h2 {
+    font-size: 300%;
+    padding-top: 5%;
+    
+    text-align: center;
+}
+
+hr {
+    border-top: 3px solid #ff914d;
+    width: 100%;
+}
+
+
+.text>p {
+    font-size: 25px;
+    margin-top: 5%;
+    
+    text-align: left;
 }
