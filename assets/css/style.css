@@ -273,7 +273,7 @@ a > h3:hover {
     margin-top: 3%;
     margin-left: 4.5%;
     margin-right: 4.5%;
-    margin-bottom: 6%;
+    margin-bottom: 2%;
 
     float: left;
     overflow: hidden;
@@ -334,8 +334,19 @@ a > h3:hover {
     color: #ff914d;
 }
 
-/*Footer*/
+/*Next-page-button*/
 
+.next-page{
+    color: #252441;
+    width: 5%;
+    height: 25%;
+    float: right;
+    margin-bottom: 5%;
+    margin-top: 0.5%;
+    font-size: 200%;
+
+}
+/*Footer*/
 .footer {
     position: fixed;
     bottom: 0;
@@ -343,11 +354,9 @@ a > h3:hover {
     height: 55px;
     background-color: #ff914d;
     opacity: 0.9;
-    overflow-x: hidden;
 }
 
 .container-social-media{
-    width: 100%;
     text-align: center;
     display: inline-block;
     width: 33%;
