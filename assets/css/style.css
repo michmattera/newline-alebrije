@@ -57,6 +57,7 @@ h1 {
     width: fit-content;
     text-align: center;
     color: #ff914d;
+    margin-left: 3%;
 }
 
 /*Navigation links*/
@@ -70,6 +71,7 @@ h1 {
     margin-right: 20px;
     letter-spacing: 2px;
     font-size: 20px;
+    text-transform: uppercase;
 
 }
 
@@ -95,6 +97,7 @@ a{
     display: table-row;
     width: 100%;
     height: 100%;
+    margin-bottom: 3%;
 
     overflow: hidden;
 }
@@ -193,7 +196,7 @@ hr {
     margin-top: 3%;
     font-size: 50px;
     display: grid;
-    color: #252441;
+    color: #FAF9F5;
 }
 
 /*Steps*/
@@ -203,7 +206,8 @@ hr {
     height: 350px;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 
     text-align: center;
 
@@ -254,8 +258,9 @@ a > h3:hover {
     text-align: center;
     font-size: 25px;
     margin-top: 2%;
-    margin-bottom: 2%;
-    color: #252441;
+    margin-bottom: 1%;
+    color: #FAF9F5;
+    background-color: #252441;
 
 }
 .center-text {
@@ -386,6 +391,9 @@ a > h3:hover {
     text-align: center;
     border-radius: 15%;
     margin-bottom: 5%;
+    
+    color: #FAF9F5;
+    background-color: #252441;
 }
 
 .child-central-section {
@@ -393,7 +401,8 @@ a > h3:hover {
     margin-left: 10%;
     margin-right: 10%;
     font-size: 150%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+    
 
 }
 .child-central-section > ul {
@@ -443,8 +452,10 @@ a > h3:hover {
 .big-text-side {
     overflow: hidden;
     float: right;
-    background-color: #FAF9F5;
-    color: #252441;
+    
+    color: #FAF9F5;
+    background-color: #252441;
+
     height: 600px;
     width: 90%;
     margin-left: 5%;
@@ -475,3 +486,26 @@ a > h3:hover {
 
 }
 
+/*for screen min-width 1200px*/
+@media screen and (min-width: 1240px){
+    .image-side{
+        border: 2px solid #252441;
+    }
+    .text-side{
+    }
+}
+
+/*image section
+
+.image-side {
+    height: 100%;
+    overflow: hidden;
+    display: table-cell;
+    width: 75%;
+}
+
+img {
+    height: 100%;
+    max-width:100%;
+    object-fit: cover;
+}
