@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border : none;
+    border: none;
 }
 
 body {
@@ -39,12 +39,13 @@ body {
 
 #company-name {
     margin-top: 4%;
-    
+
 }
 
 /*Logo*/
 
-#logo, h1 {
+#logo,
+h1 {
     float: left;
     margin-left: 10px;
     width: 15%;
@@ -79,16 +80,16 @@ h1 {
     border-bottom: 3px solid #ff914d;
 }
 
-a{
+a {
     text-decoration: none;
     color: #252441;
 }
 
-#menu > li{
+#menu>li {
     list-style-type: none;
     float: left;
     margin-right: 20px;
-    
+
 }
 
 /*image-text section*/
@@ -125,7 +126,7 @@ a{
 
 img {
     height: 100%;
-    max-width:100%;
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -141,13 +142,14 @@ img {
 
     height: 100%;
 }
-    
 
-.text-side > h2 {
+
+.text-side>h2 {
     font-size: 300%;
     padding-top: 25%;
     color: #FAF9F5;
 }
+
 hr {
     border-top: 3px solid #ff914d;
     width: 100%;
@@ -155,7 +157,7 @@ hr {
 }
 
 
-.text-side > p {
+.text-side>p {
     font-size: 25px;
     margin-top: 20%;
     color: #FAF9F5;
@@ -168,7 +170,7 @@ hr {
     background-color: #ff914d;
     font-size: 80%;
     color: #252441;
-    border: 2px solid  #ff914d;
+    border: 2px solid #ff914d;
     margin-top: 15%;
     margin-bottom: 18%;
     border-radius: 10px;
@@ -195,7 +197,11 @@ hr {
     margin-top: 3%;
     font-size: 50px;
     display: grid;
-    color: #FAF9F5;
+}
+
+
+.blue {
+    color: #252441;
 }
 
 /*Steps*/
@@ -210,7 +216,7 @@ hr {
 
     text-align: center;
 
-    
+
     float: left;
     overflow: hidden;
 }
@@ -223,14 +229,14 @@ hr {
     text-align: center;
 }
 
-a > p {
+a>p {
     font-size: 25px;
     margin-top: 20%;
     color: #252441;
 }
 
 
-.steps-container > .steps-child {
+.steps-container>.steps-child {
     height: 100%;
     width: 20%;
     display: inline;
@@ -244,8 +250,8 @@ a > p {
     text-transform: uppercase;
 }
 
-a > h3:hover {
-    background-color:#252441;
+a>h3:hover {
+    background-color: #252441;
     color: #ff914d;
 }
 
@@ -262,6 +268,7 @@ a > h3:hover {
     background-color: #252441;
 
 }
+
 .center-text {
     margin-top: 5%;
     line-height: 160%;
@@ -291,19 +298,19 @@ a > h3:hover {
     overflow: hidden;
     background-color: #252441;
     position: relative;
-    
+
 }
 
 
-.review-container > .review-child {
+.review-container>.review-child {
     height: 100%;
     width: 20%;
     display: inline;
     float: left;
 }
 
-.reviews > .text-review {
-    
+.reviews>.text-review {
+
     color: #FAF9F5;
     margin-left: 3%;
     margin-top: 10%;
@@ -325,13 +332,13 @@ a > h3:hover {
     margin-top: 2%;
 }
 
- i {
-    
+i {
+
     font-size: 100%;
     margin-top: 2%;
     margin-right: 7%;
     margin-left: 0;
-    
+
 }
 
 .line {
@@ -340,7 +347,7 @@ a > h3:hover {
 
 /*Next-page-button*/
 
-.next-page{
+.next-page {
     color: #252441;
     width: 5%;
     height: 25%;
@@ -350,6 +357,7 @@ a > h3:hover {
     font-size: 200%;
 
 }
+
 /*Footer*/
 .footer {
     position: fixed;
@@ -360,12 +368,13 @@ a > h3:hover {
     opacity: 0.9;
 }
 
-.container-social-media{
+.container-social-media {
     text-align: center;
     display: inline-block;
     width: 33%;
     margin-left: 33%;
 }
+
 .social-media {
     display: inline-block;
     width: 100%;
@@ -375,9 +384,9 @@ a > h3:hover {
     padding-bottom: 50%;
 }
 
-.social-media > a:hover {
+.social-media>a:hover {
     color: #FAF9F5;
-} 
+}
 
 /* SECOND PAGE - ALEBRIJE PAGE*/
 
@@ -390,7 +399,7 @@ a > h3:hover {
     text-align: center;
     border-radius: 15%;
     margin-bottom: 5%;
-    
+
     color: #FAF9F5;
     background-color: #252441;
 }
@@ -401,10 +410,11 @@ a > h3:hover {
     margin-right: 10%;
     font-size: 150%;
     margin-bottom: 3%;
-    
+
 
 }
-.child-central-section > ul {
+
+.child-central-section>ul {
     list-style-type: none;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -412,46 +422,49 @@ a > h3:hover {
 
 /*types of alebrije section*/
 
-.water, .fire, .earth, .air  {
+.water,
+.fire,
+.earth,
+.air {
     height: 100%;
     width: 100%;
     background-size: cover;
     margin-bottom: 10%;
 }
 
-.water{
+.water {
     background-image: url('../css/images/water-alebrije.jpg');
 }
 
-.fire{
+.fire {
     background-image: url('../css/images/fire-alebrije.jpg');
-    
+
 }
 
-.air{
+.air {
     background-image: url('../css/images/air-alebrije.jpg');
-    
+
 }
 
-.earth{
+.earth {
     background-image: url('../css/images/earth-alebrije.jpg');
-    
+
 }
 
 /*Text-small image section*/
 
-.small-image-side{
-        height: 600px;
-        overflow: hidden;
-        display: table-cell;
-        width: 30%;
-        margin-top: 5%;
+.small-image-side {
+    height: 600px;
+    overflow: hidden;
+    display: table-cell;
+    width: 30%;
+    margin-top: 5%;
 }
 
 .big-text-side {
     overflow: hidden;
     float: right;
-    
+
     color: #FAF9F5;
     background-color: #252441;
 
@@ -461,7 +474,7 @@ a > h3:hover {
     margin-right: 5%;
     margin-top: 5%;
     box-sizing: border-box;
-    
+
 
     border: 10px solid #ff914d;
     border-radius: 15%;
@@ -472,7 +485,7 @@ a > h3:hover {
     margin-right: 5%;
 }
 
-.description-alebrije > li {
+.description-alebrije>li {
     list-style-type: circle;
     font-size: 150%;
 }
@@ -485,25 +498,15 @@ a > h3:hover {
 
 }
 
-/*for screen min-width 1200px*/
-@media screen and (min-width: 1240px){
-    
-}
-/*
-.text-side > h2 {
-    font-size: 300%;
-    padding-top: 25%;
-    color: #FAF9F5;
-}
-hr {
-    border-top: 3px solid #ff914d;
+/*STEPS-PAGE*/
+
+/*container with 3 divs*/
+.container {
     width: 100%;
-    margin: 15% 0;
+    height: 100%;
 }
 
-
-.text-side > p {
-    font-size: 25px;
-    margin-top: 20%;
-    color: #FAF9F5;
+.image {
+    width: 33%;
+    height: 100%;
 }
