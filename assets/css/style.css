@@ -496,3 +496,14 @@ i {
     margin-bottom: 5%;
     text-align: left;
 }
+
+/*altar section*/
+.instruction{
+    width: 90%;
+    margin: 5%;
+    font-size: 140%;
+}
+
+.video{
+    width: 90%;
+}
