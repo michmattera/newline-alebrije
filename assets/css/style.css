@@ -503,12 +503,17 @@ i {
     font-size: 140%;
 }
 
-.instruction>p{
-    margin-top: 4%;
+.instruction>p, ol>li{
+    margin: 4% 0 4% 0;
 }
 
 .video{
     width: 90%;
     text-align: center;
     margin: 5%;
+}
+
+.small-image {
+    width: 25%;
+    height: 25%;
 }
