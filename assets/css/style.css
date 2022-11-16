@@ -509,7 +509,8 @@ i {
 
 ol>li,
 li>p{
-    margin: 3% 3%;
+    margin: 4.5% 3%;
+    letter-spacing: 20%%;
 }
 
 .video{
@@ -522,6 +523,7 @@ li>p{
     font-size: 130%;
     text-decoration: underline;
     margin: 2%;
+    display: block;
 }
 
 .small-image {
@@ -534,7 +536,7 @@ li>p{
 .container-small-image {
     width: 25%;
     height: 35%;
-    margin-right: 5%;
-    
-    padding: 0 22px;
+    margin: 2.5%;
+    float: left;
+    display: inline-flex;
 }
