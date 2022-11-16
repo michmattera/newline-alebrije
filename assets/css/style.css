@@ -509,7 +509,7 @@ i {
 
 ol>li,
 li>p{
-    margin: 4.5% 3%;
+    margin: 3%;
     letter-spacing: 20%%;
 }
 
@@ -521,7 +521,7 @@ li>p{
 
 .list-title{
     font-size: 130%;
-    text-decoration: underline;
+    background-color: #ff914d;
     margin: 2%;
     display: block;
 }
@@ -529,13 +529,13 @@ li>p{
 .small-image {
     max-width: 200px;
     float: right;
-    width: 20%;
+    width: 25%;
     box-sizing: border-box;
     
 }
 .container-small-image {
-    width: 25%;
-    height: 35%;
+    width: 30%;
+    height: 40%;
     margin: 2.5%;
     float: left;
     display: inline-flex;
