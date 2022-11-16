@@ -503,9 +503,13 @@ i {
     margin: 5%;
     font-size: 140%;
 }
+.instruction > * {
+    margin-top: 4%;
+}
 
-.instruction>p, ol>li{
-    margin: 4% 0 4% 0;
+ol>li,
+li>p{
+    margin: 3% 3%;
 }
 
 .video{
@@ -514,7 +518,23 @@ i {
     margin: 5%;
 }
 
+.list-title{
+    font-size: 130%;
+    text-decoration: underline;
+    margin: 2%;
+}
+
 .small-image {
+    max-width: 200px;
+    float: right;
+    width: 20%;
+    box-sizing: border-box;
+    
+}
+.container-small-image {
     width: 25%;
-    height: 25%;
+    height: 35%;
+    margin-right: 5%;
+    
+    padding: 0 22px;
 }
