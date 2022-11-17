@@ -541,9 +541,17 @@ li>p{
     float: left;
     display: inline-flex;
 }
+
+.container-small-image-right {
+    width: 23%;
+    height: 23%;
+    margin: 2.5%;
+    float: right;
+    display: inline-flex;
+}
 /*Foof section*/
 .ingredient{
-    width: 60%;
+    width: 98%;
     height: 30%;
     
 }
@@ -572,8 +580,3 @@ legend{
     margin: 1%;
 }
 
-.right{
-    float: right;
-    width: 30%;
-    height: 30%;
-}
