@@ -606,30 +606,42 @@ legend{
     width: 94%;
     text-align: center;
     margin: 3%;
-    /*
+    
     background-color: #252441;
     color: #FAF9F5;
-    */
+    
     display: flexbox;
 }
 #contact{
-    text-align: left;
-    width: 50%;
+    text-align: center;
+    width: 100%;
     font-size: 120%;
     margin-top: 5%;
 }
 
-.text-contact{
-    margin-left: 0;
+#contact>a {
+    color: #FAF9F5;
+    margin: 5% 20%;
+    font-size: 120%;
 }
-.text-contact>i{
-margin-left: 3%;
+
+.space{
+    margin: 10%;
 }
+
+address>a{
+    padding: 10%;
+}
+
 
 /*Map*/
 #map{
     width: 50%;
-    margin: 0;
+    margin: 5%;
+}
+#map>p{
+    font-size: 120%;
+    margin: 3%;
 }
 
 
