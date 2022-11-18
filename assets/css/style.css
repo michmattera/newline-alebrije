@@ -605,7 +605,7 @@ legend{
 .contact-us{
     width: 94%;
     text-align: center;
-    margin: 3%;
+    margin: 3% 3% 8% 3%;
     
     background-color: #252441;
     color: #FAF9F5;
@@ -613,7 +613,7 @@ legend{
     display: flexbox;
 }
 #contact{
-    text-align: center;
+    text-align: left;
     width: 100%;
     font-size: 120%;
     margin-top: 5%;
@@ -628,20 +628,24 @@ legend{
 .space{
     margin: 10%;
 }
-
-address>a{
-    padding: 10%;
+.sub-heading{
+    margin: 5%;
+    text-transform: uppercase;
+    font-size: 190%;
+    color: #ff914d;
 }
-
 
 /*Map*/
 #map{
     width: 50%;
-    margin: 5%;
-}
-#map>p{
-    font-size: 120%;
     margin: 3%;
 }
 
+#map>p{
+    font-size: 140%;
+    margin: 3%;
+}
+#map>iframe{
+    margin-bottom: 5%;
+}
 
