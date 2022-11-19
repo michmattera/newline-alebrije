@@ -605,7 +605,7 @@ legend{
 .contact-us{
     width: 94%;
     text-align: center;
-    margin: 3% 3% 8% 3%;
+    margin: 3% 3% 0 3%;
     
     background-color: #252441;
     color: #FAF9F5;
@@ -620,7 +620,10 @@ legend{
     margin-top: 5%;
 }
 
-
+#contact>i{
+    display: block;
+    margin-bottom: 5%;
+}
 #contact>a {
     color: #FAF9F5;
     margin: 1% 20%;
@@ -650,5 +653,12 @@ legend{
 }
 #map>iframe{
     margin-bottom: 5%;
+}
+/*disclaimer*/
+.disclaimer{
+    font-size: 100%;
+    color: #252441;
+    margin: 2% 5% 5% 5%;
+    font-weight: bold;
 }
 
