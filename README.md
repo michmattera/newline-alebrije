@@ -52,7 +52,7 @@ This website is for user who would like to know more about the alebrije, about o
     2. Name of company (Searched based on alebrije in businessnamegenerator)
     3. Navigation links to other pages (On the right side of the page in the same line of the logo and the name of the company)
 - The first three pages are composed by a text-image section. The image that occupy 2/3 of the width of the page, and a text section that occupy 1/3 of the page. The image and text change from right to left from one section to another to give movement to the page.
-- The first 4 pages has a button rapresented byt an arrow that point on the right at the bottom of the page, just before the footer that brings the user to the next page without having to scroll up and find the navigation links to go to the next page.
+- The first 4 pages has a button rapresented by an arrow that point on the right at the bottom of the page, just before the footer that brings the user to the next page without having to scroll up and find the navigation links to go to the next page.
 - All footer pages are composed by:
     1. Icons that links to social media (On a non-static line with height of 55px and 100% width, color: ff914d and opacity of 0.9)
 
@@ -63,11 +63,13 @@ Each page of the website is responsive and easy to navigate. Below you will find
 <dl>
     <dt><a href="index.html" target="_blank" alt="Newline Alebrije Home Page">Home Page</a></dt>
     <dd>
+    The contant of this page are text and images , relating to the different section that will be deteiled in the next pages. You have different section and links to go to the right page based on the information you will like to acquire.
+    <br />
     The homepage is divided in <strong>8</strong> different sections:
       <ol>
             <li> This section is the header.
             </li>
-            <li> This section is the text-image section. The text section has a small text part and a button to bring him directly in the form page that is the main goal of the website.
+            <li> This section is the text-image section. The text section has a small text part on the right of the page and a button to bring him directly in the form page that is the main goal of the website.
             </li>
             <li> This section is a four column section with the main title to explain the different steps to complete to get your alebrije, and a link to the specific section in a different page.
             </li>
@@ -87,18 +89,77 @@ Each page of the website is responsive and easy to navigate. Below you will find
 <dl>  
     <dt><a href="alebrije.html" target="_blank" alt="Newline Alebrije Alebrije page">Alebrije Page</a></dt>
     <dd>
+    The content of this page are images and text, to give information to the user about what is an alebrije and the difference between the <strong>4 types of alebrijes.</strong>
+    <br />
     The Alebrije page is divided in <strong>10</strong> different sections:
         <ol>
             <li> This section is the header.
             </li>
             <li> This section is a text-image section with the image on the right and the text and the left. It introduce the user to the alebrije.
             </li>
-            <li> This section is a central section with just text and info
+            <li> This section is a central section with just text and info about the alebrije and the different types of alebrijes.
             </li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>This section is a four column section with the different kind of alebrijes and the link for the specific section on the same page.
+            </li>
+            <li>This section is a text-image section but is 2/3 text on the right, with a border to divide the 2 parts, and 1/3 image on the left, representing 1 of 4 kind of alebrijes, their pro and cons .
+            </li>
+            <li> This section is like the one above just inverting the text side on the right and the image on the left.
+            </li>
+            <li> This section is like the fifth section.
+            </li>
+            <li> This section is like the sixth section.
+            </li>
+            <li> This section is the footer and just above the botton to go to the next page.
+            </li>
+        </ol>    
     </dd>
+</dl>    
+<dl>
+    <dt><a href="steps.html" target="_blank" alt="Newline Steps page">Steps Page</a></dt>
+    <dd>
+    The content of this page are images, text and videos embeded from youtube to give information to the user about the <strong>steps</strong>that he will have to do in order <strong>to get the alebrije.</strong>
+    <br />
+    This is the biggest page and the one with more information .
+    <br />
+    The Steps page is divided in <strong>7</strong> different sections and <strong>8</strong> sub-sections:
+       <ol>
+           <li> This section is the header.
+           </li>
+           <li> This section is the text-image section. The text section has a small text part on the right part of the page and a button to bring him directly in the steps section just below.
+           </li>
+           <li> This section is a 4 column section where you have a main title and different steps to complete. With also the link to go to the specific section in the same page and in different page.
+           </li>
+           <li> This is a 3 column section divided in 2 pictures on the right and left of a central text. That explain the first step to complete.
+           </li>
+           <li> This is a section with an intro and text that explain the introduction of the second step to complete, followed by a video that actually explai the step if you do not want to read the instructions below.
+              <ul>
+              Those are sub-sections of the second step:
+                  <li> This sub-section is made up of a sub-title and a text, and explain the first step to follow.
+                  </li>
+                  <li> This section is like the first one but with an image as well that is surrounded by text and explain the next step.
+                  </li>
+                  <li> This section is like the one above.
+                  </li>
+                  <li> This section is like the one above.
+                  </li>
+                  <li> This section is like the first section , just with text and without the image.
+                  </li>
+              </ul>
+           </li> 
+           <li>This section is again made of a title , text ,a sub-title a text and a video like the first section of the second step. It explain the third step to follow.
+                <ul>
+                   <li>The first section is a list of ingredients and a picture inside a fieldset
+                   </li>
+                   <li> This section is like the one abobe but instead of ingredients with instruction for the base, and without the image.
+                   </li>
+                   <li> This is like the first sub-section of ingredients , but with more instructions.</li>
+                </ul>
+           </li>
+           <li>This section is the footer and just above the botton to go to the next page.
+           </li>
+       </ol>
+
+
 
 
 
