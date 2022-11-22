@@ -10,11 +10,15 @@
 2. [UX](#UX)
     1. [Ideal User Demographic](#Ideal-User-Demographic)
     2. [User Goals](#User-Goals)
-3. [Features]   
-    1. [Common Features](#Common-Features)
-    1. [Existing Features](#Existing-Features)
-    2. [Future features]
-
+3. [Features](#features)   
+    1. [Used features](#Used-Features)
+    2. [Common Features](#Common-Features)
+    3. [Existing Features](#Existing-Features)
+    2. [Future features](#Future-Features)
+4. [Design](#Design)
+    1. [ Color Palette](#Color-Palette)
+    2. [ Typography](#Typography)
+    3. [Visuals](#Visuals)
 ## Introduction
 This is a website set in a fantasy world, where exist the **alebrije**, an animal found in the world of the death, that is actually a spiritual guide . Is a website of a company who can match you with an alebrije from the other world and send it to your house or to a specific location.
 
@@ -46,6 +50,17 @@ This website is for user who would like to know more about the alebrije, about o
 2. As a Student/Curious outsider i would like to see all the main information in the homepage, and have easy links to access more deteils information.
 
 ## Features
+### Used Features
+- Header = Used name of company and a logo( that is a mix between a horse and a bird like an alebrije) to give identity to company throughout all  the pages.
+- Navigation links = On every page, to help the user to go to the right page, and for easy navigation.
+- Buttons and links=  Will bring you to specific section within the same page or in a specific section on a different page to facilitate the user to find the section that he is interested easily.
+- Images and videos = To give the user visive stimulation , and another option to follow the steps or the information without reading through everything. Used embed youtube videos for different steps.
+- Embed map = Used an iframe from google map for the location of the pick up point for the alebrije.
+- Social media = Used social media icon on a non-static footer to give the possibility on the user to follow us in instagram , facebook, youtube and the gitgub developer account, with related contant about alebrijes and purchase of alebrije's in real life. Used icons from free fontawesome representing the different social media.
+- Contacts info = to give the user possibility to contact for any information or alebrijes releted problems.
+- 404 page=
+- 500 page =
+
 ### Common Features
 - All pages header is composed by:
     1. Logo (Made with canva)
@@ -158,6 +173,75 @@ Each page of the website is responsive and easy to navigate. Below you will find
            <li>This section is the footer and just above the botton to go to the next page.
            </li>
        </ol>
+    </dd>
+</dl> 
+<dl>
+    <dt><a href="about-us.html" target="_blank" alt="Newline About-Us page">About-Us Page</a></dt>
+    <dd>
+    The content of this page are images, text and an embeded map from google map to give information to the user about the <strong>company</strong>, <strong>the founder</strong> and the <strong>location.</strong>
+    <br />
+    The About-Us page is divided in <strong>5</strong> different sections:
+    <ol>
+           <li> This section is the header.
+           </li>
+           <li> This section is just an image occupying 100% width of the screen , representing the company in the other world.
+           </li>
+           <li>This section is just a text and a small image (of the founder )surrounded by text, that describes the origin of the company and the story about the founder.
+           </li>
+           <li>This section is a 2 column section where it says how the user can contact the company and on the right side a map with the location to where go and get your alebrije.
+           </li>
+           <li> This section is the footer.
+           </li>
+    </dd>       
+</dl>    
+
+### Future Features
+- Implementing in the step section javascript to hide some of the contant for the steps page, so that the user can choose to see more info or not.
+- Contact form in the About-Us page.
+
+## Design
+### Color Palette
+The main colors for the website were chosen with [Colourmind](http://colormind.io/template/material-dashboard/) palette generator.
+
+
+<details>
+<summary>Colour Palette</summary>
+
+![Colour Palette](assets/css/images/read.me-images/Colormind-Palette.PNG)
+
+</details>
+The main color is #ff914d named bright orange and ic complemented by #252441 named royal curtsy that is a dark shade of blue-magenta.
+
+Those two color were chosen based on the dia de los muertos, the 2nd of November celebrated all over the world but especially in Mexico. That are the two main color used for celebrate that day and that is connected with the fantasy world and story of the website and of the company.
+
+The last color used was a darker white the #FAF9F5 used for the background of all the pages, the contrast on the dark theme and to highlight when hover on buttons or social media links.
+
+### Typography
+The typography was chosen with google fonts.
+
+
+The two main fonts are :
+-  'Arapey'
+- 'Work Sans'
+That go back to safe fonts as :
+- 'Serif'
+- 'Sans-serif'
+If the page or the browser are not compatible with the first two.
+
+### Visuals
+For the visual stimulation of the user is used different images and videos.
+Tere are different types of images used throughout the site as :
+- Artistic images
+- Real images
+- Youtube videos
+
+
+
+
+
+
+
+
 
 
 
