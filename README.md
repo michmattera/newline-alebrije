@@ -1,6 +1,6 @@
 # Newline Alebrije
 
-![Survival Guild Mockup Images]()
+![Newline Alebrije Mockup Images]()
 
 [View the live project here]()
 
@@ -11,7 +11,7 @@
     1. [Ideal User Demographic](#Ideal-User-Demographic)
     2. [User Goals](#User-Goals)
 3. [Features](#features)   
-    1. [Used features](#Used-Features)
+    1. [Used Features](#Used-Features)
     2. [Common Features](#Common-Features)
     3. [Existing Features](#Existing-Features)
     2. [Future features](#Future-Features)
@@ -34,7 +34,7 @@ The ideal user for this website is:
 ### User Goals
 #### New User Goals
 This website is for people that would like to receive an alebrije.
-1. As a new user i would like to access from the main page all the section or links that brings me to the specific piece of information i am looking for.
+1. As a new user i would like to access the main page  and all the sections or links that brings me to the specific piece of information I am looking for.
 2. As a new user i would like to know what this company offer.
 3. As a new user i would like to see detailed information about alebrijes and the steps to get it.
 
@@ -47,17 +47,17 @@ This website is for people who want to contact us for any proplems or any inform
 #### Student-Curious outsider Goals
 This website is for user who would like to know more about the alebrije, about our company or is just seeking information for alebrijes.
 1. As a Student/Curious outsider i would like to see any information about the alebrijes and the company.
-2. As a Student/Curious outsider i would like to see all the main information in the homepage, and have easy links to access more deteils information.
+2. As a Student/Curious outsider i would like to see all the main information in the homepage, and have easy links to access more details information.
 
 ## Features
 ### Used Features
-- Header = Used name of company and a logo( that is a mix between a horse and a bird like an alebrije) to give identity to company throughout all  the pages.
-- Navigation links = On every page, to help the user to go to the right page, and for easy navigation.
-- Buttons and links=  Will bring you to specific section within the same page or in a specific section on a different page to facilitate the user to find the section that he is interested easily.
-- Images and videos = To give the user visive stimulation , and another option to follow the steps or the information without reading through everything. Used embed youtube videos for different steps.
+- Header = The header is composed by the name of the company and a logo( that is a mix between a horse and a bird like an alebrije) to give identity to company throughout all the pages.
+- Navigation links = Navigation links are in every page, to help the user to go to a different or specific page, and for easy navigation.
+- Buttons and links =  They are used to go to a specific section within the same page or in a specific section on a different page to facilitate the user to find the section that he is interested in easily.
+- Images and videos = Used to give the user visive stimulation. Or another option to follow the steps or the information without reading through everything. Used embed youtube videos to explain a few more steps to follow.
 - Embed map = Used an iframe from google map for the location of the pick up point for the alebrije.
-- Social media = Used social media icon on a non-static footer to give the possibility on the user to follow us in instagram , facebook, youtube and the gitgub developer account, with related contant about alebrijes and purchase of alebrije's in real life. Used icons from free fontawesome representing the different social media.
-- Contacts info = to give the user possibility to contact for any information or alebrijes releted problems.
+- Social media = Used social media icon on a non-static footer to give the possibility on the user to follow us in instagram , facebook, youtube and the gitgub developer account, with related contant about alebrijes and purchase of alebrije's in real life. - Icons = The icons were chosen from the free fontawesome website representing the different social media.
+- Contacts info = Used to give the user the possibility to contact for any information or alebrijes releted problems.
 - 404 page=
 - 500 page =
 
@@ -66,19 +66,21 @@ This website is for user who would like to know more about the alebrije, about o
     1. Logo (Made with canva)
     2. Name of company (Searched based on alebrije in businessnamegenerator)
     3. Navigation links to other pages (On the right side of the page in the same line of the logo and the name of the company)
-- The first three pages are composed by a text-image section. The image that occupy 2/3 of the width of the page, and a text section that occupy 1/3 of the page. The image and text change from right to left from one section to another to give movement to the page.
-- The first 4 pages has a button rapresented by an arrow that point on the right at the bottom of the page, just before the footer that brings the user to the next page without having to scroll up and find the navigation links to go to the next page.
-- All footer pages are composed by:
-    1. Icons that links to social media (On a non-static line with height of 55px and 100% width, color: ff914d and opacity of 0.9)
+    4. The first three pages are composed by a text-image section. The image that occupy 2/3 of the width of the page, and a text section that occupy 1/3 of the page. The image and text change from right to left from one section to another to give movement to the page.
+    5.  The first 4 pages has a button rapresented by an arrow that point on the right at the bottom of the page, just before the footer that brings the user to the next page without having to scroll up and find the navigation links to go to the next page.
+    6. A four column section with a main title , that is needed to go to a different page or another section on the same page. It can be with images to get the user attention or just with a brief explanation of the specific section.
+    7. All footer pages are composed by:
+    -  Icons that links to social media
+    -  Non-static line with height of 55px and 100% width with background color: #ff914d and opacity of 0.9
 
 
 ### Existing Features
-#### Screen bigger that ... 
+#### Screen bigger than ... 
 Each page of the website is responsive and easy to navigate. Below you will find the deteiled information on the structure and content of the page.
 <dl>
     <dt><a href="index.html" target="_blank" alt="Newline Alebrije Home Page">Home Page</a></dt>
     <dd>
-    The contant of this page are text and images , relating to the different section that will be deteiled in the next pages. You have different section and links to go to the right page based on the information you will like to acquire.
+    The content of this page are text and images , representing in summary the different sections that will be described in the next pages. You have different section and links to go to the right page based on the information you will like to acquire.
     <br />
     The homepage is divided in <strong>8</strong> different sections:
       <ol>
@@ -196,7 +198,7 @@ Each page of the website is responsive and easy to navigate. Below you will find
 </dl>    
 
 ### Future Features
-- Implementing in the step section javascript to hide some of the contant for the steps page, so that the user can choose to see more info or not.
+- Implementing in the step section some javascript code to hide some of the content for the steps page, so that the user can interact with the page and decide to see more info or not.
 - Contact form in the About-Us page.
 
 ## Design
@@ -210,30 +212,47 @@ The main colors for the website were chosen with [Colourmind](http://colormind.i
 ![Colour Palette](assets/css/images/read.me-images/Colormind-Palette.PNG)
 
 </details>
-The main color is #ff914d named bright orange and ic complemented by #252441 named royal curtsy that is a dark shade of blue-magenta.
+The main color is #ff914d named bright orange and is complemented by #252441 named royal curtsy that is a dark shade of blue-magenta.
 
-Those two color were chosen based on the dia de los muertos, the 2nd of November celebrated all over the world but especially in Mexico. That are the two main color used for celebrate that day and that is connected with the fantasy world and story of the website and of the company.
+Those two color were chosen based on the Day Of The Death.
 
-The last color used was a darker white the #FAF9F5 used for the background of all the pages, the contrast on the dark theme and to highlight when hover on buttons or social media links.
+The main colors infact of that day are orange/purple/black .
+
+ I choose the orange as the main color because I wanted to represent that day and at the same time because is the color that more represent mexico and <em>"The day of the death".</em>
+
+ The 2nd of November is celebrated all over the world but especially in Mexico.
+
+The last color used was a darker white the #FAF9F5 used for the background of all the pages and the contrast on the dark theme .
 
 ### Typography
 The typography was chosen with google fonts.
 
-
 The two main fonts are :
 -  'Arapey'
 - 'Work Sans'
+
 That go back to safe fonts as :
+
 - 'Serif'
 - 'Sans-serif'
-If the page or the browser are not compatible with the first two.
+
+If the page or the browser are not compatible with the first two then it will change for "Serif" and "Sans-serif".
 
 ### Visuals
 For the visual stimulation of the user is used different images and videos.
-Tere are different types of images used throughout the site as :
-- Artistic images
-- Real images
-- Youtube videos
+Tere are different types of images used throughout the site as:
+<dl>
+    <dd>
+        <ol>
+            <li> - Artistic images
+            </li>
+            <li> - Real images
+            </li>
+            <li> - Youtube videos
+            </li>
+        </ol>
+    </dd>
+</dl>
 
 
 
