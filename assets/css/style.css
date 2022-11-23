@@ -15,6 +15,10 @@ body {
 
 }
 
+h2 {
+    color: #FAF9F5;
+}
+
 /*Header*/
 
 #parent-container-header {
@@ -58,6 +62,10 @@ h1 {
     margin-left: 3%;
 }
 
+.blue {
+    color: #252441;
+}
+
 /*Navigation links*/
 
 .active {
@@ -79,7 +87,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #252441;
+    color: inherit;
 }
 
 #menu>li {
@@ -162,7 +170,7 @@ hr {
 .complete-form {
     background-color: #ff914d;
     font-size: 80%;
-    color: #252441;
+    color: inherit;
     border: 2px solid #ff914d;
     margin: 15% 0 18% 0;
     border-radius: 10px;
@@ -181,17 +189,12 @@ hr {
 }
 
 /*main title*/
-
 .main-title {
     text-align: center;
     text-transform: uppercase;
     margin-top: 3%;
     font-size: 50px;
     display: grid;
-}
-
-.blue {
-    color: #252441;
 }
 
 /*Steps*/
@@ -216,7 +219,7 @@ hr {
 a>p {
     font-size: 25px;
     margin-top: 20%;
-    color: #252441;
+    color: inherit;
 }
 
 
@@ -322,7 +325,6 @@ i {
 /*Next-page-button*/
 
 .next-page {
-    color: #252441;
     width: 5%;
     height: 25%;
     float: right;
@@ -377,8 +379,6 @@ i {
 .child-central-section {
     margin: 5% 10% 3% 10%;
     font-size: 150%;
-
-
 }
 
 .child-central-section>ul {
@@ -387,7 +387,6 @@ i {
 }
 
 /*types of alebrije section*/
-
 .water,
 .fire,
 .earth,
@@ -418,7 +417,6 @@ i {
 }
 
 /*Text-small image section*/
-
 .small-image-side {
     height: 600px;
     overflow: hidden;
@@ -430,14 +428,11 @@ i {
 .big-text-side {
     overflow: hidden;
     float: right;
-
     color: #FAF9F5;
     background-color: #252441;
-
     height: 600px;
     width: 90%;
     margin: 5% 5% 0 5%;
-
     box-sizing: border-box;
     border: 10px solid #ff914d;
     border-radius: 15%;
@@ -551,7 +546,6 @@ li>p{
 .ingredient{
     width: 98%;
     height: 30%;
-    
 }
 
  .ingredient-list>li {
@@ -581,7 +575,6 @@ legend{
 /*NEW PAGE ABOUT US*/
 
 /*first image*/
-
 .image-about-us{
     width: 100%;
     height: 100%;
@@ -589,8 +582,7 @@ legend{
 
 .image-about-us>img {
     width: 100%;
-    height: 750px;
-    
+    height: 750px; 
 }
 
 .container-about-image{
@@ -606,10 +598,8 @@ legend{
     width: 94%;
     text-align: center;
     margin: 3% 3% 0 3%;
-    
     background-color: #252441;
     color: #FAF9F5;
-    
     display: flexbox;
 }
 #contact{
@@ -653,7 +643,7 @@ legend{
 /*disclaimer*/
 .disclaimer{
     font-size: 100%;
-    color: #252441;
+    color: inherit;
     margin: 2% 5% 5% 5%;
     font-weight: bold;
 }

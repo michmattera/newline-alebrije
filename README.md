@@ -242,23 +242,35 @@ If the page or the browser are not compatible with the first two then it will ch
 For the visual stimulation of the user is used different images and videos.
 Tere are different types of images used throughout the site as:
 
-1. Artistic images
-2.  Real images
-3. Youtube videos
+1. [Artistic images](#Artistic-Images)
+2. [Real images](#Real-Images)
+3. [Youtube videos](#Youtube-Videos)
 
 #### Artistic images
 Artistic images throughout the site were token from [Art Station](https://www.artstation.com/search?sort_by=relevance&query=alebrije), they were selected for the alebrije's and for the positiob of the company in the underworld.
 
 The following images were token from :
 - [Jolanda Van Zandbergen](https://www.artstation.com/artwork/WmBmGy) = Used for the "Earth Alebrije".
-- Emylie Boivin = Used for the "Fire Alebrije".
+- [Emylie Boivin](https://www.artstation.com/artwork/lVNwWV) = Used for the "Fire Alebrije".
 - [Hadas Gold](https://www.artstation.com/artwork/ybNBbJ) = Used for the "Air Alebrije".
 - [Kadjugan](https://www.artstation.com/artwork/6aoZP6) = Used for "Water Alebrije".
-- [Daniela Henríquez](https://www.artstation.com/artwork/qQJQQL) = Used for the "Homepage first image".
 
+- [Daniela Henríquez](https://www.artstation.com/artwork/qQJQQL) = Used for the "Homepage first image".
 - [Amar Gupta](https://www.artstation.com/artwork/aRO6dz) = Used for the "Are you lost section".
-- Leon Tukker = Used for the "Company location". 
-- 
+- [Leon Tukker](https://www.artstation.com/artwork/nkqro) = Used for the "Company location". 
+
+#### Real Images
+The other images were used to rapresent real scenarios or objects.
+
+ As for example candles, pan de muerto, celebration od the day of the death. And they were token from [Pixabay](https://pixabay.com/es/photos/search/?manual_search=1) , [Unsplash](https://unsplash.com/) and the movie "Coco" for the about us section in the homepage.
+
+ #### Youtube videos
+ Youtube videos were used mainly to help the user with the steps to complete.
+
+ They are both in the steps page and help the user to:
+ 1. To prepare the <em>altar </em>for the arrival of the alebrije.
+ 2. To cook and prepare the <em>Pan De Muerto</em>.
+
 
 
 
