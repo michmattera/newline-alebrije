@@ -241,18 +241,24 @@ If the page or the browser are not compatible with the first two then it will ch
 ### Visuals
 For the visual stimulation of the user is used different images and videos.
 Tere are different types of images used throughout the site as:
-<dl>
-    <dd>
-        <ol>
-            <li> - Artistic images
-            </li>
-            <li> - Real images
-            </li>
-            <li> - Youtube videos
-            </li>
-        </ol>
-    </dd>
-</dl>
+
+1. Artistic images
+2.  Real images
+3. Youtube videos
+
+#### Artistic images
+Artistic images throughout the site were token from [Art Station](https://www.artstation.com/search?sort_by=relevance&query=alebrije), they were selected for the alebrije's and for the positiob of the company in the underworld.
+
+The following images were token from :
+- [Jolanda Van Zandbergen](https://www.artstation.com/artwork/WmBmGy) = Used for the "Earth Alebrije".
+- Emylie Boivin = Used for the "Fire Alebrije".
+- [Hadas Gold](https://www.artstation.com/artwork/ybNBbJ) = Used for the "Air Alebrije".
+- [Kadjugan](https://www.artstation.com/artwork/6aoZP6) = Used for "Water Alebrije".
+- [Daniela Henríquez](https://www.artstation.com/artwork/qQJQQL) = Used for the "Homepage first image".
+
+- [Amar Gupta](https://www.artstation.com/artwork/aRO6dz) = Used for the "Are you lost section".
+- Leon Tukker = Used for the "Company location". 
+- 
 
 
 
