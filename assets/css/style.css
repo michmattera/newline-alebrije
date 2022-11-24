@@ -310,7 +310,6 @@ a>h3:hover {
     text-transform: uppercase;
     margin-top: 2%;
 }
-
 i {
 
     font-size: 100%;
@@ -660,40 +659,32 @@ legend {
 
 /*For screen with max-width of 1050 px-tablet size*/
 @media screen and (max-width: 1050px) {
-    #parent-container-header {
-        display: inline-block;
-        text-align: center;
+    #company-name {
+        margin: 4%;
     }
 
     #menu {
-        float: none;
-        text-align: center;
-        margin: 0 7% 2% 15%;
-        letter-spacing: 3px;
-        font-size: 120%;
-    }
-
-    #menu>li {
-        margin: 0 2% 2% 2%;
-
+        margin-right: 0;
+        font-size: 100%;
+        letter-spacing: 1px;
     }
 
     /*Logo*/
     #logo,
     h1 {
-        float: none;
+        float: left;
+        margin-left: 1%;
+        width: 10%;
+    }
+
+    h1 {
+        font-size: 20px;
+        text-transform: uppercase;
+        float: left;
+        width: 100%;
         text-align: center;
-        margin: 0;
-    }
-
-    #logo {
-        margin: 0;
-        width: 11%;
-    }
-
-    #company-name {
-        margin: 0 35%;
-        display: flex;
+        color: #ff914d;
+        margin-left: 3%;
     }
 
     h1 {
@@ -707,14 +698,18 @@ legend {
         overflow: none;
         display: flexbox;
         width: 60%;
+        float: none;
+        margin-bottom: 5%;
     }
+
+    img {}
 
     .image-text-container {
         display: table-column;
         width: 100%;
         height: 100%;
         margin: 0;
-        overflow: hidden;
+        overflow: none;
     }
 
     .view-table {
@@ -730,15 +725,17 @@ legend {
     }
 
     /* text section*/
+
     .text-side {
-        width: 95%;
+        width: 90%;
         padding: 0;
         overflow: hidden;
         border: 3px solid #ff914d;
-        border-radius: 30%;
-        margin: 1% 2% 1% 3%;
+        border-radius: 25%;
+        margin: 2% 5% 1% 5%;
         height: 280px;
     }
+
 
     hr {
         border-top: 3px solid #ff914d;
@@ -794,18 +791,65 @@ legend {
         font-size: 140%;
         margin: 4%;
     }
+
     .steps {
         font-size: 20px;
     }
+
     /*Central section*/
     .container-central-section {
         border: 4px solid #ff914d;
+        border-radius: 25%;
         margin: 5%;
     }
+
     .child-central-section {
         margin: 5% 5% 3% 5%;
         font-size: 130%;
     }
+
+    /*review section*/
+    .review-container>.review-child {
+        height: 200px;
+        width: 40%;
+        display: inline;
+        float: left;
+        margin: 4% 5%;
+    }
+    i {
+
+        font-size: 90%;
+        margin: 2% 7% 0 0;
+    
+    }
+
+    .review-container {
+        width: 90%;
+        height: 500px;
+        margin: 3% 5%;
+        float: left;
+        overflow: hidden;
+    }
+
+    .reviews>.text-review {
+
+        color: #FAF9F5;
+        margin: 10% 0 0 3%;
+
+        height: 200px;
+        font-size: 120%;
+    }
+
+    .review-child {
+        max-height: 100%;
+
+        width: 90%;
+        height: 350px;
+        margin: 3% 5%;
+        float: left;
+        overflow: visible;
+    }
+
 }
 
 /*Media queries for max-width 700*/
