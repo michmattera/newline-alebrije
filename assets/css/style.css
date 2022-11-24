@@ -171,7 +171,7 @@ hr {
     background-color: #FAF9F5;
     font-size: 80%;
     color: #252441;
-    border: 5px solid #ff914d;
+    border: 3px solid #ff914d;
     margin: 15% 0 18% 0;
     border-radius: 10px;
     height: 50px;
@@ -681,11 +681,12 @@ legend {
     /*Logo*/
     #logo,
     h1 {
-        float:none;
+        float: none;
         text-align: center;
         margin: 0;
     }
-    #logo{
+
+    #logo {
         margin: 0;
         width: 11%;
     }
@@ -703,7 +704,7 @@ legend {
 
     .image-side {
         height: 100%;
-        overflow: hidden;
+        overflow: none;
         display: flexbox;
         width: 60%;
     }
@@ -728,20 +729,15 @@ legend {
         display: table-cell;
     }
 
-    .image-side {
-        height: 100%;
-        overflow: hidden;
-        display: table-cell;
-        width: 100%;
-    }
-
     /* text section*/
     .text-side {
-        width: 99.3%;
+        width: 95%;
         padding: 0;
         overflow: hidden;
         border: 3px solid #ff914d;
-        border-radius: 25%;
+        border-radius: 30%;
+        margin: 1% 2% 1% 3%;
+        height: 280px;
     }
 
     hr {
@@ -753,29 +749,62 @@ legend {
     .text-side>h2 {
         font-size: 200%;
         padding-top: 4%;
-        color: #FAF9F5;
     }
 
     .text-side>p {
         font-size: 130%;
         margin: 2% 4%;
         padding: 0 2%;
-        color: #FAF9F5;
     }
 
     /*Button in the text side*/
 
     .complete-form {
-        background-color: #FAF9F5;
         font-size: 80%;
-        color: #252441;
-        border: 1px solid #ff914d;
+        border: 2px solid #ff914d;
         margin: 2% 4%;
         border-radius: 10px;
         height: 45px;
         width: 140px;
         text-align: center;
         padding: 1%;
+    }
+
+    .main-title {
+        font-size: 190%;
+    }
+
+    /*4 column section*/
+    .steps-container>.steps-child {
+        width: 45%;
+        height: 180px;
+    }
+
+    .steps-container {
+        overflow: none;
+    }
+
+    .steps-child {
+        max-height: 100%;
+        margin: 0 2.5%;
+        text-align: center;
+    }
+
+    a>p {
+        font-size: 140%;
+        margin: 4%;
+    }
+    .steps {
+        font-size: 20px;
+    }
+    /*Central section*/
+    .container-central-section {
+        border: 4px solid #ff914d;
+        margin: 5%;
+    }
+    .child-central-section {
+        margin: 5% 5% 3% 5%;
+        font-size: 130%;
     }
 }
 
