@@ -44,7 +44,6 @@ h2 {
     margin-top: 4%;
 }
 
-
 /*Logo*/
 #logo,
 h1 {
@@ -669,27 +668,37 @@ legend {
     #menu {
         float: none;
         text-align: center;
-        margin: 5%;
-        letter-spacing: 2px;
-        font-size: 80%;
+        margin: 0 7% 2% 15%;
+        letter-spacing: 3px;
+        font-size: 120%;
     }
-    
-#menu>li {
-    margin: 10px;
 
-}
+    #menu>li {
+        margin: 0 2% 2% 2%;
+
+    }
+
+    /*Logo*/
+    #logo,
+    h1 {
+        float:none;
+        text-align: center;
+        margin: 0;
+    }
+    #logo{
+        margin: 0;
+        width: 11%;
+    }
 
     #company-name {
-        margin: 4% 48% 4% 0;
+        margin: 0 35%;
         display: flex;
     }
 
     h1 {
         font-size: 180%;
-        float: left;
-        width: fit-content;
+        width: 100%;
         text-align: center;
-        margin-left: 1%;
     }
 
     .image-side {
@@ -736,18 +745,18 @@ legend {
     hr {
         border-top: 3px solid #ff914d;
         width: 100%;
-        margin: 1%;
+        margin: 3%;
     }
 
     .text-side>h2 {
-        font-size: 160%;
-        padding-top: 1%;
+        font-size: 210%;
+        padding-top: 4%;
         color: #FAF9F5;
     }
 
     .text-side>p {
-        font-size: 15px;
-        margin: 2%;
+        font-size: 60px;
+        margin: 5%;
         color: #FAF9F5;
     }
 
@@ -755,14 +764,55 @@ legend {
 
     .complete-form {
         background-color: #FAF9F5;
-        font-size: 50%;
+        font-size: 80%;
         color: #252441;
         border: 2px solid #ff914d;
-        margin: 2%;
+        margin: 4%;
         border-radius: 10px;
-        height: 25px;
-        width: 80px;
+        height: 45px;
+        width: 100px;
         text-align: center;
         padding: 0;
     }
+}
+
+/*Media queries for max-width 700*/
+/* text section*/
+.text-side {
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+hr {
+    border-top: 3px solid #ff914d;
+    width: 100%;
+    margin: 1%;
+}
+
+.text-side>h2 {
+    font-size: 160%;
+    padding-top: 1%;
+    color: #FAF9F5;
+}
+
+.text-side>p {
+    font-size: 15px;
+    margin: 2%;
+    color: #FAF9F5;
+}
+
+/*Button in the text side*/
+
+.complete-form {
+    background-color: #FAF9F5;
+    font-size: 50%;
+    color: #252441;
+    border: 2px solid #ff914d;
+    margin: 2%;
+    border-radius: 10px;
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    padding: 0;
 }
