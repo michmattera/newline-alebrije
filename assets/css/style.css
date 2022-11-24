@@ -44,26 +44,6 @@ h2 {
     margin-top: 4%;
 }
 
-/*For screen with max-width of 1050 px*/
-@media screen and (max-width: 1050px) {
-    #parent-container-header{
-        display: inline-block;
-        text-align: center;
-    }
-    #menu {
-        float: none;
-        text-align: center;
-    }
-    #company-name {
-        margin: 4%;
-    }
-    .image-side {
-        height: 100%;
-        overflow: hidden;
-        display: table-cell;
-        width: 95%;
-    }
-  }
 
 /*Logo*/
 #logo,
@@ -166,7 +146,7 @@ img {
     height: 100%;
 }
 
-.text-side > h2 {
+.text-side>h2 {
     font-size: 300%;
     padding-top: 25%;
     color: #FAF9F5;
@@ -485,6 +465,7 @@ i {
     display: table-cell;
     width: 25%;
 }
+
 .text {
     overflow: hidden;
     float: right;
@@ -500,7 +481,7 @@ i {
     box-sizing: border-box;
 }
 
-.text > h2 {
+.text>h2 {
     font-size: 300%;
     padding-top: 3%;
     text-align: center;
@@ -514,29 +495,30 @@ i {
 }
 
 /*altar section*/
-.instruction{
+.instruction {
     width: 90%;
     margin: 5%;
     font-size: 140%;
 }
-.instruction > * {
+
+.instruction>* {
     margin-top: 3%;
 }
 
 ol>li,
-li>p{
+li>p {
     margin: 3%;
     letter-spacing: 10%;
 }
 
-.video{
+.video {
     width: 90%;
     text-align: center;
     margin: 5%;
-    
+
 }
 
-.list-title{
+.list-title {
     font-size: 130%;
     background-color: #ff914d;
     margin: 2%;
@@ -548,28 +530,32 @@ li>p{
     float: right;
     width: 25%;
     box-sizing: border-box;
-    
+
 }
-.container-small-image, .container-small-image-right {
+
+.container-small-image,
+.container-small-image-right {
     width: 30%;
     height: 40%;
     margin: 2.5%;
     display: inline-flex;
 }
-.container-small-image{
+
+.container-small-image {
     float: left;
 }
 
 .container-small-image-right {
     float: right;
 }
+
 /*Food section*/
-.ingredient{
+.ingredient {
     width: 98%;
     height: 30%;
 }
 
- .ingredient-list>li {
+.ingredient-list>li {
     margin: 1% 5%;
     height: 100%;
     font-size: 100%;
@@ -577,11 +563,11 @@ li>p{
 }
 
 
-fieldset{
+fieldset {
     border: 3px solid #ff914d;
 }
 
-legend{
+legend {
     text-transform: uppercase;
     font-size: 140%;
     color: #ff914d;
@@ -596,17 +582,17 @@ legend{
 /*NEW PAGE ABOUT US*/
 
 /*first image*/
-.image-about-us{
+.image-about-us {
     width: 100%;
     height: 100%;
 }
 
 .image-about-us>img {
     width: 100%;
-    height: 750px; 
+    height: 750px;
 }
 
-.container-about-image{
+.container-about-image {
     width: 20%;
     height: 30%;
     margin: 3%;
@@ -615,7 +601,7 @@ legend{
 }
 
 /*Contact us section*/
-.contact-us{
+.contact-us {
     width: 94%;
     text-align: center;
     margin: 3% 3% 0 3%;
@@ -623,7 +609,8 @@ legend{
     color: #FAF9F5;
     display: flexbox;
 }
-#contact{
+
+#contact {
     text-align: left;
     width: 100%;
     height: 100%;
@@ -638,10 +625,11 @@ legend{
     display: block;
 }
 
-.space{
+.space {
     margin: 10%;
 }
-.sub-heading{
+
+.sub-heading {
     margin: 5% 5% 15% 5%;
     text-transform: uppercase;
     font-size: 190%;
@@ -649,23 +637,132 @@ legend{
 }
 
 /*Map*/
-#map{
+#map {
     width: 50%;
     margin: 3%;
 }
 
-#map>p{
+#map>p {
     font-size: 140%;
     margin: 3%;
 }
-#map>iframe{
+
+#map>iframe {
     margin-bottom: 5%;
 }
 
 /*Disclaimer*/
-.disclaimer{
+.disclaimer {
     font-size: 100%;
     color: inherit;
     margin: 2% 5% 5% 5%;
     font-weight: bold;
+}
+
+/*For screen with max-width of 1050 px*/
+@media screen and (max-width: 1050px) {
+    #parent-container-header {
+        display: inline-block;
+        text-align: center;
+    }
+
+    #menu {
+        float: none;
+        text-align: center;
+        margin: 5%;
+        letter-spacing: 2px;
+        font-size: 80%;
+    }
+    
+#menu>li {
+    margin: 10px;
+
+}
+
+    #company-name {
+        margin: 4% 48% 4% 0;
+        display: flex;
+    }
+
+    h1 {
+        font-size: 180%;
+        float: left;
+        width: fit-content;
+        text-align: center;
+        margin-left: 1%;
+    }
+
+    .image-side {
+        height: 100%;
+        overflow: hidden;
+        display: flexbox;
+        width: 100%;
+    }
+
+    .image-text-container {
+        display: table-column;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .view-table {
+        display: flex;
+    }
+
+    .view-row {
+        display: table-column;
+    }
+
+    .view-row>div {
+        display: table-cell;
+    }
+
+    .image-side {
+        height: 100%;
+        overflow: hidden;
+        display: table-cell;
+        width: 100%;
+    }
+
+    /* text section*/
+    .text-side {
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    hr {
+        border-top: 3px solid #ff914d;
+        width: 100%;
+        margin: 1%;
+    }
+
+    .text-side>h2 {
+        font-size: 160%;
+        padding-top: 1%;
+        color: #FAF9F5;
+    }
+
+    .text-side>p {
+        font-size: 15px;
+        margin: 2%;
+        color: #FAF9F5;
+    }
+
+    /*Button in the text side*/
+
+    .complete-form {
+        background-color: #FAF9F5;
+        font-size: 50%;
+        color: #252441;
+        border: 2px solid #ff914d;
+        margin: 2%;
+        border-radius: 10px;
+        height: 25px;
+        width: 80px;
+        text-align: center;
+        padding: 0;
+    }
 }
