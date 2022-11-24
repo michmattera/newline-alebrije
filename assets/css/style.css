@@ -658,7 +658,7 @@ legend {
     font-weight: bold;
 }
 
-/*For screen with max-width of 1050 px*/
+/*For screen with max-width of 1050 px-tablet size*/
 @media screen and (max-width: 1050px) {
     #parent-container-header {
         display: inline-block;
@@ -705,7 +705,7 @@ legend {
         height: 100%;
         overflow: hidden;
         display: flexbox;
-        width: 100%;
+        width: 60%;
     }
 
     .image-text-container {
@@ -737,26 +737,29 @@ legend {
 
     /* text section*/
     .text-side {
-        width: 100%;
+        width: 99.3%;
         padding: 0;
         overflow: hidden;
+        border: 3px solid #ff914d;
+        border-radius: 25%;
     }
 
     hr {
         border-top: 3px solid #ff914d;
         width: 100%;
-        margin: 3%;
+        margin: 3% 0;
     }
 
     .text-side>h2 {
-        font-size: 210%;
+        font-size: 200%;
         padding-top: 4%;
         color: #FAF9F5;
     }
 
     .text-side>p {
-        font-size: 60px;
-        margin: 5%;
+        font-size: 130%;
+        margin: 2% 4%;
+        padding: 0 2%;
         color: #FAF9F5;
     }
 
@@ -766,18 +769,18 @@ legend {
         background-color: #FAF9F5;
         font-size: 80%;
         color: #252441;
-        border: 2px solid #ff914d;
-        margin: 4%;
+        border: 1px solid #ff914d;
+        margin: 2% 4%;
         border-radius: 10px;
         height: 45px;
-        width: 100px;
+        width: 140px;
         text-align: center;
-        padding: 0;
+        padding: 1%;
     }
 }
 
 /*Media queries for max-width 700*/
-/* text section*/
+/* text section
 .text-side {
     width: 100%;
     padding: 0;
@@ -802,7 +805,7 @@ hr {
     color: #FAF9F5;
 }
 
-/*Button in the text side*/
+/*Button in the text side
 
 .complete-form {
     background-color: #FAF9F5;
