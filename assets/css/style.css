@@ -96,13 +96,13 @@ a {
 }
 
 /*image-text section*/
-.image-test> img{
+.image-text-container> img{
     width: 75%;
     height: 100%;
     display: flex;
     text-align: left;
 }
-.image-test{
+.image-text-container{
     height: 600px;
     text-align: center;
     display: flex;
@@ -118,64 +118,23 @@ a {
     width: 25%;
 }
 
-.image-text-container {
-    display: table-row;
-    width: 100%;
-    height: 100%;
-    margin-bottom: 3%;
-    overflow: hidden;
-}
-
-.view-table {
-    display: table;
-}
-
-.view-row {
-    display: table-row;
-}
-
-.view-row>div {
-    display: table-cell;
-}
-
 /*image section*/
-
-.image-side {
-    height: 100%;
-    overflow: hidden;
-    display: table-cell;
-    width: 75%;
-}
-
 img {
-    height: 100%;
     max-width: 100%;
     object-fit: cover;
 }
 
- text section
- /*
-.text-side {
-    overflow: hidden;
-    float: right;
-    text-align: center;
-    padding: 0 10%;
-    background-color: #252441;
-    color: #FAF9F5;
-    height: 100%;
-}
-*/
-
+ /*text section*/
 .text-side>h2 {
     font-size: 300%;
-    padding-top: 25%;
+    margin-top: 15%;
     color: #FAF9F5;
 }
 
 hr {
     border-top: 3px solid #ff914d;
-    width: 100%;
-    margin: 15% 0;
+    width: 80%;
+    margin: 15% 10%;
 }
 
 
@@ -226,7 +185,7 @@ hr {
     margin: 3% 5%;
     text-align: center;
 
-    float: left;
+    display: flex;
     overflow: hidden;
 }
 
@@ -247,8 +206,7 @@ a>p {
 .steps-container>.steps-child {
     height: 100%;
     width: 20%;
-    display: inline;
-    float: left;
+    align-items: left;
 }
 
 .steps {
@@ -344,7 +302,6 @@ i {
 }
 
 /*Next-page-button*/
-
 .next-page {
     width: 5%;
     height: 25%;
@@ -438,22 +395,34 @@ i {
 }
 
 /*Text-small image section*/
-.small-image-side {
-    height: 600px;
-    overflow: hidden;
-    display: table-cell;
-    width: 30%;
-    margin-top: 5%;
+
+.small-image-text>img{ 
+    width: 32%;
+    height: 100%;
+    display: flex;
+    text-align: left;
+    object-fit: cover;
+    max-width: 100%;
 }
+
+.small-image-text{
+    height: 600px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    margin: 3% 0;
+}
+
 
 .big-text-side {
     overflow: hidden;
-    float: right;
+    align-items: right;
+    text-align: left;
     color: #FAF9F5;
     background-color: #252441;
-    height: 600px;
-    width: 90%;
-    margin: 5% 5% 0 5%;
+    height: 100%;
+    width: 70%;
+    margin: 0 5% 0 5%;
     box-sizing: border-box;
     border: 10px solid #ff914d;
     border-radius: 15%;
