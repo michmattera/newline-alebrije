@@ -656,11 +656,6 @@ legend {
 
 /*For screen with max-width of 1050 px-tablet size*/
 @media screen and (max-width: 1050px) {
-    #company-name {
-        margin: 4%;
-    }
-
-
     .image-text-container>img {
         width: 75%;
         max-width: 900px;
@@ -861,6 +856,9 @@ legend {
     .text>p {
         font-size: 95%;
     }
+    .instruction>p{
+        font-size: 95%;
+    }
 
     .instruction {
         margin: 5%;
@@ -896,6 +894,11 @@ legend {
         height: 100%;
         width: 100%;
         position: absolute;
+    }
+
+    .big{
+        width: 250px;
+        height: 250px;
     }
 
 }
