@@ -599,61 +599,46 @@ legend {
     float: left;
 }
 
-/*Contact us section*/
-.contact-us {
-    width: 50%;
-    text-align: center;
+/*Contact us section in about us page*/
+.contact-us{
+    display: flex;
+    width: 95%;
     margin: 2.5%;
     background-color: #252441;
     color: #FAF9F5;
-    display: flex;
 }
-address{
-    display: flex;
-}
-
-#contact {
+.contact-details{
     align-items: left;
+    width: 50%;
+    margin: 2%;
+}
+.contact-details>p,
+.map-side>p{
+    
+    font-size: 140%;
+    color: inherit;
+}
+.contact-details>p{
+    margin-left: 10%;
+    margin: 8% 0 8% 10%;
+}
+.map-side>p{
+    margin: 1% 0 5% 0;
+}
+.map-side{
     text-align: center;
     width: 50%;
-    height: 100%;
-    font-size: 120%;
-    margin-top: 5%;
-}
-
-#contact>a {
-    color: #FAF9F5;
-    margin: 1% 20%;
-    font-size: 120%;
-}
-
-.space {
-    margin: 10%;
+    margin: 2% 5%;
 }
 
 .sub-heading {
-    margin: 5% 5% 15% 5%;
+    margin: 0 10%;
     text-transform: uppercase;
-    font-size: 190%;
+    font-size: 250%;
     color: #ff914d;
+    text-align: center;
 }
 
-/*Map*/
-#map {
-    width: 50%;
-    margin: 3%;
-    align-items: right;
-}
-
-#map>p {
-    font-size: 140%;
-    margin: 3%;
-}
-
-#map>iframe {
-    margin-bottom: 5%;
-    align-items: right;
-}
 
 /*Disclaimer*/
 .disclaimer {
