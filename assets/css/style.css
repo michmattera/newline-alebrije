@@ -14,6 +14,7 @@ body {
     background-color: #FAF9F5;
 
 }
+
 h2 {
     color: #FAF9F5;
 }
@@ -96,22 +97,24 @@ a {
 }
 
 /*image-text section*/
-.image-text-container> img{
+.image-text-container>img {
     width: 75%;
     height: 100%;
     display: flex;
     text-align: left;
 }
-.image-text-container{
+
+.image-text-container {
     height: 600px;
     text-align: center;
     display: flex;
 }
+
 /*test text side*/
 .text-side {
     overflow: hidden;
     text-align: center;
-    padding: 0 ;
+    padding: 0;
     background-color: #252441;
     color: #FAF9F5;
     height: 100%;
@@ -124,7 +127,7 @@ img {
     object-fit: cover;
 }
 
- /*text section*/
+/*text section*/
 .text-side>h2 {
     font-size: 300%;
     margin-top: 15%;
@@ -201,7 +204,6 @@ a>p {
     margin-top: 20%;
     color: inherit;
 }
-
 
 .steps-container>.steps-child {
     height: 100%;
@@ -290,6 +292,7 @@ a>h3:hover {
     text-transform: uppercase;
     margin-top: 2%;
 }
+
 i {
 
     font-size: 100%;
@@ -396,7 +399,7 @@ i {
 
 /*Text-small image section*/
 
-.small-image-text>img{ 
+.small-image-text>img {
     width: 32%;
     height: 100%;
     display: flex;
@@ -405,7 +408,7 @@ i {
     max-width: 100%;
 }
 
-.small-image-text{
+.small-image-text {
     height: 600px;
     text-align: center;
     display: flex;
@@ -448,7 +451,7 @@ i {
 /*STEPS-PAGE*/
 
 /*container with 3 divs*/
-.image>img{ 
+.image>img {
     width: 30%;
     height: 100%;
     display: flex;
@@ -457,7 +460,7 @@ i {
     max-width: 100%;
 }
 
-.image{
+.image {
     height: 550px;
     text-align: left;
     display: flex;
@@ -574,6 +577,7 @@ legend {
     color: #ff914d;
     margin-left: 5%;
 }
+
 .instruction-subtitle {
     text-transform: uppercase;
     margin: 1% 1% 1% 5%;
@@ -600,32 +604,37 @@ legend {
 }
 
 /*Contact us section in about us page*/
-.contact-us{
+.contact-us {
     display: flex;
     width: 95%;
     margin: 2.5%;
     background-color: #252441;
     color: #FAF9F5;
 }
-.contact-details{
+
+.contact-details {
     align-items: left;
     width: 50%;
     margin: 2%;
 }
+
 .contact-details>p,
-.map-side>p{
-    
+.map-side>p {
+
     font-size: 140%;
     color: inherit;
 }
-.contact-details>p{
+
+.contact-details>p {
     margin-left: 10%;
     margin: 8% 0 8% 10%;
 }
-.map-side>p{
+
+.map-side>p {
     margin: 1% 0 5% 0;
 }
-.map-side{
+
+.map-side {
     text-align: center;
     width: 50%;
     margin: 2% 5%;
@@ -672,50 +681,17 @@ legend {
         font-size: 20px;
         text-transform: uppercase;
         float: left;
-        width: 100%;
-        text-align: center;
-        color: #ff914d;
         margin-left: 3%;
-    }
-
-    h1 {
         font-size: 180%;
         width: 100%;
         text-align: center;
     }
 
-    .image-side {
+    .image-text-container>img {
+        width: 75%;
+        max-width: 900px;
         height: 100%;
-        overflow: none;
-        display: inline-flex;
-        width: 100%;
-        float: none;
-        margin-bottom: 5%;
-    }
-    img {
-        object-fit: cover;
-        display: block;
-    }
-    
-
-    .image-text-container {
-        display: table-column;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        overflow: none;
-    }
-
-    .view-table {
         display: flex;
-    }
-
-    .view-row {
-        display: table-column;
-    }
-
-    .view-row>div {
-        display: table-cell;
     }
 
     /* text section*/
@@ -723,41 +699,29 @@ legend {
         width: 90%;
         padding: 0;
         overflow: hidden;
-        border: 3px solid #ff914d;
-        border-radius: 5%;
-        margin: 5% 5% 1% 5%;
-        height: 280px;
+        margin: 0;
+        height: 100%;
     }
 
-
-    hr {
-        border-top: 3px solid #ff914d;
-        width: 100%;
-        margin: 3% 0;
-    }
 
     .text-side>h2 {
-        font-size: 200%;
-        padding-top: 4%;
+        font-size: 190%;
+        padding: 10%;
     }
 
     .text-side>p {
-        font-size: 130%;
-        margin: 2% 4%;
-        padding: 0 2%;
+        font-size: 140%;
+        margin: 10%;
+        padding: 2%;
     }
 
     /*Button in the text side*/
 
     .complete-form {
         font-size: 80%;
-        border: 2px solid #ff914d;
-        margin: 2% 4%;
         border-radius: 10px;
         height: 45px;
         width: 140px;
-        text-align: center;
-        padding: 1%;
     }
 
     .main-title {
@@ -765,35 +729,56 @@ legend {
     }
 
     /*4 column section*/
-    .steps-container>.steps-child {
-        width: 45%;
-        height: 180px;
-    }
 
     .steps-container {
-        overflow: none;
+        width: 90%;
+        height: 500px;
+        margin: 3% 5%;
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .steps-container>.steps-child {
+        width: 40%;
+        height: 200px;
     }
 
     .steps-child {
-        max-height: 100%;
-        margin: 2% 2.5%;
-        text-align: center;
+        margin: 0 5%;
     }
 
     a>p {
         font-size: 140%;
-        margin: 4%;
+        margin: 0 5%;
     }
 
-    .steps {
-        font-size: 20px;
+    hr {
+        margin: 10% 15%;
+        text-align: center;
+        width: 70%;
+    }
+
+    /*alebrije 4 column section*/
+    .big-container {
+        width: 90%;
+        height: 700px;
+        margin: 3% 5%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .big-container>.steps-child {
+        width: 40%;
+        height: 350px;
+        margin: 5%;
     }
 
     /*Central section*/
     .container-central-section {
         border: 4px solid #ff914d;
-        border-radius: 25%;
-        margin: 5%;
+        border-radius: 15%;
+        margin: 5% 3%;
     }
 
     .child-central-section {
@@ -809,11 +794,12 @@ legend {
         float: left;
         margin: 4% 5%;
     }
+
     i {
 
         font-size: 90%;
         margin: 2% 7% 0 0;
-    
+
     }
 
     .review-container {
@@ -836,17 +822,22 @@ legend {
     .review-child {
         max-height: 100%;
 
-        width: 90%;
-        height: 350px;
+        width: 40%;
+        height: 250px;
         margin: 3% 5%;
         float: left;
         overflow: visible;
     }
+
+    .subtitle {
+        font-size: 100%;
+    }
+
     /*Footer*/
     .footer {
         height: 35px;
     }
-    
+
     .social-media {
         display: inline-block;
         width: 100%;
@@ -854,6 +845,7 @@ legend {
         font-size: 230%;
         padding-bottom: 50%;
     }
+
     .social-media>a {
         top: 0;
     }
