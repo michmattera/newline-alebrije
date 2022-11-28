@@ -47,16 +47,16 @@ This website is for people who want to contact us for any proplems or any inform
 #### Student-Curious outsider Goals
 This website is for user who would like to know more about the alebrije, about our company or is just seeking information for alebrijes.
 1. As a Student/Curious outsider i would like to see any information about the alebrijes and the company.
-2. As a Student/Curious outsider i would like to see all the main information in the homepage, and have easy links to access more details information.
+2. As a Student/Curious outsider i would like to see all the main information in the homepage, and have easy links to access more detailed information.
 
 ## Features
 ### Used Features
 - Header = The header is composed by the name of the company and a logo( that is a mix between a horse and a bird like an alebrije) to give identity to company throughout all the pages.
-- Navigation links = Navigation links are in every page, to help the user to go to a different or specific page, and for easy navigation.
+- Navigation links = Navigation links are in the right top of every page, to help the user to go to a different or specific page, and for easy navigation.
 - Buttons and links =  They are used to go to a specific section within the same page or in a specific section on a different page to facilitate the user to find the section that he is interested in easily.
-- Images and videos = Used to give the user visive stimulation. Or another option to follow the steps or the information without reading through everything. Used embed youtube videos to explain a few more steps to follow.
+- Images and videos = They are used to give the user visive stimulation. Or another option to follow the steps or the information without reading through everything. Used embed youtube videos to explain a few more steps to follow.
 - Embed map = Used an iframe from google map for the location of the pick up point for the alebrije.
-- Social media = Used social media icon on a non-static footer to give the possibility on the user to follow us in instagram , facebook, youtube and the gitgub developer account, with related contant about alebrijes and purchase of alebrije's in real life. - Icons = The icons were chosen from the free fontawesome website representing the different social media.
+- Social media = Used social media icon on a non-static footer to give the possibility on the user to follow us in instagram , facebook, youtube and the gitgub developer account, with related content about alebrijes and purchase of alebrije's in real life. - Icons = The icons were chosen from the free fontawesome website representing the different social media.
 - Contacts info = Used to give the user the possibility to contact for any information or alebrijes releted problems.
 - 404 page=
 - 500 page =
@@ -64,7 +64,7 @@ This website is for user who would like to know more about the alebrije, about o
 ### Common Features
 - All pages header is composed by:
     1. Logo (Made with canva)
-    2. Name of company (Searched based on alebrije in businessnamegenerator)
+    2. Name of company (Searched based on alebrije in [Businessnamegenerator](https://businessnamegenerator.com/))
     3. Navigation links to other pages (On the right side of the page in the same line of the logo and the name of the company)
     4. The first three pages are composed by a text-image section. The image that occupy 2/3 of the width of the page, and a text section that occupy 1/3 of the page. The image and text change from right to left from one section to another to give movement to the page.
     5.  The first 4 pages has a button rapresented by an arrow that point on the right at the bottom of the page, just before the footer that brings the user to the next page without having to scroll up and find the navigation links to go to the next page.
