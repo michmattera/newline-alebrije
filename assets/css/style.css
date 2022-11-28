@@ -12,7 +12,6 @@ body {
     font-weight: 400;
     color: #252441;
     background-color: #FAF9F5;
-
 }
 
 h2 {
@@ -66,7 +65,6 @@ h1 {
 }
 
 /*Navigation links*/
-
 .active {
     border-bottom: 3px solid #ff914d;
 }
@@ -77,7 +75,6 @@ h1 {
     letter-spacing: 2px;
     font-size: 20px;
     text-transform: uppercase;
-
 }
 
 #menu a:hover {
@@ -119,6 +116,7 @@ a {
     color: #FAF9F5;
     height: 100%;
     width: 25%;
+    position: relative;
 }
 
 /*image section*/
@@ -140,30 +138,29 @@ hr {
     margin: 15% 10%;
 }
 
-
 .text-side>p {
     font-size: 25px;
     margin: 20% 5% 0 5%;
     color: #FAF9F5;
 }
 
-
 /*Button tin first section to fill the form*/
-
 .complete-form {
     background-color: #FAF9F5;
     font-size: 75%;
     color: #252441;
     border: 3px solid #ff914d;
-    margin: 8% 0;
     border-radius: 10px;
     height: 45px;
     width: 130px;
     text-transform: uppercase;
     text-align: center;
     cursor: pointer;
+    margin: 2%;
     font-weight: bold;
-    bottom: 15%;
+    position: absolute;
+    bottom: 10%;
+    left: 31%;
 }
 
 
