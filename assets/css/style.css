@@ -73,7 +73,7 @@ h1 {
 
 #menu {
     float: right;
-    margin-right: 20px;
+    margin: 3% 20px;
     letter-spacing: 2px;
     font-size: 20px;
     text-transform: uppercase;
@@ -143,7 +143,7 @@ hr {
 
 .text-side>p {
     font-size: 25px;
-    margin-top: 20%;
+    margin: 20% 5% 0 5%;
     color: #FAF9F5;
 }
 
@@ -365,6 +365,18 @@ i {
 }
 
 /*types of alebrije section*/
+.big-container {
+    width: 90%;
+    height: 350px;
+    margin: 3% 5% 10% 5%;
+    display: flex;
+}
+
+.big-container>.steps-child {
+    width: 25%;
+    height: 350px;
+    align-items: left;
+}
 .water,
 .fire,
 .earth,
@@ -410,7 +422,7 @@ i {
     text-align: center;
     display: flex;
     width: 100%;
-    margin: 3% 0;
+    margin: 5% 0;
 }
 
 
@@ -498,7 +510,7 @@ i {
 /*altar section*/
 .instruction {
     width: 90%;
-    margin: 3%;
+    margin: 3% 5%;
     font-size: 140%;
 }
 
@@ -662,6 +674,18 @@ legend {
         height: 100%;
         display: flex;
     }
+    /*Header*/
+    #menu {
+        margin: 3% 5px;
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 33px;
+    }
+    #company-name {
+        margin-top: 3%;
+    }
 
     /* text section*/
     .text-side {
@@ -785,6 +809,7 @@ legend {
 
     .subtitle {
         font-size: 100%;
+        margin: 2%;
     }
 
     /*Footer*/
@@ -900,6 +925,7 @@ legend {
         width: 250px;
         height: 250px;
     }
+    
 
 }
 

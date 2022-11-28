@@ -256,7 +256,7 @@ The following images were token from :
 - [Kadjugan](https://www.artstation.com/artwork/6aoZP6) = Used for "Water Alebrije".
 
 - [Daniela Henríquez](https://www.artstation.com/artwork/qQJQQL) = Used for the "Homepage first image".
-- [Amar Gupta](https://www.artstation.com/artwork/aRO6dz) = Used for the "Are you lost section".
+- [Fogwind](https://www.artstation.com/artwork/ykrVy5) = Used for the "Are you lost section".
 - [Leon Tukker](https://www.artstation.com/artwork/nkqro) = Used for the "Company location". 
 
 #### Real Images
