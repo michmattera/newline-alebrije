@@ -152,24 +152,20 @@ hr {
 
 .complete-form {
     background-color: #FAF9F5;
-    font-size: 80%;
+    font-size: 75%;
     color: #252441;
     border: 3px solid #ff914d;
-    margin: 15% 0 18% 0;
+    margin: 8% 0;
     border-radius: 10px;
-    height: 50px;
-    width: 150px;
+    height: 45px;
+    width: 130px;
     text-transform: uppercase;
     text-align: center;
-    padding: 5% 0;
     cursor: pointer;
     font-weight: bold;
+    bottom: 15%;
 }
 
-.complete-form:hover {
-    background-color: #ff914d;
-    color: #252441;
-}
 
 /*main title*/
 .main-title {
@@ -273,8 +269,9 @@ a>h3:hover {
 .reviews>.text-review {
 
     color: #FAF9F5;
-    margin: 10% 0 0 3%;
-    font-size: 120%;
+    margin: 8% 0 0 2%;
+    font-size: 110%;
+    padding: 1%;
 
 }
 
@@ -283,6 +280,9 @@ a>h3:hover {
     bottom: 1%;
     left: 1%;
     font-size: 130%;
+    color: #ff914d;
+    text-decoration:solid ;
+    padding: 2%;
 }
 
 .subtitle {
@@ -294,7 +294,8 @@ a>h3:hover {
 
 i {
     font-size: 100%;
-    margin: 2% 7% 0 0;
+    margin: 1%;
+    padding: 2% 1%;
 }
 
 .line {
@@ -357,7 +358,7 @@ i {
 }
 
 .child-central-section {
-    margin: 5% 10% 3% 10%;
+    margin: 5% 10% 4.5% 10%;
     font-size: 150%;
 }
 
