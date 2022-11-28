@@ -316,25 +316,27 @@ i {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 55px;
+    height: 50px;
     background-color: #ff914d;
     opacity: 0.9;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .container-social-media {
     text-align: center;
-    display: inline-block;
+    display: flex;
     width: 33%;
     margin-left: 33%;
+    flex-wrap: nowrap;
 }
 
 .social-media {
-    display: inline-block;
+    align-items: center;
     width: 100%;
-    height: 80px;
+    height: 150%;
     font-size: 230%;
     letter-spacing: 40%;
-    padding-bottom: 50%;
 }
 
 .social-media>a:hover {
@@ -720,6 +722,16 @@ legend {
     .main-title {
         font-size: 190%;
     }
+    /*Footer*/
+    .footer {
+        height: 35px;
+    }
+    
+    .social-media {
+        height: 200%;
+        font-size: 190%;
+        letter-spacing: 30%;
+    }
 
     /*4 column section*/
 
@@ -813,21 +825,6 @@ legend {
     }
 
     /*Footer*/
-    .footer {
-        height: 35px;
-    }
-
-    .social-media {
-        display: inline-block;
-        width: 100%;
-        height: 80px;
-        font-size: 230%;
-        padding-bottom: 50%;
-    }
-
-    .social-media>a {
-        top: 0;
-    }
 
     /*alebrije 4 column section*/
     .big-container {
