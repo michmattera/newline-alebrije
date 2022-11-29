@@ -669,6 +669,33 @@ legend {
     font-weight: bold;
 }
 
+/* Form */
+.form{
+    font-size: 130%;
+}
+.form>p{
+    margin-left: 3%;
+}
+.alebrije-form{
+    width: 50%;
+    height: 100%;
+    margin: 3%;
+}
+.form>label{
+    margin: 5% 3%;
+}
+
+.text-input {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 2.5%;
+    display: inline-block;
+    border: 1px solid #252441;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+
 /*For screen with max-width of 1050 px-tablet size*/
 @media screen and (max-width: 1050px) {
     .image-text-container>img {

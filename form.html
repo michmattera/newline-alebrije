@@ -40,10 +40,10 @@
                                 <a href="steps.html">Steps</a>
                             </li>
                             <li>
-                                <a href="form.html">Form</a>
+                                <a class="active" href="form.html">Form</a>
                             </li>
                             <li>
-                                <a class="active" href="about-us.html">About Us</a>
+                                <a href="about-us.html">About Us</a>
                             </li>
                         </ul>
                     </nav>
@@ -53,11 +53,67 @@
         <!--First section - Description of why you need to fill the form-->
         <section>
             <h2>
-                Fill the form below!
+                Fill the form to get your alebrije!
             </h2>
-            <p>
-                
+            <p class="instruction">
+                If you want feel that you are ready for an alebrije and for your spiritual guide than fill the form
+                below!
             </p>
+        </section>
+        <section class="form-section">
+            <form method="POST" action="/congratulation.html" class="alebrije-form">
+                <fieldset class="form">
+                    <legend>Let's get your alebrije!</legend>
+
+                    <label for="fname">First Name</label>
+                    <input class="text-input" id="fname" name="first_name" type="text" required>
+
+                    <label for="lname">Last Name</label>
+                    <input class="text-input" id="lname" name="last_name" type="text" required>
+
+                    <label for="email">Email Address</label>
+                    <input class="text-input" type="email" id="email" name="email_address" required>
+
+                    <p>Select your zodiacal sign:</p>
+                    <label for="sign1">Fire</label>
+                    <input type="radio" id="sign1" name="zodiacal_sign" value="sign1" required>
+                    <label for="sign2">Water</label>
+                    <input type="radio" id="sign2" name="zodiacal_sign" value="sign2" required>
+                    <label for="sign3">Air</label>
+                    <input type="radio" id="sign3" name="zodiacal_sign" value="sign3" required>
+                    <label for="sign4">Earth</label>
+                    <input type="radio" id="sign4" name="zodiacal_sign" value="sign4" required>
+
+                    <label for="street-address">Street address</label>
+                    <input class="text-input" type="text" id="street-address" name="street-address"
+                        autocomplete="street-address" required enterkeyhint="next"></input>
+
+                    <label for="postal-code">ZIP or postal code (optional)</label>
+                    <input class="text-input" id="postal-code" name="postal-code" autocomplete="postal-code"
+                        enterkeyhint="next" required>
+
+                    <label for="city">City</label>
+                    <input class="text-input" type="text" id="city" name="city" autocomplete="address-level2"
+                        enterkeyhint="next" required>
+
+                    <label for="country">Country</label>
+                    <input class="text-input" type="text" id="country" name="country" autocomplete="address-level2"
+                        enterkeyhint="next" required>
+
+                    <label for="date">Enter your birthday: (min 18 years old)</label>
+                    <input class="text-input" type="date" id="start" name="trip-start" value="2018-07-22"
+                        min="2004-01-01" max="2022-12-31">
+
+                    <p>Choose your preferred location to get your alebrije:</p>
+                    <label for="pick">Pick up</label>
+                    <input type="radio" id="pick" name="location_preference" value="pick" required>
+                    <label for="delivered">Delivered</label>
+                    <input type="radio" id="delivered" name="location_preference" value="delivered" required>
+
+                    <input class="" type="submit" value="Submit!">
+                    <input type="reset">
+                </fieldset>
+            </form>
         </section>
 
         <!--Next-page-button-->
