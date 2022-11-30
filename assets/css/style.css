@@ -673,8 +673,7 @@ legend {
 .form-terms-container{
     display: flex;
     width: 90%;
-    margin: 5%;
-    border: 3px solid #252441;
+    margin: 3% 5%;
     font-size: 100%;
     color: #252441;
     align-items: flex-end;
@@ -683,7 +682,6 @@ legend {
 .terms-condition{
     width: 60%;
     margin: 3%;
-    
 }
 
 #terms {
@@ -708,6 +706,7 @@ legend {
     background-color: #eee;
     max-width: 800px;
   }
+
 /* Form */
 .form-section{
     width: 100%;
@@ -741,7 +740,6 @@ legend {
     width: 7%;
     margin: 0;
 }
-
 .text-input {
     width: 95%;
     padding: 12px 20px;
@@ -768,10 +766,6 @@ legend {
     border-radius: 10px;
 }
 
-.button a:hover {
-    background-color: #ff914d;
-    color: #FAF9F5;
-}
 
 /*For screen with max-width of 1050 px-tablet size*/
 @media screen and (max-width: 1050px) {

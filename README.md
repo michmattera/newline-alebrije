@@ -258,6 +258,8 @@ The following images were token from :
 - [Daniela Henríquez](https://www.artstation.com/artwork/qQJQQL) = Used for the "Homepage first image".
 - [Fogwind](https://www.artstation.com/artwork/ykrVy5) = Used for the "Are you lost section".
 - [Leon Tukker](https://www.artstation.com/artwork/nkqro) = Used for the "Company location". 
+- [Limiz](https://www.artstation.com/artwork/L2r5br) = Used for the "form page left picture".
+- [Juan D. Campos](https://www.artstation.com/artwork/lVPQYa) = Used for the "form page right picture".
 
 #### Real Images
 The other images were used to rapresent real scenarios or objects.
