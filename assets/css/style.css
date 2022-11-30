@@ -670,8 +670,10 @@ legend {
 }
 
 /* Form */
+
 .form{
     font-size: 130%;
+    color: #252441;
 }
 .form>p{
     margin-left: 3%;
@@ -681,10 +683,13 @@ legend {
     height: 100%;
     margin: 3%;
 }
-.form>label{
+.form>label {
     margin: 5% 3%;
 }
-
+.radio-input{
+    width: 7%;
+    margin: 0;
+}
 .text-input {
     width: 95%;
     padding: 12px 20px;

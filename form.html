@@ -52,13 +52,6 @@
         </header>
         <!--First section - Description of why you need to fill the form-->
         <section>
-            <h2>
-                Fill the form to get your alebrije!
-            </h2>
-            <p class="instruction">
-                If you want feel that you are ready for an alebrije and for your spiritual guide than fill the form
-                below!
-            </p>
         </section>
         <section class="form-section">
             <form method="POST" action="/congratulation.html" class="alebrije-form">
@@ -76,13 +69,18 @@
 
                     <p>Select your zodiacal sign:</p>
                     <label for="sign1">Fire</label>
-                    <input type="radio" id="sign1" name="zodiacal_sign" value="sign1" required>
+                    <input class="radio-input" type="radio" id="sign1" name="zodiacal_sign" value="sign1" required>
                     <label for="sign2">Water</label>
-                    <input type="radio" id="sign2" name="zodiacal_sign" value="sign2" required>
+                    <input class="radio-input" type="radio" id="sign2" name="zodiacal_sign" value="sign2" required>
                     <label for="sign3">Air</label>
-                    <input type="radio" id="sign3" name="zodiacal_sign" value="sign3" required>
+                    <input class="radio-input" type="radio" id="sign3" name="zodiacal_sign" value="sign3" required>
                     <label for="sign4">Earth</label>
-                    <input type="radio" id="sign4" name="zodiacal_sign" value="sign4" required>
+                    <input class="radio-input" type="radio" id="sign4" name="zodiacal_sign" value="sign4" required>
+                    
+                    
+                    <label for="date">Date of birth: (min 18 years old)</label>
+                    <input class="text-input" type="date" id="start" name="trip-start" value="2004-01-01"
+                        min="1904-01.01" max="2004-01-01">
 
                     <label for="street-address">Street address</label>
                     <input class="text-input" type="text" id="street-address" name="street-address"
@@ -100,15 +98,11 @@
                     <input class="text-input" type="text" id="country" name="country" autocomplete="address-level2"
                         enterkeyhint="next" required>
 
-                    <label for="date">Enter your birthday: (min 18 years old)</label>
-                    <input class="text-input" type="date" id="start" name="trip-start" value="2018-07-22"
-                        min="2004-01-01" max="2022-12-31">
-
                     <p>Choose your preferred location to get your alebrije:</p>
                     <label for="pick">Pick up</label>
-                    <input type="radio" id="pick" name="location_preference" value="pick" required>
+                    <input class="radio-input" type="radio" id="pick" name="location_preference" value="pick" required>
                     <label for="delivered">Delivered</label>
-                    <input type="radio" id="delivered" name="location_preference" value="delivered" required>
+                    <input class="radio-input" type="radio" id="delivered" name="location_preference" value="delivered" required>
 
                     <input class="" type="submit" value="Submit!">
                     <input type="reset">
