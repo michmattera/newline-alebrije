@@ -53,61 +53,62 @@
         <!--First section - Description of why you need to fill the form-->
         <section>
         </section>
-        <section class="form-section">
-            <form method="POST" action="/congratulation.html" class="alebrije-form">
-                <fieldset class="form">
-                    <legend>Let's get your alebrije!</legend>
+        <section>
+            <div class="form-section">
+                <form method="POST" action="/congratulation.html" class="alebrije-form">
+                    <fieldset class="form">
+                        <legend>Let's get your alebrije!</legend>
 
-                    <label for="fname">First Name</label>
-                    <input class="text-input" id="fname" name="first_name" type="text" required>
+                        <label for="fname">First Name</label>
+                        <input class="text-input" id="fname" name="first_name" type="text" required>
 
-                    <label for="lname">Last Name</label>
-                    <input class="text-input" id="lname" name="last_name" type="text" required>
+                        <label for="lname">Last Name</label>
+                        <input class="text-input" id="lname" name="last_name" type="text" required>
 
-                    <label for="email">Email Address</label>
-                    <input class="text-input" type="email" id="email" name="email_address" required>
+                        <label for="email">Email Address</label>
+                        <input class="text-input" type="email" id="email" name="email_address" required>
 
-                    <p>Select your zodiacal sign:</p>
-                    <label for="sign1">Fire</label>
-                    <input class="radio-input" type="radio" id="sign1" name="zodiacal_sign" value="sign1" required>
-                    <label for="sign2">Water</label>
-                    <input class="radio-input" type="radio" id="sign2" name="zodiacal_sign" value="sign2" required>
-                    <label for="sign3">Air</label>
-                    <input class="radio-input" type="radio" id="sign3" name="zodiacal_sign" value="sign3" required>
-                    <label for="sign4">Earth</label>
-                    <input class="radio-input" type="radio" id="sign4" name="zodiacal_sign" value="sign4" required>
-                    
-                    
-                    <label for="date">Date of birth: (min 18 years old)</label>
-                    <input class="text-input" type="date" id="start" name="trip-start" value="2004-01-01"
-                        min="1904-01.01" max="2004-01-01">
+                        <label for="date">Date of birth: (min 18 years old)</label>
+                        <input class="text-input" type="date" id="start" name="trip-start" value="yyyy-dd-mm"
+                            min="1904-01.01" max="2004-01-01">
 
-                    <label for="street-address">Street address</label>
-                    <input class="text-input" type="text" id="street-address" name="street-address"
-                        autocomplete="street-address" required enterkeyhint="next"></input>
+                        <p>Select your zodiacal sign:</p>
+                        <select class="zodiacal_sign" name="zodiacal_sign" id="signs">
+                            <option value="sign1">Fire</option>
+                            <option value="sign2">Water</option>
+                            <option value="sign3">Air</option>
+                            <option value="sign4">Earth</option>
+                          </select>
 
-                    <label for="postal-code">ZIP or postal code (optional)</label>
-                    <input class="text-input" id="postal-code" name="postal-code" autocomplete="postal-code"
-                        enterkeyhint="next" required>
+                        <label for="street-address">Street address</label>
+                        <input class="text-input" type="text" id="street-address" name="street-address"
+                            autocomplete="street-address" required enterkeyhint="next"></input>
 
-                    <label for="city">City</label>
-                    <input class="text-input" type="text" id="city" name="city" autocomplete="address-level2"
-                        enterkeyhint="next" required>
+                        <label for="postal-code">ZIP or postal code (optional)</label>
+                        <input class="text-input" id="postal-code" name="postal-code" autocomplete="postal-code"
+                            enterkeyhint="next">
 
-                    <label for="country">Country</label>
-                    <input class="text-input" type="text" id="country" name="country" autocomplete="address-level2"
-                        enterkeyhint="next" required>
+                        <label for="city">City</label>
+                        <input class="text-input" type="text" id="city" name="city" autocomplete="address-level2"
+                            enterkeyhint="next" required>
 
-                    <p>Choose your preferred location to get your alebrije:</p>
-                    <label for="pick">Pick up</label>
-                    <input class="radio-input" type="radio" id="pick" name="location_preference" value="pick" required>
-                    <label for="delivered">Delivered</label>
-                    <input class="radio-input" type="radio" id="delivered" name="location_preference" value="delivered" required>
+                        <label for="country">Country</label>
+                        <input class="text-input" type="text" id="country" name="country" autocomplete="address-level2"
+                            enterkeyhint="next" required>
 
-                    <input class="" type="submit" value="Submit!">
-                    <input type="reset">
-                </fieldset>
-            </form>
+                        <p>Choose your preferred location to get your alebrije:</p>
+                        <label for="pick">Pick up</label>
+                        <input class="radio-input" type="radio" id="pick" name="location_preference" value="pick"
+                            required>
+                        <label for="delivered">Delivered</label>
+                        <input class="radio-input" type="radio" id="delivered" name="location_preference"
+                            value="delivered" required>
+
+                        <input class="" type="submit" value="Submit!">
+                        <input type="reset">
+                    </fieldset>
+                </form>
+            </div>
         </section>
 
         <!--Next-page-button-->
