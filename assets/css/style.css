@@ -670,16 +670,17 @@ legend {
 }
 
 /*container form and terms and condition*/
-.form-terms-container{
+.form-terms-container {
     display: flex;
     width: 90%;
     margin: 3% 5%;
     font-size: 100%;
     color: #252441;
     align-items: flex-end;
+    position: relative;
 }
 
-.terms-condition{
+.terms-condition {
     width: 60%;
     margin: 3%;
 }
@@ -690,6 +691,7 @@ legend {
     overflow: scroll;
     padding: 2% 5%;
 }
+
 #terms>p,
 #terms>h5,
 #terms>ul {
@@ -699,27 +701,30 @@ legend {
 }
 
 .tacbox {
-    display:block;
+    display: block;
     padding: 1em;
     margin: 2em;
     border: 3px solid #ddd;
     background-color: #eee;
     max-width: 800px;
-  }
+}
 
 /* Form */
-.form-section{
+.form-section {
     width: 100%;
     align-items: left;
 }
-.form{
+
+.form {
     font-size: 120%;
     color: #252441;
 }
-.form>p{
+
+.form>p {
     margin: 2.5%;
     width: 100%;
 }
+
 .zodiacal_sign {
     margin: 2.5% 3%;
     display: block;
@@ -727,19 +732,23 @@ legend {
     font-family: inherit;
     border: 1px solid #252441;
     border-radius: 4px;
-  }
-.alebrije-form{
+}
+
+.alebrije-form {
     width: 60%;
     height: 100%;
     margin: 3%;
 }
+
 .form>label {
     margin: 5% 3%;
 }
-.radio-input{
+
+.radio-input {
     width: 7%;
     margin: 0;
 }
+
 .text-input {
     width: 95%;
     padding: 12px 20px;
@@ -749,11 +758,13 @@ legend {
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 100%;
-  }
-  .button-container{
+}
+
+.button-container {
     display: flex;
-  }
-  .button {
+}
+
+.button {
     margin: 5%;
     align-items: center;
     height: 35px;
@@ -762,8 +773,37 @@ legend {
     background-color: #FAF9F5;
     font-size: 100%;
     color: #252441;
-    border: 3px solid #ff914d;
+    border: 3px solid #252441;
     border-radius: 10px;
+}
+
+.container-image-link,
+.container-image-link2 {
+    align-items: flex-start;
+    height: 290px;
+    width: 30%;
+    background-size: cover;
+    position: absolute;
+    right: 10%;
+    color: #FAF9F5;
+    text-align: center;
+    font-size: 90%;
+}
+
+.container-image-link {
+    top: 5%;
+    background-image: url('../css/images/alebrije-oaxaca-football.jpg');
+}
+
+.container-image-link2 {
+    top: 30%;
+    background-image: url('../css/images/astrology-element.jpg');
+}
+.container-image-link>p,
+.container-image-link2>p{
+    background-color: #252441;
+    text-decoration: underline;
+    bottom: 0;
 }
 
 
@@ -904,7 +944,7 @@ legend {
         border-radius: 15%;
         margin: 5% 3%;
     }
-    
+
 
     .child-central-section {
         margin: 5%;
