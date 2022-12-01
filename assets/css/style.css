@@ -173,6 +173,7 @@ hr {
     text-transform: uppercase;
     font-size: 50px;
     display: grid;
+    margin: 3%;
 }
 
 /*Steps*/
@@ -806,6 +807,27 @@ legend {
     bottom: 0;
 }
 
+/*Congratulation page*/
+.congratulation{
+    width: 80%;
+    height: 500px;
+    margin: 0% 10% 5% 10%;
+    color: #FAF9F5;
+    object-fit: cover;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../css/images/alebrije-woods.jpg');
+}
+.congratulation>p{
+    margin: 5%;
+    font-size: 140%;
+    width: 40%;
+    letter-spacing: 1px;
+    line-height: 150%;
+    align-items: left;
+    text-align: left;
+}
 
 /*For screen with max-width of 1050 px-tablet size*/
 @media screen and (max-width: 1050px) {
