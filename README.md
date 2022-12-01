@@ -260,6 +260,7 @@ The following images were token from :
 - [Leon Tukker](https://www.artstation.com/artwork/nkqro) = Used for the "Company location". 
 - [Quentin Laville](https://www.artstation.com/artwork/A9yzZ5) = Used for the "form page left picture".
 - [Juan D. Campos](https://www.artstation.com/artwork/lVPQYa) = Used for the "form page right picture".
+- [Marlyn](https://www.artstation.com/artwork/14LrRL) = Used for "congratulation message".
 
 #### Real Images
 The other images were used to rapresent real scenarios or objects.

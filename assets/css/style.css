@@ -800,26 +800,33 @@ legend {
     top: 30%;
     background-image: url('../css/images/astrology-element.jpg');
 }
+
 .container-image-link>p,
-.container-image-link2>p{
+.container-image-link2>p {
     background-color: #252441;
     text-decoration: underline;
     bottom: 0;
 }
 
 /*Congratulation page*/
-.congratulation{
+.message,
+.error-message {
     width: 80%;
     height: 500px;
     margin: 0% 10% 5% 10%;
-    color: #FAF9F5;
     object-fit: cover;
     text-align: center;
     background-size: cover;
+}
+
+.message {
+    color: #FAF9F5;
     background-position: center;
     background-image: url('../css/images/alebrije-woods.jpg');
 }
-.congratulation>p{
+
+.message>p,
+.error-message>p {
     margin: 5%;
     font-size: 140%;
     width: 40%;
@@ -827,6 +834,24 @@ legend {
     line-height: 150%;
     align-items: left;
     text-align: left;
+}
+.error-message {
+    color: #FAF9F5;
+    background-position: bottom;
+    background-image: url('../css/images/underworld.jpg');
+}
+.button{
+    background-color: #252441;
+    font-size: 75%;
+    color: #FAF9F5;
+    border-radius: 10px;
+    height: 45px;
+    width: 130px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    margin: 2% 0;
+    font-weight: bold;
 }
 
 /*For screen with max-width of 1050 px-tablet size*/
@@ -1114,6 +1139,24 @@ legend {
     .big {
         width: 250px;
         height: 250px;
+    }
+
+    /*Congratulation page*/
+    .message>p {
+        margin: 3%;
+        font-size: 120%;
+        width: 40%;
+        /* letter-spacing: 1px; */
+        line-height: 140%;
+        align-items: left;
+        text-align: left;
+    }
+
+    .message {
+        width: 100%;
+        height: 500px;
+        margin: 3% 0 0 0;
+        text-align: center;
     }
 }
 
