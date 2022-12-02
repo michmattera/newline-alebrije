@@ -835,12 +835,14 @@ legend {
     align-items: left;
     text-align: left;
 }
+
 .error-message {
     color: #FAF9F5;
     background-position: bottom;
     background-image: url('../css/images/underworld.jpg');
 }
-.button{
+
+.button {
     background-color: #252441;
     font-size: 75%;
     color: #FAF9F5;
@@ -854,8 +856,8 @@ legend {
     font-weight: bold;
 }
 
-/*For screen with max-width of 1050 px-tablet size*/
-@media screen and (max-width: 1050px) {
+/*For screen with max-width of 1065 px-tablet size*/
+@media screen and (max-width: 1065px) {
     .image-text-container>img {
         width: 65%;
         max-width: 900px;
@@ -1161,4 +1163,96 @@ legend {
 }
 
 /*Media queries for max-width 750*/
-/* text section
+@media screen and (max-width: 750px) {
+    .image-text-container>img {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .image-text-container {
+        height: 600px;
+        flex-direction: column;
+        margin: 5% 0;
+    }
+
+    .text-side {
+        width: 100%;
+    }
+
+    .text-side>h2 {
+        font-size: 190%;
+        padding: 3%;
+        margin-top: 3%;
+    }
+    hr {
+        margin: 3% 15%;
+    }
+    .text-side>p {
+        font-size: 135%;
+        margin: 5% 10%;
+    }
+    .complete-form {
+        bottom: 5%;
+        left: 30%;
+    }
+    .steps {
+        font-size: 23px;
+    }
+}
+
+/*Mei*/
+@media screen and (max-width: 605px) {
+    .image-text-container>img {
+        width: 100%;
+        max-width: 700px;
+    }
+    .steps {
+        font-size: 23px;
+    }
+}
+/*Media queries for max-width 350*/
+@media screen and (max-width: 500px) {
+    .image-text-container>img {
+        width: 100%;
+        max-width: 700px;
+    }
+    /*4 column section*/
+    .steps-container {
+        width: 100%;
+        height: 1000px;
+        margin: 0;
+    }
+
+    .steps-container>.steps-child {
+        width: 100%;
+        height: 200px;
+    }
+
+    .steps-child {
+        margin: 5% 0;
+    }
+    .steps {
+        font-size: 25px;
+        margin: 5%;
+    }
+    a>p {
+        margin: 0 15%;
+        display: block;
+    }
+
+    /*Header*/
+    #logo {
+        width: 17%;
+    }
+
+    #company-name {
+        font-size: 155%;
+        margin: 5% 0.5%;
+    }
+
+    #menu {
+        font-size: 70%;
+        margin: 3% 0 3% 2%;
+        letter-spacing: 0;
+    }
+}
