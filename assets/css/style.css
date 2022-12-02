@@ -519,7 +519,7 @@ i {
 }
 
 .instruction>* {
-    margin-top: 3%;
+    margin-top: 3.5%;
 }
 
 ol>li,
@@ -1122,6 +1122,10 @@ legend {
         font-size: 150%;
     }
 
+    .image-about-us>img {
+        height: 500px;
+    }
+
     /*Map*/
     .map-container {
         overflow: hidden;
@@ -1202,6 +1206,7 @@ legend {
     .steps {
         font-size: 23px;
     }
+
 }
 
 /*Media queries for max-width 605px*/
@@ -1218,6 +1223,10 @@ legend {
     .reviews>.text-review {
         margin: 10% 3% 0 3%;
         font-size: 100%;
+    }
+
+    .image-about-us>img {
+        height: 350px;
     }
 
     /*types of alebrije section*/
@@ -1412,5 +1421,38 @@ legend {
 
     .ingredient-list>li {
         margin: 3% 7%;
+    }
+
+    /*Form page*/
+    .form-terms-container {
+        display: flex;
+        width: 90%;
+        margin: 3% 5%;
+        font-size: 100%;
+        color: #252441;
+        align-items: flex-end;
+        position: relative;
+        flex-direction: column;
+    }
+
+    /*About us page*/
+    .contact-us {
+        flex-direction: column;
+    }
+
+    .contact-details {
+        width: 90%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .contact-details>p {
+        margin: 5% 0;
+    }
+
+    .map-side {
+        text-align: center;
+        width: 90%;
+        margin: 5%;
     }
 }
