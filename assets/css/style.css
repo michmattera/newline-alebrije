@@ -1200,7 +1200,7 @@ legend {
     }
 }
 
-/*Mei*/
+/*Media queries for max-width 605px*/
 @media screen and (max-width: 605px) {
     .image-text-container>img {
         width: 100%;
@@ -1209,12 +1209,19 @@ legend {
     .steps {
         font-size: 23px;
     }
+    .reviews>.text-review {
+        margin: 10% 3% 0 3%;
+        font-size: 100%;
+    }
 }
-/*Media queries for max-width 350*/
+/*Media queries for max-width 350px*/
 @media screen and (max-width: 500px) {
     .image-text-container>img {
         width: 100%;
         max-width: 700px;
+    }
+    .text-side>p {
+        font-size: 115%;
     }
     /*4 column section*/
     .steps-container {
@@ -1254,5 +1261,35 @@ legend {
         font-size: 70%;
         margin: 3% 0 3% 2%;
         letter-spacing: 0;
+    }
+    /*Central section*/
+    .child-central-section {
+        margin: 5%;
+        font-size: 110%;
+    }
+    .center-text {
+        line-height: 130%;
+    }
+    .main-title {
+        font-size: 200%;
+        margin-top: 3%;
+    }
+    /*Review section*/
+    .review-container>.review-child {
+        height: 200px;
+        width: 80%;
+        margin: 10%;
+    }
+    .review-container {
+        height: 1050px;
+    }
+    /*complete-form button*/
+    .complete-form {
+        font-size: 70%;
+        height: 35px;
+        width: 110px;
+        bottom: 5%;
+        left: 27%;
+
     }
 }
