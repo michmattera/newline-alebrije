@@ -1166,7 +1166,7 @@ legend {
 @media screen and (max-width: 750px) {
     .image-text-container>img {
         width: 100%;
-        max-width: 700px;
+        max-width: 1000px;
     }
 
     .image-text-container {
@@ -1213,8 +1213,31 @@ legend {
         margin: 10% 3% 0 3%;
         font-size: 100%;
     }
+    /*types of alebrije section*/
+    .big-container>.steps-child {
+        width: 45%;
+        height: 300px;
+        margin: 2.5%;
+    }
+    .image {
+        height: 1100px;
+        margin: 3% 0;
+        flex-direction: column;
+    }
+    .image>img{
+        width: 100%;
+    }
+    .text {
+        margin: 3%;
+        width: 95%;
+        height: 1000px;
+        
+    }
+    .text>p {
+        font-size: 110%;
+    }
 }
-/*Media queries for max-width 350px*/
+/*Media queries for max-width 500px*/
 @media screen and (max-width: 500px) {
     .image-text-container>img {
         width: 100%;
@@ -1224,6 +1247,13 @@ legend {
         font-size: 115%;
     }
     /*4 column section*/
+    .big-container {
+        width: 90%;
+        height: 1700px;
+        margin: 0 5%;
+        display: flex;
+        flex-wrap: wrap;
+    }
     .steps-container {
         width: 100%;
         height: 1000px;
@@ -1240,13 +1270,36 @@ legend {
     }
     .steps {
         font-size: 25px;
-        margin: 5%;
+        margin: 0;
     }
     a>p {
         margin: 0 15%;
         display: block;
     }
-
+    /*big text and small image section*/
+    .small-image-text {
+        height: 600px;
+        margin: 5% 0;
+    }
+    
+    .small-image-text {
+        height: 1000px;
+        margin: 5% 0;
+        flex-direction: column;
+    }
+    .small-image-text>img {
+        width: 100%;
+        height: 55%;
+    }
+    .big-text-side {
+        font-size: 65%;
+        height: 300%;
+        width: 95%;
+        margin: 2.5%;
+    }
+    .description-alebrije>li {
+        font-size: 160%;
+    }
     /*Header*/
     #logo {
         width: 17%;
@@ -1258,7 +1311,7 @@ legend {
     }
 
     #menu {
-        font-size: 70%;
+        font-size: 100%;
         margin: 3% 0 3% 2%;
         letter-spacing: 0;
     }
@@ -1266,6 +1319,10 @@ legend {
     .child-central-section {
         margin: 5%;
         font-size: 110%;
+    }
+    .container-central-section {
+        border-radius: 10%;
+        margin: 5%;
     }
     .center-text {
         line-height: 130%;
@@ -1281,7 +1338,7 @@ legend {
         margin: 10%;
     }
     .review-container {
-        height: 1050px;
+        height: 1100px;
     }
     /*complete-form button*/
     .complete-form {
@@ -1290,6 +1347,15 @@ legend {
         width: 110px;
         bottom: 5%;
         left: 27%;
-
     }
+    /*Button next-page*/
+    .next-page{
+        margin: 0 10% 15% 0;
+        font-size: 250%;
+}
+.big-container>.steps-child {
+    width: 100%;
+    height: 350px;
+    margin: 5% 0;
+}
 }
