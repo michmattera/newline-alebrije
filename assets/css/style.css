@@ -681,9 +681,13 @@ legend {
     position: relative;
 }
 
-.terms-condition {
+.terms-condition,
+.alebrije-form {
     width: 60%;
     margin: 3%;
+}
+.form{
+    margin: 5%;
 }
 
 #terms {
@@ -733,12 +737,6 @@ legend {
     font-family: inherit;
     border: 1px solid #252441;
     border-radius: 4px;
-}
-
-.alebrije-form {
-    width: 60%;
-    height: 100%;
-    margin: 3%;
 }
 
 .form>label {
@@ -840,20 +838,6 @@ legend {
     color: #FAF9F5;
     background-position: bottom;
     background-image: url('../css/images/underworld.jpg');
-}
-
-.button {
-    background-color: #252441;
-    font-size: 75%;
-    color: #FAF9F5;
-    border-radius: 10px;
-    height: 45px;
-    width: 130px;
-    text-transform: uppercase;
-    text-align: center;
-    cursor: pointer;
-    margin: 2% 0;
-    font-weight: bold;
 }
 
 /*For screen with max-width of 1065 px-tablet size*/
@@ -1152,17 +1136,32 @@ legend {
         margin: 3%;
         font-size: 120%;
         width: 40%;
-        /* letter-spacing: 1px; */
         line-height: 140%;
         align-items: left;
         text-align: left;
     }
-
     .message {
         width: 100%;
         height: 500px;
         margin: 3% 0 0 0;
         text-align: center;
+    }
+    /*Form page*/
+    .form-terms-container {
+        width: 95%;
+        margin: 3% 2.5%;
+        position: relative;
+        flex-direction: column;
+        align-content: space-between;
+        align-items: flex-start;
+    }
+    .container-image-link,
+    .container-image-link2 {
+        align-items: flex-start;
+        height: 390px;
+        width: 30%;
+        background-position: center;
+        right: 2.5%;
     }
 }
 
@@ -1197,14 +1196,60 @@ legend {
         font-size: 135%;
         margin: 5% 10%;
     }
+    /*Form Page*/
 
     .complete-form {
         bottom: 5%;
         left: 30%;
     }
-
     .steps {
         font-size: 23px;
+    }
+    .container-image-link,
+     .container-image-link2 {
+        align-items: flex-start;
+        height: 290px;
+        width: 45%;
+        background-position: center;
+        top: 70%;
+    }
+    .container-image-link {
+        right: 50%;
+    }
+    .container-image-link2{
+        right: 5%;
+    }
+    .terms-condition,
+    .alebrije-form{
+        width: 95%;
+    }
+    
+    /*Form page*/
+    .form-terms-container {
+        display: flex;
+        width: 90%;
+        margin: 3% 5%;
+        font-size: 100%;
+        color: #252441;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+    }
+    .form {
+        font-size: 100%;
+    }
+     /*3 divs section*/
+     .big-container>.steps-child {
+        width: 45%;
+        height: 300px;
+        margin: 2.5%;
+    }
+
+    .text {
+        margin: 3%;
+        width: 95%;
+        height: 1000px;
+
     }
 
 }
@@ -1229,32 +1274,17 @@ legend {
         height: 350px;
     }
 
-    /*types of alebrije section*/
-    .big-container>.steps-child {
-        width: 45%;
-        height: 300px;
-        margin: 2.5%;
+    .text>p {
+        font-size: 110%;
     }
-
     .image {
-        height: 1100px;
+        height: 1000px;
         margin: 3% 0;
         flex-direction: column;
     }
-
     .image>img {
         width: 100%;
-    }
-
-    .text {
-        margin: 3%;
-        width: 95%;
-        height: 1000px;
-
-    }
-
-    .text>p {
-        font-size: 110%;
+        height: 70%;
     }
 }
 
@@ -1422,15 +1452,13 @@ legend {
     .ingredient-list>li {
         margin: 3% 7%;
     }
-
-    /*Form page*/
     .form-terms-container {
         display: flex;
-        width: 90%;
-        margin: 3% 5%;
+        width: 98%;
+        margin: 3% 1%;
         font-size: 100%;
         color: #252441;
-        align-items: flex-end;
+        align-items: center;
         position: relative;
         flex-direction: column;
     }
@@ -1454,5 +1482,9 @@ legend {
         text-align: center;
         width: 90%;
         margin: 5%;
+    }
+    /*3 div section*/
+    .image>img {
+        height: 40%;
     }
 }
