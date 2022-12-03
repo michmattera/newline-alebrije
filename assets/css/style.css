@@ -937,6 +937,7 @@ legend {
         font-size: 190%;
         letter-spacing: 30%;
     }
+
     .container-social-media {
         text-align: center;
         display: flex;
@@ -1144,6 +1145,7 @@ legend {
         align-items: left;
         text-align: left;
     }
+
     .message,
     .error-message {
         width: 100%;
@@ -1163,17 +1165,20 @@ legend {
         position: relative;
         flex-direction: column;
     }
-    .terms-condition, .alebrije-form {
+
+    .terms-condition,
+    .alebrije-form {
         width: 100%;
         margin: 3%;
     }
-    
-    .container-links{
+
+    .container-links {
         width: 95%;
         align-items: center;
         display: flex;
         margin: 2.5%;
     }
+
     .container-image-link,
     .container-image-link2 {
         align-items: center;
@@ -1181,6 +1186,11 @@ legend {
         width: 50%;
         margin: 0 2%;
         position: static;
+    }
+    
+    /*Disclaimer*/
+    .disclaimer {
+        margin: 2% 5% 10% 5%;
     }
 }
 
@@ -1215,6 +1225,7 @@ legend {
         font-size: 135%;
         margin: 5% 10%;
     }
+
     .steps {
         font-size: 23px;
     }
@@ -1224,13 +1235,14 @@ legend {
         bottom: 5%;
         left: 30%;
     }
+
     .container-image-link,
     .container-image-link2 {
         width: 90%;
         margin: 5%;
     }
-     
-    .container-links{
+
+    .container-links {
         width: 95%;
         align-items: center;
         display: flex;
@@ -1270,6 +1282,7 @@ legend {
         width: 95%;
         height: 1000px;
     }
+
     /*404/505 page button*/
     .button {
         margin: 10%;
@@ -1277,6 +1290,7 @@ legend {
         width: 50%;
         font-size: 80%;
     }
+
     /*Footer*/
     .footer {
         height: 55px;
@@ -1352,10 +1366,12 @@ legend {
     .message>p {
         font-size: 100%;
     }
+
     /*Footer*/
     .footer {
         height: 50px;
     }
+
     .social-media {
         font-size: 180%;
     }
@@ -1539,7 +1555,7 @@ legend {
         margin: 5%;
     }
 
-    /*3 div section*/
+    /*3 divs section*/
     .image>img {
         height: 40%;
     }
@@ -1553,13 +1569,20 @@ legend {
     .message>p {
         font-size: 80%;
     }
+
     /*Footer*/
     .social-media {
         height: 100%;
         font-size: 170%;
         letter-spacing: 10%;
     }
+
     .footer {
         height: 35px;
+    }
+    
+    /*Disclaimer*/
+    .disclaimer {
+        margin: 2% 5% 15% 5%;
     }
 }
