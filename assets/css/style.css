@@ -932,14 +932,16 @@ legend {
     }
 
     /*Footer*/
-    .footer {
-        height: 35px;
-    }
-
     .social-media {
         height: 200%;
         font-size: 190%;
         letter-spacing: 30%;
+    }
+    .container-social-media {
+        text-align: center;
+        display: flex;
+        width: 50%;
+        margin-left: 25%;
     }
 
     /*4 column section*/
@@ -1275,6 +1277,10 @@ legend {
         width: 50%;
         font-size: 80%;
     }
+    /*Footer*/
+    .footer {
+        height: 55px;
+    }
 
 }
 
@@ -1345,6 +1351,13 @@ legend {
     /*Congratulation page*/
     .message>p {
         font-size: 100%;
+    }
+    /*Footer*/
+    .footer {
+        height: 50px;
+    }
+    .social-media {
+        font-size: 180%;
     }
 }
 
@@ -1533,11 +1546,20 @@ legend {
 
     /*Congratulation page*/
     .main-title {
-        font-size: 150%;
+        font-size: 160%;
         margin-top: 5%;
     }
 
     .message>p {
         font-size: 80%;
+    }
+    /*Footer*/
+    .social-media {
+        height: 100%;
+        font-size: 170%;
+        letter-spacing: 10%;
+    }
+    .footer {
+        height: 35px;
     }
 }
