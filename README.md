@@ -101,7 +101,7 @@ With this information the strategy plan gave the following result and strategy p
 <details>
 <summary>Strategy Plane - Viability/Feasibility Table</summary>
 
-![Strategy Table]()
+![Strategy Table](/assets/css/images/read-me-images/Strategy%20plan.png)
 
 </details>
 
