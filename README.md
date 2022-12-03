@@ -9,8 +9,9 @@
 1. [Introduction](#Introduction)
 2. [UX](#UX)
     1. [Ideal User Demographic](#Ideal-User-Demographic)
-    2. [User Goals](#User-Goals)
-3. [Features](#features)   
+    2. [User Goals](#User-Goals) 
+    3. [Development Planes](#Development-Planes)
+3. [Features](#features)  
     1. [Used Features](#Used-Features)
     2. [Common Features](#Common-Features)
     3. [Existing Features](#Existing-Features)
@@ -20,9 +21,17 @@
     2. [ Typography](#Typography)
     3. [Visuals](#Visuals)
 ## Introduction
-This is a website set in a fantasy world, where exist the **alebrije**, an animal found in the world of the death, that is actually a spiritual guide . Is a website of a company who can match you with an alebrije from the other world and send it to your house or to a specific location.
+This is a website set in a fantasy world, where exists the **alebrije**, an animal found in the world of death, that is a spiritual guide. Is a website of a company that can match you with an alebrije from the other world and sends it to your house or a specific location.
 
-In this website you are going to get information about the alebrije, the company, and what do you have to do to get your spiritual guide.
+On this website, you are going to get information about the alebrije, the company, and what you have to do to get your spiritual guide.
+
+This website was made for the first of five Milestone projects required to complete the Diploma in Software development (eCommerce Applications) program at The Code Institute. 
+
+The main requirements of this project are to use all the technologies learned so far, HTML5 and CSS3. 
+Data is presented to help users achieve their goals, e.g. learning about a product/service in which they are interested. The presentation of this data advances the site owner's goals, e.g. helps them market a product/service.
+
+In this case, the goal of the user is to know more about alebrijes and can match with one.
+The goal of the company is to get the user to complete the form and match it with the alebrije. Give more information to previous user and about the company.
 
 ## UX
 ### Ideal User Demographic
@@ -48,6 +57,60 @@ This website is for people who want to contact us for any proplems or any inform
 This website is for user who would like to know more about the alebrije, about our company or is just seeking information for alebrijes.
 1. As a Student/Curious outsider i would like to see any information about the alebrijes and the company.
 2. As a Student/Curious outsider i would like to see all the main information in the homepage, and have easy links to access more detailed information.
+
+## Development-Planes
+1. To create a website that help the user to get all the information they need and to being able to get the product (alebrije).
+2. To create the website of a company in a fictonal world.
+3. To give the company a background story based on reality( from the real creator of alebrijes ) and changed the end to create the fictional world.
+4. To create a website that accomplish all user needs and design as above, to give comprehensive information based on this fictonal world. 
+
+### Strategy
+Used to determine business goals and user needs.
+
+Business goals:
+- Get the user to fill out the form to match with the alebrije.
+- Give information about the product (Alebrije).
+- Give information about the step that the user has to do in order to get the product.
+- Give information about the company.
+- Give contact details to user.
+
+User needs were determine dividing in different categories the users: 
+
+- **Roles:**
+    - Current users
+    - New users
+    - Student/Curious outsider
+
+- **Demographic:**
+    - Min 18 years old
+    - From all over the world
+
+- **Psychographic:**
+    - Lifestyles:
+        - Interested in Animals
+        - Spiritual
+    - Personality/Attitudes:
+        - Problematic
+        - Alone
+        - Lost
+        - Need of a spiritual guide
+
+With this information the strategy plan gave the following result and strategy plan. 
+
+
+<details>
+<summary>Strategy Plane - Viability/Feasibility Table</summary>
+
+![Strategy Table]()
+
+</details>
+
+### Scope
+### Structure
+### Skeleton
+### Surface
+
+
 
 ## Features
 ### Used Features
@@ -200,6 +263,7 @@ Each page of the website is responsive and easy to navigate. Below you will find
 ### Future Features
 - Implementing in the step section some javascript code to hide some of the content for the steps page, so that the user can interact with the page and decide to see more info or not.
 - Contact form in the About-Us page.
+
 
 ## Design
 ### Color Palette
