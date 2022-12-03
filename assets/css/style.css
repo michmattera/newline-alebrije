@@ -1327,6 +1327,10 @@ legend {
         border-radius: 0%;
         border: none;
     }
+    /*Congratulation page*/
+    .message>p {
+        font-size: 100%;
+    }
 }
 
 /*Media queries for max-width 500px*/
@@ -1510,5 +1514,14 @@ legend {
     /*3 div section*/
     .image>img {
         height: 40%;
+    }
+
+    /*Congratulation page*/
+    .main-title {
+        font-size: 150%;
+        margin-top: 5%;
+    }
+    .message>p {
+        font-size: 80%;
     }
 }
