@@ -186,7 +186,7 @@ Each page of the website is responsive and easy to navigate. Below you will find
 <dl>
     <dt><a href="index.html" target="_blank" alt="Newline Alebrije Home Page">Home Page</a></dt>
     <dd>
-    The content of this page is images and text. In summary, links go to different pages, to bring the user to fill out the form in the form. page or t know more about the company, it has a few reviews from the previous company to get straight away the trust of the user.
+    The content of this page is images and text. In summary, links go to different pages, to bring the user to fill out the form in the form. page or to know more about the company, it has a few reviews from the previous company to get straight away the trust of the user.
     <br />
     The homepage is divided in <strong>8</strong> different sections:
       <ol>
@@ -352,7 +352,7 @@ All pages content remains the same, features and display change as follows:
 
 - Navigation links get under the logo and the title on the left side.
 - The 4-section column gets to 2 section column.
-- Form.page get down to 1 form, under the other within the middle of the aside section.
+- Form.page get down to 1 form, under the other and in the middle the aside section.
 
 
 #### Screen under 750px
@@ -361,7 +361,7 @@ All pages content remains the same, features and display change as follows:
 
 - Text in the text-image section gets under the image.
 - The 2-section column gets to the 1-section column.
-- Three-section div gets to 1 column with 2 images at the top and the bottom of the central text section.
+- Three-section div gets to 1 column with 2 images at the top and the bottom, and in the middle the section with the text.
 
 
 ### Future Features
