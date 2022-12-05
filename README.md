@@ -27,11 +27,11 @@ On this website, you are going to get information about the alebrije, the compan
 
 This website was made for the first of five Milestone projects required to complete the Diploma in Software development (eCommerce Applications) program at The Code Institute. 
 
-The main requirements of this project are to use all the technologies learned so far, HTML5 and CSS3. 
+The main requirements of this project are to use all the technologies learned so far, **HTML5** and **CSS3**. 
 Data is presented to help users achieve their goals, e.g. learning about a product/service in which they are interested. The presentation of this data advances the site owner's goals, e.g. helps them market a product/service.
 
-In this case, the goal of the user is to know more about alebrijes and can match with one.
-The goal of the company is to get the user to complete the form and match it with the alebrije. Give more information to previous user and about the company.
+- In this case, the goal of the user is to know more about alebrijes and getting one by completing a form.
+- The goal of the company is to get the user to complete the form so they can give as much alebrijes as users that fill out the form. Give more information to previous user about alebrije, about the company and contact details in case user needs help.
 
 ## UX
 ### Ideal User Demographic
@@ -54,15 +54,15 @@ This website is for people who want to contact us for any proplems or any inform
 3. As a current user i would like to check the info about the alebrijes.
 
 #### Student-Curious outsider Goals
-This website is for user who would like to know more about the alebrije, about our company or is just seeking information for alebrijes.
+This website is for people who would like to know more about the alebrije, about our company or is just seeking information about alebrijes.
 1. As a Student/Curious outsider i would like to see any information about the alebrijes and the company.
 2. As a Student/Curious outsider i would like to see all the main information in the homepage, and have easy links to access more detailed information.
 
 ## Development-Planes
-1. To create a website that help the user to get all the information they need and to being able to get the product (alebrije).
-2. To create the website of a company in a fictonal world.
-3. To give the company a background story based on reality( from the real creator of alebrijes ) and changed the end to create the fictional world.
-4. To create a website that accomplish all user needs and design as above, to give comprehensive information based on this fictonal world. 
+To create a comprehensive website based on the user and company goals.
+It is set in a fantasy world, where this company can provide a product from the underworld.
+
+It has a background story in the about us page on how and who created this company in this fictional world. It explains the steps to get the product and as well in details the difference between the different kind of product you could get.
 
 ### Strategy
 Used to determine business goals and user needs.
@@ -70,11 +70,11 @@ Used to determine business goals and user needs.
 Business goals:
 - Get the user to fill out the form to match with the alebrije.
 - Give information about the product (Alebrije).
-- Give information about the step that the user has to do in order to get the product.
+- Give information about the step that the user has to do to get the product.
 - Give information about the company.
-- Give contact details to user.
+- Give the user contact details.
 
-User needs were determine dividing in different categories the users: 
+User needs were determined based on different target audiences: 
 
 - **Roles:**
     - Current users
@@ -82,7 +82,7 @@ User needs were determine dividing in different categories the users:
     - Student/Curious outsider
 
 - **Demographic:**
-    - Min 18 years old
+    - Minimum 18 years old
     - From all over the world
 
 - **Psychographic:**
@@ -95,7 +95,7 @@ User needs were determine dividing in different categories the users:
         - Lost
         - Need of a spiritual guide
 
-With this information the strategy plan gave the following result and strategy plan. 
+With the information above the strategy plan gave the following result. 
 
 
 <details>
@@ -106,7 +106,38 @@ With this information the strategy plan gave the following result and strategy p
 </details>
 
 ### Scope
+
+The scope plane, based on the goals established on the strategy plane, identified the following two categories.
+- Content Requirements:
+    - The user will be looking for:
+        - Information on the alebrije
+        - Detailed information on the 4 kinds of alebrije
+        - Steps to follow in order to get the alebrije
+            1. Just on the 2nd of november
+            2. Make an altar to connect with the other world
+            3. Prepare 2 dishes
+- Functionality Requirements:
+    - The user will be able to:
+        - Be able to easily navigate the site to find the information they require.
+        - Be able to fill out the form to match with their unique alebrije.
+
+
 ### Structure
+
+The structure was then created with a site map for easy and intuitive navigation.
+From left to right from the most basic information :
+- The homepage 
+- What is an alebrije
+- The steps you need to follow to get one 
+- The form to actually get one
+- About us page and the information about company, founder, contact details
+
+<details>
+<summary>Strategy Plane - Viability/Feasibility Table</summary>
+
+![Structure map](/assets/css/images/read-me-images/)
+
+</details>
 ### Skeleton
 ### Surface
 
