@@ -181,7 +181,7 @@ I used embedded youtube videos to explain a few more steps to follow.
 
 
 ### Existing Features
-#### Screen bigger than ... 
+#### Screen bigger than 1050px 
 Each page of the website is responsive and easy to navigate. Below you will find detailed information on the structure and content of the page.
 <dl>
     <dt><a href="index.html" target="_blank" alt="Newline Alebrije Home Page">Home Page</a></dt>
@@ -240,7 +240,8 @@ Each page of the website is responsive and easy to navigate. Below you will find
 <dl>
     <dt><a href="steps.html" target="_blank" alt="Newline Steps page">Steps Page</a></dt>
     <dd>
-    The content of this page is images, text, and videos embedded from youtube. To give information to the user about the <strong>steps</strong>that he will have to do in order <strong>to get the alebrije.</strong>
+    The content of this page is images, text, and videos embedded from youtube. To give information to the user about the <strong>steps</strong> that he will have to do in order <strong>to get the alebrije.</strong>
+    <br />
     The user will have to complete different steps:
     - Wait for the 2nd of November because just on that day the bridge from the underworld opens.
     - Make an altar to make the connection with the other world with a few different elements on it.
@@ -324,9 +325,47 @@ Each page of the website is responsive and easy to navigate. Below you will find
            <li> This section is the footer.
            </li>
     </dd>       
-</dl>    
+</dl> 
+<dl>
+    <dt><a href="congratulation.html" target="_blank" alt="Newline Congratulation page">Comgratulation Page</a></dt>
+    <dd>
+    The content of this page is images and a text. Which thanks the user for entering the completing the form on the Form.page.
+    </dd>       
+</dl>
+<dl>
+    <dt><a href="404.html" target="_blank" alt="Newline 404 error page">404 Page</a></dt>
+    <dd>
+    The content of this page is images and a text. Which let the user know that there has been an error and give the possibility to go back to the homepage.
+    </dd>       
+</dl>
+<dl>
+    <dt><a href="500.html" target="_blank" alt="Newline 500 error page">500 Page</a></dt>
+    <dd>
+    The content of this page is images and a text. Which let the user know that there has been an error and give the possibility to go back to the homepage.
+    </dd>       
+</dl>
+
+
+#### Screen betweenn 1050px and 750px
+
+All pages content remains the same, features and display change as follows:
+
+- Navigation links get under the logo and the title on the left side.
+- The 4-section column gets to 2 section column.
+- Form.page get down to 1 form, under the other within the middle of the aside section.
+
+
+#### Screen under 750px
+
+All pages content remains the same, features and display change as follows:
+
+- Text in the text-image section gets under the image.
+- The 2-section column gets to the 1-section column.
+- Three-section div gets to 1 column with 2 images at the top and the bottom of the central text section.
+
 
 ### Future Features
+
 - Implementing in the step section some javascript code to hide some of the content for the steps page, so that the user can interact with the page and decide to see more info or not.
 - Contact form on the About-Us page.
 
