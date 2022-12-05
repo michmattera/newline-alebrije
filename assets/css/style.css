@@ -80,7 +80,7 @@ h1 {
     text-transform: uppercase;
 }
 
-#menu a:hover {
+#menu a: hover {
     border-bottom: 3px solid #ff914d;
 }
 
@@ -146,7 +146,7 @@ hr {
     color: #FAF9F5;
 }
 
-/*Button tin first section to fill the form*/
+/*Button in the first section to fill the form*/
 .complete-form {
     background-color: #FAF9F5;
     font-size: 75%;
@@ -291,7 +291,7 @@ a>h3:hover {
     margin-top: 2%;
 }
 
-i {
+I {
     font-size: 100%;
     margin: 1%;
     padding: 2% 1%;
@@ -339,7 +339,7 @@ i {
     letter-spacing: 40%;
 }
 
-.social-media>a:hover {
+.social-media>a: hover {
     color: #FAF9F5;
 }
 
@@ -391,21 +391,21 @@ i {
 }
 
 .water {
-    background-image: url('../css/images/water-alebrije.jpg');
+    background-image: URL('../css/images/water-alebrije.jpg');
 }
 
 .fire {
-    background-image: url('../css/images/fire-alebrije.jpg');
+    background-image: URL('../css/images/fire-alebrije.jpg');
 
 }
 
 .air {
-    background-image: url('../css/images/air-alebrije.jpg');
+    background-image: URL('../css/images/air-alebrije.jpg');
 
 }
 
 .earth {
-    background-image: url('../css/images/earth-alebrije.jpg');
+    background-image: URL('../css/images/earth-alebrije.jpg');
 
 }
 
@@ -614,7 +614,7 @@ legend {
     float: left;
 }
 
-/*Contact us section in about us page*/
+/*Contact us section on about us page*/
 .contact-us {
     display: flex;
     width: 95%;
@@ -668,7 +668,7 @@ legend {
     font-weight: bold;
 }
 
-/*container form and terms and condition*/
+/*container form and terms and conditions*/
 .form-terms-container {
     display: flex;
     width: 90%;
@@ -790,12 +790,12 @@ legend {
 
 .container-image-link {
     top: 5%;
-    background-image: url('../css/images/alebrije-oaxaca-football.jpg');
+    background-image: URL('../css/images/alebrije-Oaxaca-football.jpg');
 }
 
 .container-image-link2 {
     top: 30%;
-    background-image: url('../css/images/astrology-element.jpg');
+    background-image: URL('../css/images/astrology-element.jpg');
 }
 
 .container-image-link>p,
@@ -819,7 +819,7 @@ legend {
 .message {
     color: #FAF9F5;
     background-position: center;
-    background-image: url('../css/images/alebrije-woods.jpg');
+    background-image: URL('../css/images/alebrije-woods.jpg');
 }
 
 .message>p,
@@ -836,7 +836,7 @@ legend {
 .error-message {
     color: #FAF9F5;
     background-position: bottom;
-    background-image: url('../css/images/underworld.jpg');
+    background-image: URL('../css/images/underworld.jpg');
 }
 
 /*For screen with max-width of 1065 px-tablet size*/
@@ -991,7 +991,7 @@ legend {
         margin: 4% 5%;
     }
 
-    i {
+    I {
         font-size: 90%;
     }
 
@@ -1261,7 +1261,7 @@ legend {
         height: 1000px;
     }
 
-    /*404/505 page button*/
+    /*404/505-page button*/
     .button {
         margin: 10%;
         height: 40px;
