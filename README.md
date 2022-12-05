@@ -133,39 +133,52 @@ From left to right from the most basic information :
 - About us page and the information about company, founder, contact details
 
 <details>
-<summary>Strategy Plane - Viability/Feasibility Table</summary>
+<summary>Structure Plane - Site-Map</summary>
 
-![Structure map](/assets/css/images/read-me-images/)
+![Structure map](/assets/css/images/read-me-images/site-map.png)
 
 </details>
-### Skeleton
-### Surface
 
+
+### Skeleton
+
+Wireframes were made to organize and make the skeleton of the website. The wireframes were created using a desktop version of Balsamiq.
+
+
+<details>
+<summary>Skeleton Plane - Balsamiq-Wireframes</summary>
+
+![Structure map](/assets/css/images/read-me-images/...)
+
+</details>
 
 
 ## Features
+
 ### Used Features
-- Header = The header is composed by the name of the company and a logo( that is a mix between a horse and a bird like an alebrije) to give identity to company throughout all the pages.
-- Navigation links = Navigation links are in the right top of every page, to help the user to go to a different or specific page, and for easy navigation.
+- Header = The header is composed by the name of the company and a logo( that is a mix between a horse and a bird like an        alebrije) to give identity to company throughout all the pages.
+- Navigation links = Navigation links are at the top of every page, to help the user to go to a different or specific page, and for easy navigation.
 - Buttons and links =  They are used to go to a specific section within the same page or in a specific section on a different page to facilitate the user to find the section that he is interested in easily.
-- Images and videos = They are used to give the user visive stimulation. Or another option to follow the steps or the information without reading through everything. Used embed youtube videos to explain a few more steps to follow.
+- Images and videos = They are used to give the user visive stimulation. Or another option to follow the steps or the information without reading through everything. 
+Used embed youtube videos to explain a few more steps to follow.
 - Embed map = Used an iframe from google map for the location of the pick up point for the alebrije.
-- Social media = Used social media icon on a non-static footer to give the possibility on the user to follow us in instagram , facebook, youtube and the gitgub developer account, with related content about alebrijes and purchase of alebrije's in real life. - Icons = The icons were chosen from the free fontawesome website representing the different social media.
+- Social media = Used social media icon on a non-static footer to give the possibility on the user to follow us in instagram , facebook, youtube and the gitgub developer account, with related content about alebrijes and purchase of alebrije's in real life. - Icons = The icons were chosen from the free [Fontawesome](https://fontawesome.com/search?o=r&m=free) website representing the different social media.
 - Contacts info = Used to give the user the possibility to contact for any information or alebrijes releted problems.
-- 404 page=
-- 500 page =
+- Congratulation page = To let know the user that the form was submitted correctly and to tkank the user.
+- 404 page = To let know the user that there was an error. Give the user a very small background story that they are in the wrong place, and a button to go to the homepage.
+- 500 page = Same of the 404 error page.
 
 ### Common Features
-- All pages header is composed by:
+- All pages header is at the top of the page, is static and is composed by:
     1. Logo (Made with canva)
     2. Name of company (Searched based on alebrije in [Businessnamegenerator](https://businessnamegenerator.com/))
-    3. Navigation links to other pages (On the right side of the page in the same line of the logo and the name of the company)
+    3. Navigation links to other pages (At the top of the page)
     4. The first three pages are composed by a text-image section. The image that occupy 2/3 of the width of the page, and a text section that occupy 1/3 of the page. The image and text change from right to left from one section to another to give movement to the page.
     5.  The first 4 pages has a button rapresented by an arrow that point on the right at the bottom of the page, just before the footer that brings the user to the next page without having to scroll up and find the navigation links to go to the next page.
     6. A four column section with a main title , that is needed to go to a different page or another section on the same page. It can be with images to get the user attention or just with a brief explanation of the specific section.
     7. All footer pages are composed by:
     -  Icons that links to social media
-    -  Non-static line with height of 55px and 100% width with background color: #ff914d and opacity of 0.9
+    -  Non-static line with height of 55px and 100% width with background color: #ff914d and opacity of 0.9 .
 
 
 ### Existing Features
@@ -174,7 +187,7 @@ Each page of the website is responsive and easy to navigate. Below you will find
 <dl>
     <dt><a href="index.html" target="_blank" alt="Newline Alebrije Home Page">Home Page</a></dt>
     <dd>
-    The content of this page are text and images , representing in summary the different sections that will be described in the next pages. You have different section and links to go to the right page based on the information you will like to acquire.
+    The content of this page are images and text. In summary links to go to different pages, to bring the user to fill out the form in the form.page or t know more about the company, it has a few reviews from previous company to get straight away the trust of the user.
     <br />
     The homepage is divided in <strong>8</strong> different sections:
       <ol>
@@ -200,7 +213,7 @@ Each page of the website is responsive and easy to navigate. Below you will find
 <dl>  
     <dt><a href="alebrije.html" target="_blank" alt="Newline Alebrije Alebrije page">Alebrije Page</a></dt>
     <dd>
-    The content of this page are images and text, to give information to the user about what is an alebrije and the difference between the <strong>4 types of alebrijes.</strong>
+    The content of this page are images and text. To give information to the user about what is an alebrije and the difference between the <strong>4 types of alebrijes.</strong>
     <br />
     The Alebrije page is divided in <strong>10</strong> different sections:
         <ol>
@@ -228,7 +241,11 @@ Each page of the website is responsive and easy to navigate. Below you will find
 <dl>
     <dt><a href="steps.html" target="_blank" alt="Newline Steps page">Steps Page</a></dt>
     <dd>
-    The content of this page are images, text and videos embeded from youtube to give information to the user about the <strong>steps</strong>that he will have to do in order <strong>to get the alebrije.</strong>
+    The content of this page are images, text and videos embeded from youtube. To give information to the user about the <strong>steps</strong>that he will have to do in order <strong>to get the alebrije.</strong>
+    The user will have to complete different steps:
+    - Wait for the 2nd of November because just on that day the bridge from the underworld open.
+    - Make an altar to make the connection with the other world with few different element on it.
+    - Prepare 2 dishes: "Pan de Muerto" and the favorite dish of the user.
     <br />
     This is the biggest page and the one with more information .
     <br />
@@ -272,9 +289,28 @@ Each page of the website is responsive and easy to navigate. Below you will find
     </dd>
 </dl> 
 <dl>
+    <dt><a href="form.html" target="_blank" alt="Newline Form page">Form Page</a></dt>
+    <dd>
+    The content of this page are images, text, external links and a <strong>form</strong>to complete. To get the information from the user so that he can match with the <strong>Alebrije</strong>. It has a s well 2 diffrent external links if the user wants more information about the alebrije football team and astrological element.
+    <br />
+    The About-Us page is divided in <strong>5</strong> different sections:
+    <ol>
+           <li> This section is the header.
+           </li>
+           <li> This section is a form with text-input, radio, checkbox and a button that accept terms and condition , one that submit the form and another to reset the form.
+           </li>
+           <li>This section is a form with terms and condition.
+           </li>
+           <li>This section is an aside section that is or between the 2 froms under 600px or on the right side of the first form for screen larger than 600px.
+           </li>
+           <li> This section is the footer.
+           </li>
+    </dd>       
+</dl>    
+<dl>
     <dt><a href="about-us.html" target="_blank" alt="Newline About-Us page">About-Us Page</a></dt>
     <dd>
-    The content of this page are images, text and an embeded map from google map to give information to the user about the <strong>company</strong>, <strong>the founder</strong> and the <strong>location.</strong>
+    The content of this page are images, text and an embeded map from google map. To give information to the user about the <strong>company</strong>, <strong>the founder</strong> and the <strong>location.</strong>
     <br />
     The About-Us page is divided in <strong>5</strong> different sections:
     <ol>
