@@ -1,6 +1,6 @@
 # Newline Alebrije
 
-![Newline Alebrije Mockup Images]()
+![Newline Alebrije Mockup Images](/assets/css/images/read-me-images/screenshot-am-I-responsive.PNG)
 
 [View the live project here]()
 
