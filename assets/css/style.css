@@ -392,21 +392,21 @@ I {
 }
 
 .water {
-    background-image: URL('../css/images/water-alebrije.jpg');
+    background-image: URL('../images/water-alebrije.jpg');
 }
 
 .fire {
-    background-image: URL('../css/images/fire-alebrije.jpg');
+    background-image: URL('../images/fire-alebrije.jpg');
 
 }
 
 .air {
-    background-image: URL('../css/images/air-alebrije.jpg');
+    background-image: URL('../images/air-alebrije.jpg');
 
 }
 
 .earth {
-    background-image: URL('../css/images/earth-alebrije.jpg');
+    background-image: URL('../images/earth-alebrije.jpg');
 
 }
 
@@ -791,12 +791,12 @@ legend {
 
 .container-image-link {
     top: 5%;
-    background-image: URL('../css/images/alebrije-oaxaca-football.jpg');
+    background-image: URL('../images/alebrije-oaxaca-football.jpg');
 }
 
 .container-image-link2 {
     top: 30%;
-    background-image: URL('../css/images/astrology-element.jpg');
+    background-image: URL('../images/astrology-element.jpg');
 }
 
 .container-image-link>p,
@@ -820,7 +820,7 @@ legend {
 .message {
     color: #FAF9F5;
     background-position: center;
-    background-image: URL('../css/images/alebrije-woods.jpg');
+    background-image: URL('../images/alebrije-woods.jpg');
 }
 
 .message>p,
@@ -837,7 +837,7 @@ legend {
 .error-message {
     color: #FAF9F5;
     background-position: bottom;
-    background-image: URL('../css/images/underworld.jpg');
+    background-image: URL('../images/underworld.jpg');
 }
 
 /*For screen with max-width of 1065 px-tablet size*/
