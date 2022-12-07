@@ -20,6 +20,11 @@
     1. [ Color Palette](#Color-Palette)
     2. [ Typography](#Typography)
     3. [Visuals](#Visuals)
+5. [Issues and Bugs](#Issues-and-Bugs)
+6. [Technology Used](#Technology-Used)
+    1. [Languages Used](#Languages-Used)
+    2. [External Programs-Website Used](#External-Programs-Website-Used)
+
 ## Introduction
 This is a website set in a fantasy world, where exists the **alebrije**, an animal found in the world of death, that is a spiritual guide. Is a website of a company that can match you with an alebrije from the other world and sends it to your house or a specific location.
 
@@ -443,6 +448,43 @@ The other images were used to represent real scenarios or objects.
  2. To cook and prepare the <em>Pan De Muerto</em>.
 
 
+## Issues and Bugs
+
+Many different issues and bugs were encountered by the developer throughout the project.
+Below a short list of the most important bugs and issues found , along with solutions for them :
+
+- **responsive images** = When changing the size of the screen most of the images were just disappearing from the screen. The problem was that there was the % of the container but not an exact height set to the child , making all content disappearing.
+
+ Resolved : By searching in [Stack-Overflow](https://stackoverflow.com/) .
+
+- **Link to go to map** = A bug was found when clicking on the link in the homepage, it should have brought the user directly to the section of the map but instead was bringing the user to the about-us.html page, first image section and not the map section. 
+
+Resolved : Found out that the first image of the about-us.html page had in common the name of the id gave to the map section. Changed the name from location to map and it resolved the issue.
+
+
+## Technology Used
+
+### Languages Used
+The main requirements of this project are to use all the technologies learned so far, [HTML5](https://tutorial.techaltum.com/html5.html) and [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS).
+
+### External Programs-Website Used
+
+- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
+    - Google fonts was used to import the fonts "Arapey", "Work Sans", "Oswald" and "Serif" , "Sans-serif" for backup fonts into the style.css file. These fonts were used throughout the project.
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
+     - Font Awesome was used on almost all pages throughout the website to import icons (e.g. social media icons).
+- [GitPod](https://gitpod.io/ "Link to GitPod homepage")
+     - GitPod was used for writing code, commiting, and then pushing to GitHub.
+- [GitHub](https://github.com/ "Link to GitHub")
+     - GitHub was used to store the project after pushing
+- [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
+     - Balsamiq was used to create the wireframes during the design phase of the project.
+- [Google Maps](https://www.google.com/maps "Link to Google Maps")
+     - Google maps was used for the embeded map to use for the location of the company.  
+- [Canva](https://www.canva.com/ "Link to Canva homepage")
+     - Canva was used to create the logo of the company, the strategy plan and the map site for the read.me file.
+- [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
+     - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
 
 
