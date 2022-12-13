@@ -1,6 +1,6 @@
 # NEWLINE ALEBRIJE
 
-![Newline Alebrije Mockup Images](/assets/css/images/read-me-images/screenshot-am-I-responsive.PNG)
+![Newline Alebrije Mockup Images](/assets/images/read-me-images/screenshot-am-I-responsive.PNG)
 
 [View the live project here]()
 
@@ -24,6 +24,7 @@
 6. [Technology Used](#Technology-Used)
     1. [Languages Used](#Languages-Used)
     2. [External Programs-Website Used](#External-Programs-Website-Used)
+7. [Testing](#Testing)
 
 ## Introduction
 This is a website set in a fantasy world, where exists the **alebrije**, an animal found in the world of death, that is a spiritual guide. Is a website of a company that can match you with an alebrije from the other world and sends it to your house or a specific location.
@@ -106,7 +107,7 @@ With the information above, the strategy plan gave the following result.
 <details>
 <summary>Strategy Plane - Viability/Feasibility Table</summary>
 
-![Strategy Table](/assets/css/images/read-me-images/Strategy%20plan.png)
+![Strategy Table](/assets/images/read-me-images/Strategy%20plan.png)
 
 </details>
 
@@ -139,7 +140,7 @@ From left to right from the most basic information :
 <details>
 <summary>Structure Plane - Site-Map</summary>
 
-![Structure map](/assets/css/images/read-me-images/site-map.png)
+![Structure map](/assets/images/read-me-images/site-map.png)
 
 </details>
 
@@ -152,7 +153,7 @@ Wireframes were made to organize and make the skeleton of the website. The wiref
 <details>
 <summary>Skeleton Plane - Balsamiq-Wireframes</summary>
 
-![Structure map](/assets/css/images/read-me-images/...)
+![Structure map](/assets/images/read-me-images/...)
 
 </details>
 
@@ -383,7 +384,7 @@ The main colors for the website were chosen with [Colourmind](http://colormind.i
 <details>
 <summary>Colour Palette</summary>
 
-![Colour Palette](/assets/css/images/read-me-images/Colormind-Palette.PNG)
+![Colour Palette](/assets/images/read-me-images/Colormind-Palette.PNG)
 
 </details>
 The main color is #ff914d named bright orange and is complemented by #252441 named royal curtsy which is a dark shade of blue-magenta.
@@ -485,6 +486,10 @@ The main requirements of this project are to use all the technologies learned so
      - Canva was used to create the logo of the company, the strategy plan and the map site for the read.me file.
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
      - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+
+ ## Testing
+
+Testing information can be found in a separate testing [file](TESTING.md "Link to testing file")
 
 
 
