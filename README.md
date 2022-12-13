@@ -194,6 +194,7 @@ Each page of the website is responsive and easy to navigate. Below you will find
     <dd>
     The content of this page is images and text. In summary, links go to different pages, to bring the user to fill out the form in the form. page or to know more about the company, it has a few reviews from the previous company to get straight away the trust of the user.
     <br />
+    <br />
     The homepage is divided in <strong>8</strong> different sections:
       <ol>
             <li> This section is the header.
@@ -219,6 +220,7 @@ Each page of the website is responsive and easy to navigate. Below you will find
     <dt><a href="alebrije.html" target="_blank" alt="Newline Alebrije Alebrije page">Alebrije Page</a></dt>
     <dd>
     The content of this page is images and text. To give information to the user about what is an alebrije and the difference between the <strong>4 types of alebrijes.</strong>
+    <br />
     <br />
     The Alebrije page is divided in <strong>10</strong> different sections:
         <ol>
@@ -254,6 +256,7 @@ Each page of the website is responsive and easy to navigate. Below you will find
     - Prepare 2 dishes: "Pan de Muerto" and the favorite dish of the user.
     <br />
     This is the biggest page and the one with more information.
+    <br />
     <br />
     The Steps page is divided in <strong>7</strong> different sections and <strong>8</strong> sub-sections:
        <ol>
@@ -299,6 +302,7 @@ Each page of the website is responsive and easy to navigate. Below you will find
     <dd>
     The content of this page is images, text, external links, and a <strong>form</strong>to complete. To get the information from the user so that he can match with the <strong>Alebrije</strong>. It has as well 2 different external links if the user wants more information about the alebrije football team and astrological elements.
     <br />
+    <br />
     The About-Us page is divided in <strong>5</strong> different sections:
     <ol>
            <li> This section is the header.
@@ -317,6 +321,7 @@ Each page of the website is responsive and easy to navigate. Below you will find
     <dt><a href="about-us.html" target="_blank" alt="Newline About-Us page">About-Us Page</a></dt>
     <dd>
     Tthe content of this page is images, text, and an embedded map from google Maps. To give information to the user about the <strong>company</strong>, <strong>the founder</strong> and the <strong>location.</strong>
+    <br />
     <br />
     The About-Us page is divided in <strong>5</strong> different sections:
     <ol>

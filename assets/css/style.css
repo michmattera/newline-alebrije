@@ -17,6 +17,7 @@ body {
 h2 {
     color: #FAF9F5;
 }
+
 .blue {
     color: #252441;
 }
@@ -49,7 +50,9 @@ h2 {
 }
 
 /*Logo*/
-
+#logo{
+    min-width: 30px;
+}
 #logo,
 h1 {
     float: left;
@@ -709,6 +712,7 @@ legend {
     border: 1px solid #252441;
     border-radius: 4px;
 }
+
 .zodiacal_sign {
     margin: 2.5% 3%;
     display: block;
@@ -724,6 +728,7 @@ legend {
     box-sizing: border-box;
     font-size: 100%;
 }
+
 .form>label {
     margin: 5% 3%;
 }
@@ -1137,12 +1142,14 @@ legend {
 
 /*Media queries for max-width 750*/
 @media screen and (max-width: 750px) {
+
     .image-text-container>img,
     .text-side,
     .small-image-text>img,
     .big-text-side {
         width: 100%;
     }
+
     .image-text-container>img {
         max-width: 1000px;
     }
@@ -1243,7 +1250,7 @@ legend {
     }
 
     .small-image-text>img {
-        height: 55%;
+        height: 50%;
     }
 
     .big-text-side {
@@ -1284,7 +1291,8 @@ legend {
     .image>img {
         display: inline-block;
     }
-    .image{
+
+    .image {
         height: 1000px;
         margin: 3% 0;
     }

@@ -1,19 +1,19 @@
-# NEWLINE ALEBRIJE
+# NEWLINE ALEBRIJE TESTING  
 
 [Read Me file](/README.md)
 
 [View Github repository](https://github.com/michmattera/newline-alebrije)
 
-![Newline Alebrije Mockup Images](/assets/images/read-me-images/screenshot-am-I-responsive.PNG)
-
 [View the live project here]()
 
 
-## Testing
-
-### Table of contents
+## Table of contents
 ***
-
 1. [Browser Testing](#Browser-Testing)
-2. []()
+2. [Manual Testing](#Manual-Testing)
+    1. [Navigation Links](#Navigation-Links)
+    2. [Specific section](#Specific-Section)
+    3. [Social-Media](#Social-media)
+3. [Code validator](#Code-Validator)
+4. [User testing](#User-testing)
 
