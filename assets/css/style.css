@@ -17,6 +17,9 @@ body {
 h2 {
     color: #FAF9F5;
 }
+.blue {
+    color: #252441;
+}
 
 /*Header*/
 #parent-container-header {
@@ -56,15 +59,10 @@ h1 {
 h1 {
     font-size: 40px;
     text-transform: uppercase;
-    float: left;
     width: fit-content;
     text-align: center;
     color: #ff914d;
     margin-left: 3%;
-}
-
-.blue {
-    color: #252441;
 }
 
 /*Navigation links*/
@@ -166,7 +164,6 @@ hr {
     margin-top: 5%;
 }
 
-
 /*main title*/
 .main-title {
     text-align: center;
@@ -177,13 +174,11 @@ hr {
 }
 
 /*Steps*/
-
 .steps-container {
     width: 90%;
     height: 350px;
     margin: 3% 5%;
     text-align: center;
-
     display: flex;
     overflow: hidden;
 }
@@ -220,7 +215,6 @@ a>h3:hover {
 }
 
 /*central section*/
-
 .central-section {
     text-align: center;
     font-size: 25px;
@@ -228,7 +222,6 @@ a>h3:hover {
     display: block;
     color: #FAF9F5;
     background-color: #252441;
-
 }
 
 .center-text {
@@ -237,17 +230,14 @@ a>h3:hover {
 }
 
 /*Review section*/
-
 .review-container {
     color: #fff;
     text-align: left;
     width: 90%;
     height: 200px;
     margin: 3% 4.5% 2% 4.5%;
-
     float: left;
     overflow: hidden;
-
 }
 
 .review-child {
@@ -256,7 +246,6 @@ a>h3:hover {
     overflow: hidden;
     background-color: #252441;
     position: relative;
-
 }
 
 .review-container>.review-child {
@@ -267,12 +256,10 @@ a>h3:hover {
 }
 
 .reviews>.text-review {
-
     color: #FAF9F5;
     margin: 8% 0 0 2%;
     font-size: 110%;
     padding: 1%;
-
 }
 
 .name {
@@ -309,7 +296,6 @@ I {
     float: right;
     margin: 0.5% 0 5% 0;
     font-size: 200%;
-
 }
 
 /*Footer*/
@@ -352,7 +338,6 @@ I {
     margin: 5% 15% 5% 15%;
     text-align: center;
     border-radius: 15%;
-
     color: #FAF9F5;
     background-color: #252441;
 }
@@ -397,21 +382,17 @@ I {
 
 .fire {
     background-image: URL('../images/fire-alebrije.webp');
-
 }
 
 .air {
     background-image: URL('../images/air-alebrije.webp');
-
 }
 
 .earth {
     background-image: URL('../images/earth-alebrije.webp');
-
 }
 
 /*Text-small image section*/
-
 .small-image-text>img {
     width: 32%;
     height: 100%;
@@ -428,7 +409,6 @@ I {
     width: 100%;
     margin: 5% 0;
 }
-
 
 .big-text-side {
     overflow: hidden;
@@ -458,11 +438,9 @@ I {
     text-transform: uppercase;
     font-size: 150%;
     color: #ff914d;
-
 }
 
 /*STEPS-PAGE*/
-
 /*container with 3 divs*/
 .image>img {
     width: 30%;
@@ -490,7 +468,6 @@ I {
     color: #FAF9F5;
     height: 100%;
     width: 35%;
-
     border: 10px solid #ff914d;
     border-radius: 10%;
     box-sizing: border-box;
@@ -530,7 +507,6 @@ li>p {
     width: 90%;
     text-align: center;
     margin: 5%;
-
 }
 
 .list-title {
@@ -545,7 +521,6 @@ li>p {
     float: right;
     width: 25%;
     box-sizing: border-box;
-
 }
 
 .container-small-image,
@@ -631,7 +606,6 @@ legend {
 
 .contact-details>p,
 .map-side>p {
-
     font-size: 140%;
     color: inherit;
 }
@@ -658,7 +632,6 @@ legend {
     color: #ff914d;
     text-align: center;
 }
-
 
 /*Disclaimer*/
 .disclaimer {
@@ -729,22 +702,16 @@ legend {
     width: 100%;
 }
 
+.zodiacal_sign,
+.text-input {
+    border: 1px solid #252441;
+    border-radius: 4px;
+}
 .zodiacal_sign {
     margin: 2.5% 3%;
     display: block;
     font-size: 110%;
     font-family: inherit;
-    border: 1px solid #252441;
-    border-radius: 4px;
-}
-
-.form>label {
-    margin: 5% 3%;
-}
-
-.radio-input {
-    width: 7%;
-    margin: 0;
 }
 
 .text-input {
@@ -752,10 +719,16 @@ legend {
     padding: 12px 20px;
     margin: 2.5%;
     display: inline-block;
-    border: 1px solid #252441;
-    border-radius: 4px;
     box-sizing: border-box;
     font-size: 100%;
+}
+.form>label {
+    margin: 5% 3%;
+}
+
+.radio-input {
+    width: 7%;
+    margin: 0;
 }
 
 .button-container {
@@ -893,7 +866,6 @@ legend {
         display: block;
     }
 
-
     /*test text side*/
     .text-side {
         width: 35%;
@@ -941,7 +913,6 @@ legend {
         width: 90%;
         height: 500px;
         margin: 3% 5%;
-
         display: flex;
         flex-wrap: wrap;
     }
@@ -973,7 +944,6 @@ legend {
         margin: 5% 3%;
     }
 
-
     .child-central-section {
         margin: 5%;
         font-size: 130%;
@@ -998,17 +968,14 @@ legend {
     }
 
     .reviews>.text-review {
-
         color: #FAF9F5;
         margin: 10% 0 0 3%;
-
         height: 200px;
         font-size: 120%;
     }
 
     .review-child {
         max-height: 100%;
-
         width: 40%;
         height: 250px;
         margin: 3% 5%;
@@ -1059,10 +1026,7 @@ legend {
         font-size: 200%;
     }
 
-    .text>p {
-        font-size: 95%;
-    }
-
+    .text>p,
     .instruction>p {
         font-size: 95%;
     }
@@ -1172,8 +1136,13 @@ legend {
 
 /*Media queries for max-width 750*/
 @media screen and (max-width: 750px) {
-    .image-text-container>img {
+    .image-text-container>img,
+    .text-side,
+    .small-image-text>img,
+    .big-text-side {
         width: 100%;
+    }
+    .image-text-container>img {
         max-width: 1000px;
     }
 
@@ -1189,10 +1158,6 @@ legend {
 
     .direction2 {
         flex-direction: column-reverse;
-    }
-
-    .text-side {
-        width: 100%;
     }
 
     .text-side>h2 {
@@ -1215,35 +1180,35 @@ legend {
     }
 
     /*Form Page*/
-
     .container-image-link,
     .container-image-link2 {
         width: 90%;
         margin: 5%;
     }
 
-    .container-links {
-        width: 95%;
+    .container-links,
+    .form-terms-container {
         align-items: center;
         display: flex;
         flex-direction: column;
+    }
+
+    .container-links {
         margin: 2.5%;
     }
 
     .terms-condition,
-    .alebrije-form {
+    .alebrije-form,
+    .container-links {
         width: 95%;
     }
 
     .form-terms-container {
-        display: flex;
         width: 90%;
         margin: 3% 5%;
         font-size: 100%;
         color: #252441;
-        align-items: center;
         position: relative;
-        flex-direction: column;
     }
 
     .form {
@@ -1271,21 +1236,18 @@ legend {
     }
 
     /*big text and small image section*/
-
     .small-image-text {
         height: 1000px;
         margin: 5% 0;
     }
 
     .small-image-text>img {
-        width: 100%;
         height: 55%;
     }
 
     .big-text-side {
         font-size: 75%;
         height: 300%;
-        width: 100%;
         margin: 2.5% 0 0 0;
         border-radius: 0%;
         border: none;
@@ -1295,7 +1257,6 @@ legend {
         font-size: 87%;
         margin-top: 20%;
     }
-
 }
 
 /*Media queries for max-width 605px*/
@@ -1318,16 +1279,18 @@ legend {
         margin: 5%;
     }
 
-    .image {
+    .image,
+    .image>img {
+        display: inline-block;
+    }
+    .image{
         height: 1000px;
         margin: 3% 0;
-        display: inline-block;
     }
 
     .image>img {
         width: 100%;
         height: 50%;
-        display: inline-block;
     }
 
     /*Congratulation page*/
@@ -1366,11 +1329,11 @@ legend {
     }
 
     .steps-container {
-        width: 100%;
         height: 1000px;
         margin: 0;
     }
 
+    .steps-container,
     .steps-container>.steps-child {
         width: 100%;
     }
@@ -1420,14 +1383,17 @@ legend {
     }
 
     /*Central section*/
-    .child-central-section {
+    .child-central-section,
+    .container-central-section {
         margin: 5%;
-        font-size: 110%;
     }
 
     .container-central-section {
         border-radius: 10%;
-        margin: 5%;
+    }
+
+    .child-central-section {
+        font-size: 110%;
     }
 
     .center-text {
@@ -1463,10 +1429,7 @@ legend {
     }
 
     /*Steps page*/
-    .instruction>p {
-        font-size: 100%;
-    }
-
+    .instruction>p,
     .instruction {
         font-size: 100%;
     }
@@ -1509,7 +1472,8 @@ legend {
         flex-direction: column;
     }
 
-    .contact-details {
+    .contact-details,
+    .map-side {
         width: 90%;
         margin: 5%;
         text-align: center;
@@ -1517,12 +1481,6 @@ legend {
 
     .contact-details>p {
         margin: 5% 0;
-    }
-
-    .map-side {
-        text-align: center;
-        width: 90%;
-        margin: 5%;
     }
 
     /*3 divs section*/
@@ -1565,7 +1523,6 @@ legend {
     }
 }
 
-
 /*Media queries for max-width 300px*/
 @media screen and (max-width: 300px) {
     #company-name {
@@ -1574,7 +1531,7 @@ legend {
     }
 
     .social-media {
-        font-size: 145%;
+        font-size: 149%;
     }
 
     .text-side>p {
