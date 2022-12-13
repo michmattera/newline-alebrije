@@ -49,11 +49,13 @@ h2 {
 }
 
 /*Logo*/
+
 #logo,
 h1 {
     float: left;
     margin-left: 10px;
     width: 15%;
+    height: auto;
 }
 
 h1 {
@@ -73,8 +75,8 @@ h1 {
 #menu {
     float: right;
     margin: 3% 20px;
-    letter-spacing: 2px;
-    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-size: 18px;
     text-transform: uppercase;
 }
 
@@ -846,7 +848,6 @@ legend {
     #logo {
         width: 9%;
         text-align: center;
-        align-items: center;
     }
 
     #company-name {
