@@ -251,9 +251,14 @@ Each page of the website is responsive and easy to navigate. Below you will find
     The content of this page is images, text, and videos embedded from youtube. To give information to the user about the <strong>steps</strong> that he will have to do in order <strong>to get the alebrije.</strong>
     <br />
     The user will have to complete different steps:
-    - Wait for the 2nd of November because just on that day the bridge from the underworld opens.
-    - Make an altar to make the connection with the other world with a few different elements on it.
-    - Prepare 2 dishes: "Pan de Muerto" and the favorite dish of the user.
+    <ol>
+        <li> Wait for the 2nd of November because just on that day the bridge from the underworld opens.
+        </li>
+        <li> Make an altar to make the connection with the other world with a few different elements on it.
+        </li>
+        <li> Prepare 2 dishes: "Pan de Muerto" and the favorite dish of the user.
+        </li>
+    </ol>
     <br />
     This is the biggest page and the one with more information.
     <br />

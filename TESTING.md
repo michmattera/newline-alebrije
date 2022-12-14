@@ -4,7 +4,7 @@
 
 [View Github repository](https://github.com/michmattera/newline-alebrije)
 
-[View the live project here]()
+[View the live project here](https://michmattera.github.io/newline-alebrije/)
 
 
 ## Table of contents
@@ -16,4 +16,7 @@
     3. [Social-Media](#Social-media)
 3. [Code validator](#Code-Validator)
 4. [User testing](#User-testing)
+
+### Browser Testing
+
 
