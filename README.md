@@ -2,7 +2,7 @@
 
 ![Newline Alebrije Mockup Images](/assets/images/read-me-images/screenshot-am-I-responsive.PNG)
 
-[View the live project here]()
+[View the live project here](https://michmattera.github.io/newline-alebrije/)
 
 ## Table of contents
 ***

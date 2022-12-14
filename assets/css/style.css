@@ -1045,7 +1045,7 @@ legend {
 
     .text>p,
     .instruction>p {
-        font-size: 105%;
+        font-size: 90%;
     }
 
     .instruction {
@@ -1287,7 +1287,7 @@ legend {
     }
 
     .text>p {
-        font-size: 90%;
+        font-size: 85%;
         margin-top: 20%;
     }
 }
