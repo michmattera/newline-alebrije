@@ -549,7 +549,7 @@ li>p {
 
 .measure {
     width: 350px;
-    height: 450px;
+    height: 500px;
 }
 
 /*Food section*/
@@ -1478,6 +1478,10 @@ legend {
         width: 70%;
         height: 40%;
         margin: 5% 15%;
+    }
+    .measure {
+        width: 250px;
+        height: 250px;
     }
 
     .ingredient-list>li {
