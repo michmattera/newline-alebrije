@@ -36,6 +36,7 @@ h2 {
     grid-column: 1;
     grid-area: left;
     column-width: 40%;
+    height: 150px;
 }
 
 .child-container-links {
@@ -46,19 +47,20 @@ h2 {
 }
 
 #company-name {
-    margin-top: 4%;
+    margin-top: 7%;
 }
 
 /*Logo*/
-#logo{
-    min-width: 30px;
+#logo {
+    max-width: 350px;
+    height: 130px;
 }
+
 #logo,
 h1 {
     float: left;
     margin-left: 10px;
-    width: 15%;
-    height: auto;
+    width: 20%;
 }
 
 h1 {
@@ -173,6 +175,7 @@ hr {
 .main-title {
     text-align: center;
     text-transform: uppercase;
+    font-weight: bolder;
     font-size: 50px;
     display: grid;
     margin: 3%;
@@ -842,6 +845,7 @@ legend {
         width: 100%;
         grid-row: 1;
         margin-left: 2%;
+        height: 70px;
     }
 
     .child-container-links {
@@ -852,14 +856,15 @@ legend {
     }
 
     #logo {
-        width: 9%;
+        width: 13%;
         text-align: center;
+        height: 80px;
     }
 
     #company-name {
         text-align: center;
         font-size: 190%;
-        margin-top: 2.5%;
+        margin: 4%;
     }
 
     h1 {
@@ -1039,7 +1044,7 @@ legend {
     }
 
     .instruction {
-        margin: 20% 5%;
+        margin: 18% 5%;
     }
 
     .instruction>img {
@@ -1160,6 +1165,10 @@ legend {
         height: 130%;
         flex-direction: column;
         margin: 5% 0;
+    }
+
+    #logo {
+        width: 16.5%;
     }
 
     .direction1 {
@@ -1379,12 +1388,13 @@ legend {
 
     /*Header*/
     #logo {
-        width: 17%;
+        width: 21%;
+        margin: 0;
     }
 
     #company-name {
-        font-size: 155%;
-        margin: 5% 0.5%;
+        font-size: 148%;
+        margin: 7% 0 7% 2%;
     }
 
     #menu {
@@ -1413,7 +1423,7 @@ legend {
 
     .main-title {
         font-size: 200%;
-        margin-top: 15%;
+        margin-top: 7%;
     }
 
     /*Review section*/
@@ -1529,7 +1539,16 @@ legend {
 
 @media screen and (max-width: 400px) {
     #menu {
-        font-size: 59%;
+        font-size: 75%;
+        margin: 3% 0 3% 2%;
+        letter-spacing: 0;
+    }
+}
+
+/*Media query for max-width 330px (for navigation link responsiveness)*/
+@media screen and (max-width: 330px) {
+    #menu {
+        font-size: 58%;
         margin: 3% 0 3% 2%;
         letter-spacing: 0;
     }
@@ -1538,8 +1557,13 @@ legend {
 /*Media queries for max-width 300px*/
 @media screen and (max-width: 300px) {
     #company-name {
-        font-size: 125%;
-        margin: 5% 0.5%;
+        font-size: 120%;
+        margin: 10% 5% 10% 1%;
+    }
+
+    #logo {
+        width: 25%;
+        margin: 0;
     }
 
     .social-media {
