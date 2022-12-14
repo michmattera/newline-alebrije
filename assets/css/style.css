@@ -50,15 +50,6 @@ h2 {
     margin-top: 7%;
 }
 
-h1 {
-    font-size: 40px;
-    text-transform: uppercase;
-    width: fit-content;
-    text-align: center;
-    color: #ff914d;
-    margin-left: 3%;
-}
-
 /*Logo*/
 #logo {
     max-width: 350px;
@@ -70,6 +61,15 @@ h1 {
     float: left;
     margin-left: 10px;
     width: 20%;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    width: fit-content;
+    text-align: center;
+    color: #ff914d;
+    margin-left: 3%;
 }
 
 /*Navigation links*/
