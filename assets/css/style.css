@@ -488,7 +488,7 @@ I {
 }
 
 .text>p {
-    font-size: 120%;
+    font-size: 133%;
     margin-top: 7%;
     margin-bottom: 2%;
     text-align: center;
@@ -1045,7 +1045,7 @@ legend {
 
     .text>p,
     .instruction>p {
-        font-size: 95%;
+        font-size: 105%;
     }
 
     .instruction {
@@ -1274,13 +1274,12 @@ legend {
         height: 1000px;
         margin: 5% 0;
     }
-
     .small-image-text>img {
-        height: 50%;
+        height: 63%;
     }
 
     .big-text-side {
-        font-size: 75%;
+        font-size: 70%;
         height: 300%;
         margin: 2.5% 0 0 0;
         border-radius: 0%;
@@ -1288,7 +1287,7 @@ legend {
     }
 
     .text>p {
-        font-size: 87%;
+        font-size: 90%;
         margin-top: 20%;
     }
 }
@@ -1399,6 +1398,10 @@ legend {
     .description-alebrije>li {
         font-size: 160%;
         margin-left: 5%;
+    }
+
+    .small-image-text>img {
+        height: 50%;
     }
 
     /*Header*/
