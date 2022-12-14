@@ -153,7 +153,7 @@ Wireframes were made to organize and make the skeleton of the website. The wiref
 <details>
 <summary>Skeleton Plane - Balsamiq-Wireframes</summary>
 
-![Structure map](/assets/images/read-me-images/...)
+![Structure map](/assets/images/read-me-images/wireframe-newline-alebrije.jpg)
 
 </details>
 
