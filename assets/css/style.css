@@ -567,6 +567,7 @@ legend {
     font-size: 115%;
     color: #ff914d;
     margin: 3%;
+    font-weight: bolder;
 }
 
 .instruction-subtitle {
@@ -1152,6 +1153,7 @@ legend {
 
     .image-text-container>img {
         max-width: 1000px;
+        height: 350px;
     }
 
     .image-text-container {
@@ -1450,12 +1452,13 @@ legend {
 
     .container-small-image,
     .container-small-image-right {
-        width: 50%;
+        width: 70%;
         height: 40%;
+        margin: 5% 15%;
     }
 
     .ingredient-list>li {
-        margin: 3% 7%;
+        margin: 3% 10%;
     }
 
     /*Form page*/
