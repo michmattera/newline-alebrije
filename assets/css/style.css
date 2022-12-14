@@ -50,6 +50,15 @@ h2 {
     margin-top: 7%;
 }
 
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    width: fit-content;
+    text-align: center;
+    color: #ff914d;
+    margin-left: 3%;
+}
+
 /*Logo*/
 #logo {
     max-width: 350px;
@@ -61,15 +70,6 @@ h1 {
     float: left;
     margin-left: 10px;
     width: 20%;
-}
-
-h1 {
-    font-size: 40px;
-    text-transform: uppercase;
-    width: fit-content;
-    text-align: center;
-    color: #ff914d;
-    margin-left: 3%;
 }
 
 /*Navigation links*/
@@ -115,7 +115,7 @@ a {
     display: flex;
 }
 
-/*test text side*/
+/*text side*/
 .text-side {
     overflow: hidden;
     text-align: center;
@@ -127,7 +127,7 @@ a {
     position: relative;
 }
 
-/*image section*/
+/*image*/
 img {
     max-width: 100%;
     object-fit: cover;
@@ -151,7 +151,7 @@ hr {
     color: #FAF9F5;
 }
 
-/*Button in the first section to fill the form*/
+/*Button in text section to go to other page*/
 .complete-form {
     background-color: #FAF9F5;
     font-size: 75%;
@@ -198,12 +198,6 @@ hr {
     text-align: center;
 }
 
-a>p {
-    font-size: 25px;
-    margin-top: 20%;
-    color: inherit;
-}
-
 .steps-container>.steps-child {
     height: 100%;
     width: 20%;
@@ -220,6 +214,12 @@ a>p {
 a>h3:hover {
     background-color: #252441;
     color: #ff914d;
+}
+
+a>p {
+    font-size: 25px;
+    margin-top: 20%;
+    color: inherit;
 }
 
 /*central section*/
@@ -400,7 +400,7 @@ I {
     background-image: URL('../images/earth-alebrije.webp');
 }
 
-/*Text-small image section*/
+/*Big-text small image section*/
 .small-image-text>img {
     width: 32%;
     height: 100%;
@@ -450,7 +450,7 @@ I {
 
 /*STEPS-PAGE*/
 /*container with 3 divs*/
-.image>img {
+.three-divs>img {
     width: 30%;
     height: 100%;
     display: flex;
@@ -458,7 +458,7 @@ I {
     max-width: 100%;
 }
 
-.image {
+.three-divs {
     height: 550px;
     text-align: left;
     display: flex;
@@ -565,7 +565,6 @@ li>p {
     list-style-type: disc;
 }
 
-
 fieldset {
     border: 3px solid #ff914d;
 }
@@ -584,7 +583,8 @@ legend {
 }
 
 /*NEW PAGE ABOUT US*/
-/*first image*/
+
+/*image about-us page*/
 .image-about-us {
     width: 100%;
     height: 100%;
@@ -655,7 +655,7 @@ legend {
     font-weight: bold;
 }
 
-/*container form and terms and conditions*/
+/*container form - terms and conditions*/
 .form-terms-container {
     display: flex;
     width: 90%;
@@ -812,6 +812,7 @@ legend {
     background-image: URL('../images/alebrije-woods.webp');
 }
 
+/*404-500 page*/
 .message>p,
 .error-message>p {
     margin: 5%;
@@ -883,7 +884,7 @@ legend {
         display: block;
     }
 
-    /*test text side*/
+    /*Text side*/
     .text-side {
         width: 35%;
     }
@@ -966,7 +967,7 @@ legend {
         font-size: 130%;
     }
 
-    /*review section*/
+    /*Review section*/
     .review-container>.review-child {
         height: 200px;
         width: 40%;
@@ -1005,7 +1006,6 @@ legend {
         margin: 2%;
     }
 
-    /*Footer*/
     /*alebrije 4 column section*/
     .big-container {
         height: 700px;
@@ -1031,7 +1031,7 @@ legend {
         border-radius: 5%;
     }
 
-    .image {
+    .three-divs {
         height: 470px;
     }
 
@@ -1049,7 +1049,7 @@ legend {
     }
 
     .instruction {
-        margin: 20% 5%;
+        margin: 15% 5%;
     }
 
     .instruction>img {
@@ -1184,6 +1184,7 @@ legend {
         width: 16.5%;
     }
 
+    /*Column direction*/
     .direction1 {
         flex-direction: column;
     }
@@ -1192,6 +1193,7 @@ legend {
         flex-direction: column-reverse;
     }
 
+    /*Text section*/
     .text-side>h2 {
         font-size: 190%;
         padding: 3%;
@@ -1311,19 +1313,26 @@ legend {
         margin: 5%;
     }
 
-    .image,
-    .image>img {
+    /*3 divs section*/
+    .three-divs,
+    .three-divs>img {
         display: inline-block;
     }
 
-    .image {
+    .three-divs {
         height: 1000px;
         margin: 3% 0;
     }
 
-    .image>img {
+    .three-divs>img {
         width: 100%;
         height: 50%;
+    }
+
+    .text {
+        margin: 3%;
+        width: 95%;
+        height: auto;
     }
 
     /*Congratulation page*/
@@ -1338,13 +1347,6 @@ legend {
 
     .social-media {
         font-size: 180%;
-    }
-
-    /*3 divs section*/
-    .text {
-        margin: 3%;
-        width: 95%;
-        height: auto;
     }
 }
 
@@ -1479,6 +1481,7 @@ legend {
         height: 40%;
         margin: 5% 15%;
     }
+
     .measure {
         width: 250px;
         height: 250px;
@@ -1554,6 +1557,8 @@ legend {
     }
 }
 
+
+/*Media query for max-width 400px (for navigation link responsiveness)*/
 @media screen and (max-width: 400px) {
     #menu {
         font-size: 75%;
@@ -1571,7 +1576,7 @@ legend {
     }
 }
 
-/*Media queries for max-width 300px*/
+/*Media queries for max-width 300px (for navigation link responsiveness)*/
 @media screen and (max-width: 300px) {
     #company-name {
         font-size: 120%;
