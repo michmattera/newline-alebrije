@@ -547,6 +547,11 @@ li>p {
     float: right;
 }
 
+.measure {
+    width: 350px;
+    height: 450px;
+}
+
 /*Food section*/
 .ingredient {
     width: 98%;
@@ -804,7 +809,7 @@ legend {
 .message {
     color: #FAF9F5;
     background-position: center;
-    background-image: URL('../images/alebrije-woods.jpg');
+    background-image: URL('../images/alebrije-woods.webp');
 }
 
 .message>p,
@@ -821,7 +826,7 @@ legend {
 .error-message {
     color: #FAF9F5;
     background-position: bottom;
-    background-image: URL('../images/underworld.jpg');
+    background-image: URL('../images/underworld.webp');
 }
 
 /*For screen with max-width of 1065 px-tablet size*/
@@ -1165,6 +1170,14 @@ legend {
         height: 130%;
         flex-direction: column;
         margin: 5% 0;
+    }
+
+    .container-small-image,
+    .container-small-image-right {
+        width: 50%;
+        height: 40%;
+        margin: 2%;
+        display: inline-flex;
     }
 
     #logo {
