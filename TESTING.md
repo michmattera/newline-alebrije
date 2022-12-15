@@ -37,7 +37,11 @@ Tested each navigation button on every page.
 1. Main page:
     - Button to go from index.html to form.html
 
-     ![Main-Page First button](assets/testing-files/)
+     ![Main-Page First button](assets/testing-files/testing1button.gif)
+
+    - Steps in index.html hover effect that invert the color of the background and the text
+
+    ![Steps: hover effect](assets/testing-files/steps-hover-effect.gif)
 
 
 
