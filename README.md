@@ -362,7 +362,7 @@ Each page of the website is responsive and easy to navigate. Below you will find
 </dl>
 
 
-#### Screen betweenn 1050px and 750px
+#### Screen between 1050px and 750px
 
 All pages content remains the same, features and display change as follows:
 
@@ -384,6 +384,7 @@ All pages content remains the same, features and display change as follows:
 
 - Implementing in the step section some javascript code to hide some of the content for the steps page, so that the user can interact with the page and decide to see more info or not.
 - Contact form on the About-Us page.
+- Changing the navigation links menù to avoid different media queries, and implementing UX, from a basic navigation menu to a hamburger menu.
 
 
 ## Design
@@ -468,9 +469,9 @@ Below a short list of the most important bugs and issues found , along with solu
 
  Resolved : By searching in [Stack-Overflow](https://stackoverflow.com/) .
 
-- **Link to go to map** = A bug was found when clicking on the link in the homepage, it should have brought the user directly to the section of the map but instead was bringing the user to the about-us.html page, first image section and not the map section. 
+- **Link to go to map** = A bug was found when clicking on the link on the homepage that should go directly to the section of the map was bringing just to the map page, not the map section. 
 
-Resolved : Found out that the first image of the about-us.html page had in common the name of the id gave to the map section. Changed the name from location to map and it resolved the issue.
+Resolved: The anchor was bringing to the first image of the about-us.html because the name of the image was the same as the id given to the map section. Changed the name from location to map and it resolved the issue.
 
 
 ## Technology Used
