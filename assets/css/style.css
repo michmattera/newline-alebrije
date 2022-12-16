@@ -856,7 +856,7 @@ legend {
 
     .child-container-links {
         width: 100%;
-        margin: 0 2%;
+        margin: 0;
         grid-column: 1 / 3;
         grid-row: 2;
     }
