@@ -171,6 +171,10 @@ hr {
     margin-top: 5%;
 }
 
+a>.complete-form:hover{
+    background-color: #E9E8E5;
+}
+
 /*main title*/
 .main-title {
     text-align: center;
@@ -752,17 +756,24 @@ legend {
     justify-content: center;
 }
 
-.button {
+.button,
+.reverse {
     margin: 5%;
     align-items: center;
     height: 35px;
     width: 30%;
     cursor: pointer;
-    background-color: #FAF9F5;
     font-size: 100%;
-    color: #252441;
-    border: 3px solid #252441;
     border-radius: 10px;
+}
+.button{
+    background-color: #FAF9F5;
+    color: #252441;
+    border: 3px solid #ff914d;
+}
+.reverse{
+    background-color: #252441;
+    color: #FAF9F5;
 }
 
 .container-image-link,
