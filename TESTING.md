@@ -19,6 +19,20 @@
 
 ## Browser Testing
 
+The following browsers have been tested:
+
+- Google Chrome:
+
+     ![Google Chrome](assets/testing-files/google-chrome-test.gif)
+
+- Microsoft Edge:
+
+     ![Microsoft Edge](assets/testing-files/micorosoft-edge-test.gif)
+
+- 
+
+
+
 ## Manual Testing
 
 ### Navigation links
@@ -27,7 +41,7 @@
 - Clicking on the Navigation Bar's links will bring the user to the specified page.
 - Hovering on the navigation Bar's links will bring an underline hover effect for better UX experience.
 
-     ![Navigation Bar page links](assets/testing-files/navigation%20links.gif)
+     ![Navigation Bar page links](assets/testing-files/navigation-links.gif)
 
 
 ### Specific section button
