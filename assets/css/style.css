@@ -625,7 +625,14 @@ legend {
 .contact-details>p,
 .map-side>p {
     font-size: 140%;
-    color: inherit;
+}
+
+.contact-details>p{
+    color: #E9E8E5;
+}
+
+.map-side>p{
+    color: #FAF9F5;
 }
 
 .contact-details>p {
