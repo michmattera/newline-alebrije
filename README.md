@@ -384,7 +384,7 @@ All pages content remains the same, features and display change as follows:
 
 - Implementing in the step section some javascript code to hide some of the content for the steps page, so that the user can interact with the page and decide to see more info or not.
 - Contact form on the About-Us page.
-- Changing the navigation links menù to avoid different media queries, and implementing UX, from a basic navigation menu to a hamburger menu.
+- Changing the navigation links menu to avoid different media queries, and implementing UX, from a basic navigation menu to a hamburger menu.
 
 
 ## Design
@@ -402,13 +402,17 @@ The main color is #ff914d named bright orange and is complemented by #252441 nam
 
 Those two colors were chosen based on the Day Of The Death.
 
-The main colors in fact of that day are orange/purple/black.
+The main colors in fact of that day are orange/purple/black/dark blue .
 
- I choose orange as the main color because I wanted to represent that day and at the same time because is the color that is more represent Mexico and <em>"The day of the death".</em>
+ I choose orange as the main color because I wanted to represent that day and at the same time because is the color that is more represented in Mexico and <em>"The day of the death".</em>
 
  The 2nd of November is celebrated all over the world but especially in Mexico.
 
-The last color used was a darker white the #FAF9F5 used for the background of all the pages and the contrast on the dark theme.
+Another color used was a darker white the #FAF9F5 used for the background of all the pages and the contrast on the dark theme.
+
+The last color used was #E9E8E5 named = Narvik, used just on the botton in the text-side. Just to give the user a better UX experience , this color was chosen hovering over #FAF9F5, to not contrast too much the original color.
+
+
 ### Typography
 The typography was chosen with google fonts.
 
