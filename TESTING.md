@@ -86,12 +86,40 @@ Tested each navigation button on every page.
     ![Next-Page button](assets/testing-files/next-page-1.gif)
 
 
-1. Alebrije page:
+    1. Alebrije page:
     - First button in alebrije.html that goes to the first section of the alebrije explanation.
 
      ![Alebrije-Page first button](assets/testing-files/testing1button.gif)
 
-     - 
+     - Steps in the alebrije page that bring to a specific section on the same page for the four kinds of alebrijes.
+
+          1. Water alebrije:
+
+          ![Water alebrije](assets/testing-files/water-alebrije.gif)
+
+          2. Fire alebrije:
+
+          ![Fire alebrije](assets/testing-files/fire-alebrije.gif)
+  
+          3. Earth alebrije:
+
+          ![Earth alebrije](assets/testing-files/earth-alebrije.gif)
+
+          4. Air alebrije:
+
+          ![Air alebrije](assets/testing-files/air-alebrije.gif)
+
+    - Arrow to go to next page: from alebrije.html to steps.html.
+
+    ![Next-Page button](assets/testing-files/next-page-2.gif)
+
+
+
+          
+
+
+
+
 
 
 
