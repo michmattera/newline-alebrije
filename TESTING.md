@@ -33,6 +33,14 @@ The following browsers have been tested:
 
      ![Safari](assets/testing-files/safari-test.gif)
 
+- Firefox:
+
+     ![Firefox](assets/testing-files/firefox-test.gif)
+
+-Opera:
+
+     ![Opera](assets/testing-files/opera-test.gif)
+
 
 
 ## Manual Testing
@@ -183,7 +191,6 @@ Tested each navigation button on every page.
           3. Map
 
           ![Map](assets/testing-files/map.gif)
-
 
 
 
