@@ -173,6 +173,29 @@ Tested each navigation button on every page.
     - External links:
 
 
+### Social Media
+
+Tested social media links that open in a new page.
+
+1. Instagram:
+
+     ![Instagram button](assets/testing-files/instagram.gif)
+
+2. Facebook:
+
+     ![Facebook button](assets/testing-files/facebook.gif)
+
+3. Youtube:
+
+     ![Youtube button](assets/testing-files/youtube.gif)
+
+4. GitHub:
+
+     ![GitHub button](assets/testing-files/github.gif)
+
+
+
+
 
 
           
