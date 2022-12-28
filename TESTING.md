@@ -100,7 +100,7 @@ Tested each navigation button on every page.
           2. Fire alebrije:
 
           ![Fire alebrije](assets/testing-files/fire-alebrije.gif)
-  
+
           3. Earth alebrije:
 
           ![Earth alebrije](assets/testing-files/earth-alebrije.gif)
@@ -119,7 +119,7 @@ Tested each navigation button on every page.
 
      ![Steps-Page first button](assets/testing-files/third-page-first-button.gif)
 
-     - Steps in the steps page that bring to a specific section on the same page.
+     - Steps in the steps page that bring to a specific section on the same page, and in a spacific section in the about-us.html.
 
           1. First step:
 
@@ -135,7 +135,16 @@ Tested each navigation button on every page.
 
           4. Fourth step:
 
-          ![Fourth step]()
+          ![Fourth step](assets/testing-files/third-page-fourth-step.gif)
+
+     
+    - Arrow to go to next page: from steps.html to form.html.
+
+    ![Next-Page button](assets/testing-files/next-page-3.gif)
+
+    
+4. Form page:
+    - First button in steps.html that goes to the first section of the alebrije explanation.
 
 
 
