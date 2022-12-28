@@ -144,7 +144,23 @@ Tested each navigation button on every page.
 
     
 4. Form page:
-    - First button in steps.html that goes to the first section of the alebrije explanation.
+    - External links:
+
+           1. First external link that opens in a new page.
+
+           ![First external link](assets/testing-files/external-link-1.gif)
+
+           2. Second external link that opens in a new page.
+
+           ![Second external link](assets/testing-files/external-link-2.gif)
+
+     - Trying to submit the form without completing it correctly.
+
+     ![]()
+
+     - After completing the form, getting the congratulation message.
+
+     ![Congratulation message](assets/testing-files/congratulation-message.gif)
 
 
 
