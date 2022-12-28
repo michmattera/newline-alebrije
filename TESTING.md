@@ -86,7 +86,7 @@ Tested each navigation button on every page.
     ![Next-Page button](assets/testing-files/next-page-1.gif)
 
 
-    1. Alebrije page:
+2. Alebrije page:
     - First button in alebrije.html that goes to the first section of the alebrije explanation.
 
      ![Alebrije-Page first button](assets/testing-files/testing1button.gif)
@@ -112,6 +112,31 @@ Tested each navigation button on every page.
     - Arrow to go to next page: from alebrije.html to steps.html.
 
     ![Next-Page button](assets/testing-files/next-page-2.gif)
+
+
+3. Steps page:
+    - First button in steps.html that goes to the first section of the alebrije explanation.
+
+     ![Steps-Page first button](assets/testing-files/third-page-first-button.gif)
+
+     - Steps in the steps page that bring to a specific section on the same page.
+
+          1. First step:
+
+           ![First step](assets/testing-files/third-page-step-1.gif)
+
+          2. Second step:
+
+          ![Second step](assets/testing-files/third-page-second-step.gif)
+
+          3. Third step:
+
+          ![Third step](assets/testing-files/third-page-third-step.gif)
+
+          4. Fourth step:
+
+          ![Fourth step]()
+
 
 
 
