@@ -169,8 +169,22 @@ Tested each navigation button on every page.
      ![Terms and condition](assets/testing-files/terms-condition.gif)
 
 
-4. About-Us page:
-    - External links:
+5. About-Us page:
+    - Contact section
+
+          1.  Phone-number
+
+          ![Phone number](assets/testing-files/phone-number.gif)
+
+          2. Email
+
+          ![Email](assets/testing-files/email.gif)
+
+          3. Map
+
+          ![Map](assets/testing-files/map.gif)
+
+
 
 
 ### Social Media
