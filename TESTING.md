@@ -49,13 +49,51 @@ The following browsers have been tested:
 Tested each navigation button on every page.
 
 1. Main page:
-    - Button to go from index.html to form.html
+    - Button to go from index.html to form.html.
 
      ![Main-Page First button](assets/testing-files/testing1button.gif)
 
-    - Steps in index.html hover effect that invert the color of the background and the text
+    - Steps in index.html hover effect that invert the color of the background and the text.
 
     ![Steps: hover effect](assets/testing-files/steps-hover-effect.gif)
+
+    - First step in index.html button to go to specific section in steps.html.
+
+    ![Main-Page first step](assets/testing-files/first-step.gif)
+
+    - Second step in index.html button to go to specific section in steps.html.
+    
+    ![Main-Page second step](assets/testing-files/second-step.gif)
+
+    - Third step in index.html button to go to specific section in steps.html.
+
+    ![Main-Page third step](assets/testing-files/third-step.gif)
+
+    - Fourth step in index.html button to go to specific section in steps.html.
+
+    ![Main-Page fourth step](assets/testing-files/fourth-step.gif)
+
+    - Second button in index.html that goes to alebrije.html.
+
+    ![Main-Page second button](assets/testing-files/first-page-second-button.gif)
+    
+    - Third button in index.html that goes to about-us.html.
+
+    ![Main-Page third button](assets/testing-files/first-page-third-button.gif)
+
+    - Arrow to go to next page: from index.html to alebrije.html.
+
+    ![Next-Page button](assets/testing-files/next-page-1.gif)
+
+
+1. Alebrije page:
+    - First button in alebrije.html that goes to the first section of the alebrije explanation.
+
+     ![Alebrije-Page first button](assets/testing-files/testing1button.gif)
+
+     - 
+
+
 
 
 
