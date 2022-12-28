@@ -29,7 +29,9 @@ The following browsers have been tested:
 
      ![Microsoft Edge](assets/testing-files/micorosoft-edge-test.gif)
 
-- 
+- Safari:
+
+     ![Safari](assets/testing-files/safari-test.gif)
 
 
 
@@ -156,11 +158,19 @@ Tested each navigation button on every page.
 
      - Trying to submit the form without completing it correctly.
 
-     ![]()
+     ![Test complete form](assets/testing-files/test-complete-form.gif)
 
      - After completing the form, getting the congratulation message.
 
      ![Congratulation message](assets/testing-files/congratulation-message.gif)
+
+     - Sidebar of terms and condition.
+
+     ![Terms and condition](assets/testing-files/terms-condition.gif)
+
+
+4. About-Us page:
+    - External links:
 
 
 
