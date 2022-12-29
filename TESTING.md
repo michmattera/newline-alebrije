@@ -38,7 +38,7 @@ The following browsers have been tested:
 
      ![Firefox](assets/testing-files/firefox-test.gif)
 
--Opera:
+- Opera:
 
      ![Opera](assets/testing-files/opera-test.gif)
 
@@ -134,7 +134,7 @@ Tested each navigation button on every page.
 
           1. First step:
 
-           ![First step](assets/testing-files/third-page-step-1.gif)
+           ![First step](assets/testing-files/third-page-first-step.gif)
 
           2. Second step:
 
@@ -155,13 +155,13 @@ Tested each navigation button on every page.
 
     
 4. Form page:
-    - External links:
 
-           1. First external link that opens in a new page.
+
+      1. First external link that opens in a new page.
 
            ![First external link](assets/testing-files/external-link-1.gif)
 
-           2. Second external link that opens in a new page.
+      2. Second external link that opens in a new page.
 
            ![Second external link](assets/testing-files/external-link-2.gif)
 
@@ -179,17 +179,16 @@ Tested each navigation button on every page.
 
 
 5. About-Us page:
-    - Contact section
 
-          1.  Phone-number
+     1.  Phone-number
 
           ![Phone number](assets/testing-files/phone-number.gif)
 
-          2. Email
+     2. Email
 
           ![Email](assets/testing-files/email.gif)
 
-          3. Map
+     3. Map
 
           ![Map](assets/testing-files/map.gif)
 
@@ -262,33 +261,33 @@ The following pages hva been passed throughout the [Code Validator](https://vali
 
 - Index.html report:
 
-     [index.html desktop](assets/testing-files/index-html-desktop.PNG)
-     [index.html mobile](assets/testing-files/index-html-mobile.PNG)
+     ![index.html desktop](assets/testing-files/index-html-desktop.PNG)
+     ![index.html mobile](assets/testing-files/index-html-mobile.PNG)
 
 - Alebrije.html report:
 
-     [alebrije.html desktop](assets/testing-files/alebrije-html-desktop.PNG)
-     [alebrije.html mobile](assets/testing-files/alebrije-html-mobile.PNG)
+     ![alebrije.html desktop](assets/testing-files/alebrije-html-desktop.PNG)
+     ![alebrije.html mobile](assets/testing-files/alebrije-html-mobile.PNG)
 
 - Steps.html report:
 
-     [steps.html desktop](assets/testing-files/steps-html-desktop.PNG)
-     [steps.html mobile](assets/testing-files/steps-html-mobile.PNG)
+     ![steps.html desktop](assets/testing-files/steps-html-desktop.PNG)
+     ![steps.html mobile](assets/testing-files/steps-html-mobile.PNG)
 
 - Form.html report:
 
-     [form.html desktop](assets/testing-files/form-html-desktop.PNG)
-     [form.html mobile](assets/testing-files/form-html-mobile.PNG)
+     ![form.html desktop](assets/testing-files/form-html-desktop.PNG)
+     ![form.html mobile](assets/testing-files/form-html-mobile.PNG)
 
 - About-Us.html report:
 
-     [about-us.html desktop](assets/testing-files/form-html-desktop.PNG)
-     [about-us.html mobile](assets/testing-files/form-html-mobile.PNG)
+     ![about-us.html desktop](assets/testing-files/form-html-desktop.PNG)
+     ![about-us.html mobile](assets/testing-files/form-html-mobile.PNG)
 
 - Congratulation.html report:
 
-     [congratulation.html desktop](assets/testing-files/congratulation-html-desktop.PNG)
-     [congratulation.html mobile](assets/testing-files/congratulation-html-mobile.PNG)
+     ![congratulation.html desktop](assets/testing-files/congratulation-html-desktop.PNG)
+     ![congratulation.html mobile](assets/testing-files/congratulation-html-mobile.PNG)
 
 
 
