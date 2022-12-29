@@ -218,7 +218,7 @@ Tested social media links that open in a new page.
 
 ## Code Validator
 
-The following pages hva been passed throughout the [Code Validator](https://validator.w3.org/):
+The following pages have been passed through the [Code Validator](https://validator.w3.org/):
 
 - Css:
 
@@ -288,6 +288,11 @@ The following pages hva been passed throughout the [Code Validator](https://vali
 
      ![congratulation.html desktop](assets/testing-files/congratulation-html-desktop.PNG)
      ![congratulation.html mobile](assets/testing-files/congratulation-html-mobile.PNG)
+
+     
+[Back to top](#newline-alebrje-testing)
+
+***
 
 
 
