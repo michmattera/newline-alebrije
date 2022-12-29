@@ -394,6 +394,8 @@ All pages content remains the same, features and display change as follows:
 
 
 ## Design
+
+
 ### Color Palette
 The main colors for the website were chosen with [Colourmind](http://colormind.io/template/material-dashboard/) palette generator.
 
@@ -452,8 +454,8 @@ Resolved: The anchor was bringing to the first image of the about-us.html becaus
 Resolved: Controlling and hovering each element on the page, the error was then found on the margin of the navigation menu, which was causing all the elements in the page to have this extra white space. Eliminated the margin to eliminate the issue.
 
 
-
 ## Technology Used
+
 
 ### Languages Used
 The main requirements of this project are to use all the technologies learned so far, [HTML5](https://tutorial.techaltum.com/html5.html) and [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS).
@@ -548,7 +550,7 @@ The other images were used to represent real scenarios or objects.
 
  -  The characteristics of the alebrijes were inspired from the real characteristics of the different astrological elements.
 
- -   The recipes in the [step.html](steps.html) were taken from [Mexico in my kitchen](mexicoinmykitchen.com/pan-de-Muerto-Mexican-bread-of-dead)
+ -   The recipes in the [step.html](steps.html) were taken from [Mexico in my kitchen](mexicoinmykitchen.com/pan-de-Muerto-Mexican-bread-of-dead).
 
  -   Steps in [step.html](steps.html) were inspired by the real Mexican tradition of the day of the death and then adapted and change for this fictional world. Info were taken from different websites that talked about mexican traditions.
 
@@ -567,7 +569,7 @@ The following sites were used on a more regular basis:
 - I would like to thank my tutors and my mentor, Seun, for their invaluable help and guidance throughout the process.
 - Lastly, I would llike to thank the amazing people in Slack who helped me with a few issues and tested the site giving me valuable feedbacks.
 
-[Back to top](#Newline-Alebrje)
+[Back to top](#newline-alebrje)
 
 
 
