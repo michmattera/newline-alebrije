@@ -35,14 +35,12 @@ h2 {
 .child-container-logo {
     grid-column: 1;
     grid-area: left;
-    column-width: 40%;
     height: 150px;
 }
 
 .child-container-links {
     grid-column: 2;
     grid-area: right;
-    column-width: 60%;
     margin-top: 6%;
 }
 
@@ -205,7 +203,6 @@ hr {
 .steps-container>.steps-child {
     height: 100%;
     width: 20%;
-    align-items: left;
 }
 
 .steps {
@@ -336,7 +333,6 @@ I {
     width: 100%;
     height: 150%;
     font-size: 230%;
-    letter-spacing: 40%;
 }
 
 .social-media>a:hover {
@@ -376,7 +372,6 @@ I {
 .big-container>.steps-child {
     width: 25%;
     height: 350px;
-    align-items: left;
 }
 
 .water,
@@ -513,7 +508,6 @@ I {
 ol>li,
 li>p {
     margin: 3%;
-    letter-spacing: 10%;
 }
 
 .video {
@@ -618,7 +612,6 @@ legend {
 }
 
 .contact-details {
-    align-items: left;
     width: 50%;
     margin: 2%;
 }
@@ -715,7 +708,6 @@ legend {
 /* Form */
 .form-section {
     width: 100%;
-    align-items: left;
 }
 
 .form {
@@ -839,7 +831,6 @@ legend {
     width: 40%;
     letter-spacing: 1px;
     line-height: 150%;
-    align-items: left;
     text-align: left;
 }
 
@@ -860,11 +851,10 @@ legend {
 
     /*Header*/
     #parent-container-header {
-        grid-template-columns: repeat(2, 1);
         grid-gap: 1px;
-        grid-auto-rows: 10px, auto;
         text-align: center;
     }
+    
 
     .child-container-logo {
         width: 100%;
@@ -935,7 +925,6 @@ legend {
     .social-media {
         height: 200%;
         font-size: 190%;
-        letter-spacing: 30%;
     }
 
     .container-social-media {
@@ -1119,7 +1108,6 @@ legend {
         font-size: 120%;
         width: 40%;
         line-height: 140%;
-        align-items: left;
         text-align: left;
     }
 
@@ -1566,7 +1554,6 @@ legend {
     .social-media {
         height: 100%;
         font-size: 170%;
-        letter-spacing: 10%;
     }
 
     .footer {
