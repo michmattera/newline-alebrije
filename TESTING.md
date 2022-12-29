@@ -261,33 +261,33 @@ The following pages have been passed through the [Code Validator](https://valida
 
 - Index.html report:
 
-     ![index.html desktop](assets/testing-files/index-html-desktop.PNG)
-     ![index.html mobile](assets/testing-files/index-html-mobile.PNG)
+     ![index.html desktop](assets/testing-files/index-html-desktop.png)
+     ![index.html mobile](assets/testing-files/index-html-mobile.png)
 
 - Alebrije.html report:
 
-     ![alebrije.html desktop](assets/testing-files/alebrije-html-desktop.PNG)
-     ![alebrije.html mobile](assets/testing-files/alebrije-html-mobile.PNG)
+     ![alebrije.html desktop](assets/testing-files/alebrije-html-desktop.png)
+     ![alebrije.html mobile](assets/testing-files/alebrije-html-mobile.png)
 
 - Steps.html report:
 
-     ![steps.html desktop](assets/testing-files/steps-html-desktop.PNG)
-     ![steps.html mobile](assets/testing-files/steps-html-mobile.PNG)
+     ![steps.html desktop](assets/testing-files/steps-html-desktop.png)
+     ![steps.html mobile](assets/testing-files/steps-html-mobile.png)
 
 - Form.html report:
 
-     ![form.html desktop](assets/testing-files/form-html-desktop.PNG)
-     ![form.html mobile](assets/testing-files/form-html-mobile.PNG)
+     ![form.html desktop](assets/testing-files/form-html-desktop.png)
+     ![form.html mobile](assets/testing-files/form-html-mobile.png)
 
 - About-Us.html report:
 
-     ![about-us.html desktop](assets/testing-files/form-html-desktop.PNG)
-     ![about-us.html mobile](assets/testing-files/form-html-mobile.PNG)
+     ![about-us.html desktop](assets/testing-files/form-html-desktop.png)
+     ![about-us.html mobile](assets/testing-files/form-html-mobile.png)
 
 - Congratulation.html report:
 
-     ![congratulation.html desktop](assets/testing-files/congratulation-html-desktop.PNG)
-     ![congratulation.html mobile](assets/testing-files/congratulation-html-mobile.PNG)
+     ![congratulation.html desktop](assets/testing-files/congratulation-html-desktop.png)
+     ![congratulation.html mobile](assets/testing-files/congratulation-html-mobile.png)
 
      
 [Back to top](#newline-alebrje-testing)

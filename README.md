@@ -1,6 +1,6 @@
 # NEWLINE ALEBRIJE
 
-![Newline Alebrije Mockup Images](/assets/images/read-me-images/screenshot-am-I-responsive.PNG)
+![Newline Alebrije Mockup Images](/assets/images/read-me-images/screenshot-am-I-responsive.png)
 
 [View the live project here](https://michmattera.github.io/newline-alebrije/)
 
@@ -403,7 +403,7 @@ The main colors for the website were chosen with [Colourmind](http://colormind.i
 <details>
 <summary>Colour Palette</summary>
 
-![Colour Palette](/assets/images/read-me-images/Colormind-Palette.PNG)
+![Colour Palette](/assets/images/read-me-images/colormind-palette.png)
 
 </details>
 The main color is #ff914d named bright orange and is complemented by #252441 named royal curtsy which is a dark shade of blue-magenta.
