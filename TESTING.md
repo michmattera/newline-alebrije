@@ -9,13 +9,14 @@
 
 ## Table of contents
 ***
-1. [Browser Testing](#Browser-Testing)
-2. [Manual Testing](#Manual-Testing)
-    1. [Navigation Links](#Navigation-Links)
-    2. [Specific section button](#Specific-Section-Button)
-    3. [Social-Media](#Social-media)
-3. [Code validator](#Code-Validator)
-4. [User testing](#User-testing)
+1. [Browser Testing](#browser-testing)
+2. [Manual Testing](#manual-Testing)
+    1. [Navigation Links](#navigation-links)
+    2. [Specific section button](#specific-section-button)
+    3. [Social-Media](#social-media)
+3. [Code validator](#code-validator)
+     1. [Lighthouse](#lighthouse)
+4. [User testing](#user-testing)
 
 ## Browser Testing
 
@@ -255,6 +256,46 @@ The following pages hva been passed throughout the [Code Validator](https://vali
 - 500.html:
 
      ![500.html](assets/testing-files/500-html-validator.gif)
+
+     
+### Lighthouse 
+
+- Index.html report:
+
+     [index.html desktop](assets/testing-files/index-html-desktop.PNG)
+     [index.html mobile](assets/testing-files/index-html-mobile.PNG)
+
+- Alebrije.html report:
+
+     [alebrije.html desktop](assets/testing-files/alebrije-html-desktop.PNG)
+     [alebrije.html mobile](assets/testing-files/alebrije-html-mobile.PNG)
+
+- Steps.html report:
+
+     [steps.html desktop](assets/testing-files/steps-html-desktop.PNG)
+     [steps.html mobile](assets/testing-files/steps-html-mobile.PNG)
+
+- Form.html report:
+
+     [form.html desktop](assets/testing-files/form-html-desktop.PNG)
+     [form.html mobile](assets/testing-files/form-html-mobile.PNG)
+
+- About-Us.html report:
+
+     [about-us.html desktop](assets/testing-files/form-html-desktop.PNG)
+     [about-us.html mobile](assets/testing-files/form-html-mobile.PNG)
+
+- Congratulation.html report:
+
+     [congratulation.html desktop](assets/testing-files/congratulation-html-desktop.PNG)
+     [congratulation.html mobile](assets/testing-files/congratulation-html-mobile.PNG)
+
+
+
+
+
+
+
 
 
 
