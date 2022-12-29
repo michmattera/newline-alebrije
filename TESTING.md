@@ -134,7 +134,7 @@ Tested each navigation button on every page.
 
           1. First step:
 
-           ![First step](assets/testing-files/third-page-first-step.gif)
+          ![First step](assets/testing-files/third-page-first-step.gif)
 
           2. Second step:
 
