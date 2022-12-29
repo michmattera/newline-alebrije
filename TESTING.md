@@ -226,7 +226,37 @@ The following pages hva been passed throughout the [Code Validator](https://vali
 
 - Index.html:
 
-     ![Index.html](assets/testing-files)
+     ![Index.html](assets/testing-files/index-html-validator.gif)
+
+- Alebrije.html:
+
+     ![Alebrije.html](assets/testing-files/alebrije-html-validator.gif)
+
+- Steps.html:
+
+     ![Steps.html](assets/testing-files/steps-html-validator.gif)
+
+- Form.html:
+
+     ![Form.html](assets/testing-files/form-html-validator.gif)
+
+- About Us.html:
+
+     ![About-Us.html](assets/testing-files/about-us-html-validator.gif)
+
+- Congratulation.html:
+
+     ![Congratulation.html](assets/testing-files/congratulation-html-validator.gif)
+
+- 404.html:
+
+     ![404.html](assets/testing-files/404-html-validator.gif)
+
+- 500.html:
+
+     ![500.html](assets/testing-files/500-html-validator.gif)
+
+
 
 
 
