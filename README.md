@@ -569,7 +569,7 @@ The following sites were used on a more regular basis:
 - I would like to thank my tutors and my mentor, Seun, for their invaluable help and guidance throughout the process.
 - Lastly, I would llike to thank the amazing people in Slack who helped me with a few issues and tested the site giving me valuable feedbacks.
 
-[Back to top](#newline-alebrje)
+[Back to top](#newline-alebrije)
 
 ***
 
