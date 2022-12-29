@@ -755,18 +755,26 @@ legend {
     display: flex;
     justify-content: center;
 }
-
 .button,
-.reverse {
+.reverse,
+.error-button {
     margin: 5%;
-    align-items: center;
     height: 35px;
-    width: 30%;
     cursor: pointer;
     font-size: 100%;
     border-radius: 10px;
 }
-.button{
+.error-button{
+    float: left;
+    width: 15%;
+}
+.button,
+.reverse{
+    align-items: center;
+    width: 30%;
+}
+.button,
+.error-button {
     background-color: #FAF9F5;
     color: #252441;
     border: 3px solid #ff914d;
@@ -1105,7 +1113,7 @@ legend {
     .message>p,
     .error-message>p {
         margin: 3%;
-        font-size: 120%;
+        font-size: 115%;
         width: 40%;
         line-height: 140%;
         text-align: left;
@@ -1271,6 +1279,10 @@ legend {
         font-size: 80%;
     }
 
+    .error-button{
+        width: 25%;
+    }
+
     /*Footer*/
     .footer {
         height: 55px;
@@ -1344,6 +1356,11 @@ legend {
     /*Congratulation page*/
     .message>p {
         font-size: 100%;
+    }
+
+    /*404-500 page*/
+    .error-button{
+        font-size: 80%;
     }
 
     /*Footer*/
