@@ -477,6 +477,11 @@ Below a short list of the most important bugs and issues found , along with solu
 
 Resolved: The anchor was bringing to the first image of the about-us.html because the name of the image was the same as the id given to the map section. Changed the name from location to map and it resolved the issue.
 
+- **Left side space** = An issue was found when checking responsive devices. There was a very small blank space on the right side of the page.
+
+Resolved: Controlling and hovering each element on the page, the error was then found on the margin of the navigation menu, which was causing all the elements in the page to have this extra white space. Eliminated the margin to eliminate the issue.
+
+
 
 ## Technology Used
 
@@ -501,10 +506,29 @@ The main requirements of this project are to use all the technologies learned so
      - Canva was used to create the logo of the company, the strategy plan and the map site for the read.me file.
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
      - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+-[Ezgif](https://ezgif.com/video-to-gif)
+    - Ezgif was used to convert all videos to gifs for the testing file.
+-[Free screen recorder](https://screencast-o-matic.com/screen-recorder?from=app&installed=true)
+    - Free screen recorder was installed on the pc, and used to screen record all videos for the testing files.
 
  ## Testing
 
 Testing information can be found in a separate testing [file](TESTING.md "Link to testing file")
+
+## Deployment
+
+This project was developed using [GitPod](https://www.gitpod.io/ "Link to GitPod site"), which was then committed and pushed to GitHub using the GitPod terminal.
+
+### Deploying on GitHub Pages
+To deploy everything to GiHub Pages the following steps were taken:
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/michmattera/newline-alebrije "Link to GitHub Repo").
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the "Pages" section.
+5. Under "Source" click the drop-down menu labelled "None" and select "Main".
+6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+7. Scroll back down to the "Pages" section to retrieve the deployed link.
 
 
 
