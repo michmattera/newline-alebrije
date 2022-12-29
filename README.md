@@ -6,25 +6,31 @@
 
 ## Table of contents
 ***
-1. [Introduction](#Introduction)
+1. [Introduction](#introduction)
 2. [UX](#UX)
-    1. [Ideal User Demographic](#Ideal-User-Demographic)
-    2. [User Goals](#User-Goals) 
-    3. [Development Planes](#Development-Planes)
+    1. [Ideal User Demographic](#ideal-user-demographic)
+    2. [User Goals](#user-goals) 
+    3. [Development Planes](#development-planes)
 3. [Features](#features)  
-    1. [Used Features](#Used-Features)
-    2. [Common Features](#Common-Features)
-    3. [Existing Features](#Existing-Features)
-    2. [Future features](#Future-Features)
-4. [Design](#Design)
-    1. [ Color Palette](#Color-Palette)
-    2. [ Typography](#Typography)
-    3. [Visuals](#Visuals)
-5. [Issues and Bugs](#Issues-and-Bugs)
-6. [Technology Used](#Technology-Used)
-    1. [Languages Used](#Languages-Used)
-    2. [External Programs-Website Used](#External-Programs-Website-Used)
-7. [Testing](#Testing)
+    1. [Used Features](#used-features)
+    2. [Common Features](#common-features)
+    3. [Existing Features](#existing-features)
+    2. [Future features](#future-features)
+4. [Design](#design)
+    1. [ Color Palette](#color-palette)
+    2. [ Typography](#typography)
+5. [Issues and Bugs](#issues-and-bugs)
+6. [Technology Used](#technology-used)
+    1. [Languages Used](#languages-used)
+    2. [External Programs-Website Used](#external-programs-website-used)
+7. [Testing](#testing)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+    1. [Visuals](#visuals)
+    2. [Content](#content)
+    3. [Code](#code)
+10. [Acknowledgements](#acknowledgements)
+
 
 ## Introduction
 This is a website set in a fantasy world, where exists the **alebrije**, an animal found in the world of death, that is a spiritual guide. Is a website of a company that can match you with an alebrije from the other world and sends it to your house or a specific location.
@@ -427,42 +433,6 @@ That goes back to safe fonts as :
 
 If the page or the browser is not compatible with the first two then it will change to "Serif" and "Sans-serif".
 
-### Visuals
-For the visual stimulation of the user is used different images and videos.
-There are different types of images used throughout the site:
-
-1. [Artistic images](#Artistic-Images)
-2. [Real images](#Real-Images)
-3. [Youtube videos](#Youtube-Videos)
-
-#### Artistic images
-Artistic images throughout the site were token from [Art Station](https://www.artstation.com/search?sort_by=relevance&query=alebrije), they were selected for the alebrije's and for the positiob of the company in the underworld.
-
-The following images were token from :
-- [Jolanda Van Zandbergen](https://www.artstation.com/artwork/WmBmGy) = Used for the "Earth Alebrije".
-- [Emylie Boivin](https://www.artstation.com/artwork/lVNwWV) = Used for the "Fire Alebrije".
-- [Hadas Gold](https://www.artstation.com/artwork/ybNBbJ) = Used for the "Air Alebrije".
-- [Kadjugan](https://www.artstation.com/artwork/6aoZP6) = Used for "Water Alebrije".
-
-- [Daniela Henríquez](https://www.artstation.com/artwork/qQJQQL) = Used for the "Homepage first image".
-- [Fogwind](https://www.artstation.com/artwork/ykrVy5) = Used for the "Are you lost section".
-- [Leon Tukker](https://www.artstation.com/artwork/nkqro) = Used for the "Company location". 
-- [Quentin Laville](https://www.artstation.com/artwork/A9yzZ5) = Used for the "Form page left picture".
-- [Juan D. Campos](https://www.artstation.com/artwork/lVPQYa) = Used for the "Form page right picture".
-- [Marlyn](https://www.artstation.com/artwork/14LrRL) = Used for "Congratulation message".
-
-#### Real Images
-The other images were used to represent real scenarios or objects.
-
- For example candles, pan de Muerto, and celebration of the day of death. And they were taken from [Pixabay](https://pixabay.com/es/photos/search/?manual_search=1), [Unsplash](https://unsplash.com/), and the movie "Coco" for the about us section on the homepage.
-
- #### Youtube videos
- Youtube videos were used mainly to help the user with the steps to complete.
-
- They are both on the steps page and help the user to:
- 1. To prepare the <em>altar </em>for the arrival of the alebrije.
- 2. To cook and prepare the <em>Pan De Muerto</em>.
-
 
 ## Issues and Bugs
 
@@ -506,9 +476,9 @@ The main requirements of this project are to use all the technologies learned so
      - Canva was used to create the logo of the company, the strategy plan and the map site for the read.me file.
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
      - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
--[Ezgif](https://ezgif.com/video-to-gif)
+- [Ezgif](https://ezgif.com/video-to-gif "Link to go to ezgif homepage")
     - Ezgif was used to convert all videos to gifs for the testing file.
--[Free screen recorder](https://screencast-o-matic.com/screen-recorder?from=app&installed=true)
+- [Free screen recorder](https://screencast-o-matic.com/screen-recorder?from=app&installed=true "Link to go to Free screen recorder homepage")
     - Free screen recorder was installed on the pc, and used to screen record all videos for the testing files.
 
  ## Testing
@@ -527,11 +497,77 @@ To deploy everything to GiHub Pages the following steps were taken:
 3. At the top of the repository, select Settings from the menu items.
 4. Scroll down the Settings page to the "Pages" section.
 5. Under "Source" click the drop-down menu labelled "None" and select "Main".
-6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+6. Click save or Ctrl + s.
 7. Scroll back down to the "Pages" section to retrieve the deployed link.
 
 
+## Credits
 
+### Visuals
+For the visual stimulation of the user is used different images and videos.
+There are different types of images used throughout the site:
+
+1. [Artistic images](#Artistic-Images)
+2. [Real images](#Real-Images)
+3. [Youtube videos](#Youtube-Videos)
+
+#### Artistic images
+Artistic images throughout the site were token from [Art Station](https://www.artstation.com/search?sort_by=relevance&query=alebrije), they were selected for the alebrije's and for the positiob of the company in the underworld.
+
+The following images were token from :
+- [Jolanda Van Zandbergen](https://www.artstation.com/artwork/WmBmGy) = Used for the "Earth Alebrije".
+- [Emylie Boivin](https://www.artstation.com/artwork/lVNwWV) = Used for the "Fire Alebrije".
+- [Hadas Gold](https://www.artstation.com/artwork/ybNBbJ) = Used for the "Air Alebrije".
+- [Kadjugan](https://www.artstation.com/artwork/6aoZP6) = Used for "Water Alebrije".
+
+- [Daniela Henríquez](https://www.artstation.com/artwork/qQJQQL) = Used for the "Homepage first image".
+- [Fogwind](https://www.artstation.com/artwork/ykrVy5) = Used for the "Are you lost section".
+- [Leon Tukker](https://www.artstation.com/artwork/nkqro) = Used for the "Company location". 
+- [Quentin Laville](https://www.artstation.com/artwork/A9yzZ5) = Used for the "Form page left picture".
+- [Juan D. Campos](https://www.artstation.com/artwork/lVPQYa) = Used for the "Form page right picture".
+- [Marlyn](https://www.artstation.com/artwork/14LrRL) = Used for "Congratulation message".
+
+#### Real Images
+The other images were used to represent real scenarios or objects.
+
+ For example candles, pan de Muerto, and celebration of the day of death. And they were taken from [Pixabay](https://pixabay.com/es/photos/search/?manual_search=1), [Unsplash](https://unsplash.com/), and the movie "Coco" for the about us section on the homepage.
+
+ #### Youtube videos
+ Youtube videos were used mainly to help the user with the steps to complete.
+
+ They are both on the steps page and help the user to:
+ 1. To prepare the <em>altar </em>for the arrival of the alebrije.
+ 2. To cook and prepare the <em>Pan De Muerto</em>.
+
+ ### Content 
+
+ The content of this site was mostly invented by the developer.
+ Some information has been adapted from real stories and then changed slightly such as:
+ 
+ -  The story of the founder Pedro Linares López( the real inventor of the alebrije in wood) was taken from [Wikipedia](https://en.wikipedia.org/wiki/Pedro_Linares) and then adapted.
+
+ -  The characteristics of the alebrijes were inspired from the real characteristics of the different astrological elements.
+
+ -   The recipes in the [step.html](steps.html) were taken from [Mexico in my kitchen](mexicoinmykitchen.com/pan-de-Muerto-Mexican-bread-of-dead)
+
+ -   Steps in [step.html](steps.html) were inspired by the real Mexican tradition of the day of the death and then adapted and change for this fictional world. Info were taken from different websites that talked about mexican traditions.
+
+### Code 
+
+The developer consulted multiple sites in order to implement and fix issues and errors while building the website.
+
+The following sites were used on a more regular basis:
+- [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
+- [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
+
+
+## Acknowledgements
+
+- I would like to thank my friends and family for helping me giving me many differnet feedbacks to improve the website.
+- I would like to thank my tutors and my mentor, Seun, for their invaluable help and guidance throughout the process.
+- Lastly, I would llike to thank the amazing people in Slack who helped me with a few issues and tested the site giving me valuable feedbacks.
+
+[Back to top](#Newline-Alebrje)
 
 
 
