@@ -216,6 +216,20 @@ Tested social media links that open in a new page.
 
 
 
+## Code Validator
+
+The following pages hva been passed throughout the [Code Validator](https://validator.w3.org/):
+
+- Css:
+
+     ![Css](assets/testing-files/css-validator.gif)
+
+- Index.html:
+
+     ![Index.html](assets/testing-files)
+
+
+
 
 
 

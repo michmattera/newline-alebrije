@@ -1,319 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="website for a company that delivers alebrije, spiritual guide animals for people that need guidance">
-    <meta name="keywords" content="alebrije, spiritual guide, magic animals, guidance">
-    <meta name="author" content="Michelle Mattera">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" type="image/png" href="../newline-alebrije/assets/favicon/favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arapey&family=Work+Sans:ital@1&display=swap" rel="stylesheet">
-    <title>Newline Alebrije</title>
-</head>
-
-<body>
-    <div class="page-container">
-
-        <!--Header and navigation links-->
-        <header>
-            <div id="parent-container-header">
-                <div class="child-container-logo">
-                    <a href="index.html" aria-label="Click here to go to the Home Page">
-                        <img id="logo" src="assets/images/logo.svg" alt="logo newline alebrije">
-                        <h1 id="company-name">Newline Alebrije</h1>
-                    </a>
-                </div>
-                <div class="child-container-links">
-                    <nav>
-                        <ul id="menu">
-                            <li>
-                                <a href="index.html" aria-label="Click here to go to the Home Page">Home</a>
-                            </li>
-                            <li>
-                                <a href="alebrije.html" aria-label="Click here to go to the Alebrije Page">Alebrije</a>
-                            </li>
-                            <li>
-                                <a href="steps.html" aria-label="Click here to go to the Steps Page">Steps</a>
-                            </li>
-                            <li>
-                                <a class="active" href="form.html"
-                                    aria-label="Click here to go to the Form Page">Form</a>
-                            </li>
-                            <li>
-                                <a href="about-us.html" aria-label="Click here to go to the About Us Page">About Us</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-
-        <!--Section:div with image and a text section / Content: You are ready to get your alebrije, fill the form below-->
-        <section>
-            <div class="three-divs">
-                <img src="assets/images/ajolote.webp" alt="image of an ajolote in the water">
-                <a id="right-day"></a>
-                <div class="text">
-                    <h2>Get your alebrije!</h2>
-                    <p>If you are here it means that you already know what is an alebrije,
-                        and you already prepared everything for him/her.
-                        <br>
-                        The last step that you have to complete is just fill the form below.
-                        <br>
-                        Please answer all questions with honestly so you will match with your spiritual guide.
-                        <br>
-                        If you still have any doubts or question , don't hesitate to contact us!
-                    </p>
-                </div>
-                <img src="assets/images/tiger-alebrije.webp"
-                    alt="image of a orange and blue tiger alebrije, looking at his tail">
-            </div>
-        </section>
-
-        <!--Section with a div container and inside it the form to complete, terms and condition, 1 aside section with 2 external
-        links / Content: fill the form to get the alebrije-->
-        <section>
-            <h2 class="main-title blue block">
-                Fill the form below!
-            </h2>
-            <!--Form and terms container-->
-            <div class="form-terms-container">
-                <form action="congratulation.html" class="alebrije-form">
-                    <fieldset class="form">
-                        <legend>Let's get your alebrije!</legend>
-
-                        <label for="fname">First Name</label>
-                        <input class="text-input" id="fname" name="first_name" type="text" required>
-
-                        <label for="lname">Last Name</label>
-                        <input class="text-input" id="lname" name="last_name" type="text" required>
-
-                        <label for="email">Email Address</label>
-                        <input class="text-input" type="email" id="email" name="email_address" required>
-
-                        <label for="date">Date of birth: (min 18 years old)</label>
-                        <input class="text-input" type="date" id="date" name="date"
-                            min="1904-01-30" max="2004-01-01" required>
-
-                        <p>Select your astrology element:</p>
-                        <select class="zodiacal_sign" name="zodiacal_sign" id="signs">
-                            <option value="sign1">Fire</option>
-                            <option value="sign2">Water</option>
-                            <option value="sign3">Air</option>
-                            <option value="sign4">Earth</option>
-                        </select>
-
-                        <label for="street-address">Street address</label>
-                        <input class="text-input" type="text" id="street-address" name="street-address"
-                            autocomplete="address-line1" required enterkeyhint="next">
-
-                        <label for="postal-code">ZIP or postal code (optional)</label>
-                        <input class="text-input" id="postal-code" name="postal-code" autocomplete="postal-code"
-                            enterkeyhint="next">
-
-                        <label for="city">City</label>
-                        <input class="text-input" type="text" id="city" name="city" autocomplete="address-level2"
-                            enterkeyhint="next" required>
-
-                        <label for="country">Country</label>
-                        <input class="text-input" type="text" id="country" name="country" autocomplete="address-level2"
-                            enterkeyhint="next" required>
-
-                        <p>Choose your preferred location to get your alebrije:</p>
-                        <label for="pick">Pick up</label>
-                        <input class="radio-input" type="radio" id="pick" name="location_preference" value="pick"
-                            required>
-                        <label for="delivered">Delivered</label>
-                        <input class="radio-input" type="radio" id="delivered" name="location_preference"
-                            value="delivered" required>
-
-                        <div class="tacbox">
-                            <input id="checkbox" type="checkbox" required>
-                            <label for="checkbox"> I agree to <a href="#terms"
-                                    aria-label="Click here to accept terms and conditions">Terms and
-                                    Conditions</a>.</label>
-                        </div>
-                        <div class="button-container">
-                            <input class="button reverse" type="submit" value="Submit!"
-                                aria-label="Click here to submit the form">
-                            <input class="button" type="reset" value="Reset!" aria-label="Click here to reset form">
-                        </div>
-                    </fieldset>
-                </form>
-
-                <!--Aside with 2 different section and external links-->
-                <aside class="container-links">
-                    <div class="container-image-link">
-                        <p>You already follow our football team? To know more<br>
-                            <a href="https://www.espn.com.mx/futbol/equipo/_/id/17233/alebrijes-de-oaxaca"
-                                target="_blank" rel="noopener"
-                                aria-label="Image of the logo of the alebrije football team (opens in a new page)"><strong>Click
-                                    here!</strong></a></p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="website for a company that delivers alebrije, spiritual guide animals for people that need guidance">
+        <meta name="keywords" content="alebrije, spiritual guide, magic animals, guidance">
+        <meta name="author" content="Michelle Mattera">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="shortcut icon" type="image/png" href="../newline-alebrije/assets/favicon/favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arapey&family=Work+Sans:ital@1&display=swap" rel="stylesheet">
+        <title>Newline Alebrije</title>
+    </head>
+    <body>
+        <div class="page-container">
+            <!--Header and navigation links-->
+            <header>
+                <div id="parent-container-header">
+                    <div class="child-container-logo">
+                        <a href="index.html" aria-label="Click here to go to the Home Page">
+                            <img id="logo" src="assets/images/logo.svg" alt="logo newline alebrije">
+                            <h1 id="company-name">Newline Alebrije</h1>
+                        </a>
                     </div>
-                    <div class="container-image-link2">
-                        <p>You don't know what is an astrology element?<br>
-                            <a href="https://www.allure.com/story/zodiac-signs-elements-fire-earth-air-water"
-                                target="_blank" rel="noopener"
-                                aria-label="What ia an astrological element link (opens in a new page)"><strong>Click
-                                    here!</strong>
-                            </a>
+                    <div class="child-container-links">
+                        <nav>
+                            <ul id="menu">
+                                <li>
+                                    <a href="index.html" aria-label="Click here to go to the Home Page">Home</a>
+                                </li>
+                                <li>
+                                    <a href="alebrije.html" aria-label="Click here to go to the Alebrije Page">Alebrije</a>
+                                </li>
+                                <li>
+                                    <a href="steps.html" aria-label="Click here to go to the Steps Page">Steps</a>
+                                </li>
+                                <li>
+                                    <a class="active" href="form.html"
+                                        aria-label="Click here to go to the Form Page">Form</a>
+                                </li>
+                                <li>
+                                    <a href="about-us.html" aria-label="Click here to go to the About Us Page">About Us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!--Section:div with image and a text section / Content: You are ready to get your alebrije, fill the form below-->
+            <section>
+                <div class="three-divs">
+                    <img src="assets/images/ajolote.webp" alt="image of an ajolote in the water">
+                    <a id="right-day"></a>
+                    <div class="text">
+                        <h2>Get your alebrije!</h2>
+                        <p>If you are here it means that you already know what is an alebrije,
+                            and you already prepared everything for him/her.
+                            <br>
+                            The last step that you have to complete is just fill the form below.
+                            <br>
+                            Please answer all questions with honestly so you will match with your spiritual guide.
+                            <br>
+                            If you still have any doubts or question , don't hesitate to contact us!
                         </p>
                     </div>
-                </aside>
-                <div class="terms-condition">
-                    <!--Terms and condition div-->
-                    <fieldset class="form">
-                        <legend>TERMS AND CONDITIONS</legend>
-                        <div id="terms">
-                            <h5>Terms and Conditions for Newline Alebrije</h5>
-                            <p>Last updated: November 30, 2022
-                                <br>
-                                Please read these terms and conditions carefully before using Our Service.
+                    <img src="assets/images/tiger-alebrije.webp"
+                        alt="image of a orange and blue tiger alebrije, looking at his tail">
+                </div>
+            </section>
+            <!--Section with a div container and inside it the form to complete, terms and condition, 1 aside section with 2 external
+                links / Content: fill the form to get the alebrije-->
+            <section>
+                <h2 class="main-title blue block">
+                    Fill the form below!
+                </h2>
+                <!--Form and terms container-->
+                <div class="form-terms-container">
+                    <form action="congratulation.html" class="alebrije-form">
+                        <fieldset class="form">
+                            <legend>Let's get your alebrije!</legend>
+                            <label for="fname">First Name</label>
+                            <input class="text-input" id="fname" name="first_name" type="text" required>
+                            <label for="lname">Last Name</label>
+                            <input class="text-input" id="lname" name="last_name" type="text" required>
+                            <label for="email">Email Address</label>
+                            <input class="text-input" type="email" id="email" name="email_address" required>
+                            <label for="date">Date of birth: (min 18 years old)</label>
+                            <input class="text-input" type="date" id="date" name="date"
+                                min="1904-01-30" max="2004-01-01" required>
+                            <p>Select your astrology element:</p>
+                            <select class="zodiacal_sign" name="zodiacal_sign" id="signs">
+                                <option value="sign1">Fire</option>
+                                <option value="sign2">Water</option>
+                                <option value="sign3">Air</option>
+                                <option value="sign4">Earth</option>
+                            </select>
+                            <label for="street-address">Street address</label>
+                            <input class="text-input" type="text" id="street-address" name="street-address"
+                                autocomplete="address-line1" required enterkeyhint="next">
+                            <label for="postal-code">ZIP or postal code (optional)</label>
+                            <input class="text-input" id="postal-code" name="postal-code" autocomplete="postal-code"
+                                enterkeyhint="next">
+                            <label for="city">City</label>
+                            <input class="text-input" type="text" id="city" name="city" autocomplete="address-level2"
+                                enterkeyhint="next" required>
+                            <label for="country">Country</label>
+                            <input class="text-input" type="text" id="country" name="country" autocomplete="address-level2"
+                                enterkeyhint="next" required>
+                            <p>Choose your preferred location to get your alebrije:</p>
+                            <label for="pick">Pick up</label>
+                            <input class="radio-input" type="radio" id="pick" name="location_preference" value="pick"
+                                required>
+                            <label for="delivered">Delivered</label>
+                            <input class="radio-input" type="radio" id="delivered" name="location_preference"
+                                value="delivered" required>
+                            <div class="tacbox">
+                                <input id="checkbox" type="checkbox" required>
+                                <label for="checkbox"> I agree to <a href="#terms"
+                                    aria-label="Click here to accept terms and conditions">Terms and
+                                Conditions</a>.</label>
+                            </div>
+                            <div class="button-container">
+                                <input class="button reverse" type="submit" value="Submit!"
+                                    aria-label="Click here to submit the form">
+                                <input class="button" type="reset" value="Reset!" aria-label="Click here to reset form">
+                            </div>
+                        </fieldset>
+                    </form>
+                    <!--Aside with 2 different section and external links-->
+                    <aside class="container-links">
+                        <div class="container-image-link">
+                            <p>You already follow our football team? To know more<br>
+                                <a href="https://www.espn.com.mx/futbol/equipo/_/id/17233/alebrijes-de-oaxaca"
+                                    target="_blank" rel="noopener"
+                                    aria-label="Image of the logo of the alebrije football team (opens in a new page)"><strong>Click
+                                here!</strong></a>
                             </p>
-                            <h5>Interpretation</h5>
-                            <ul>
-                                <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or
-                                    "Our" in this Agreement)
-                                    refers to Newline Alebrije, Underworld square death court n 3 .</li>
-
-                                <li><strong>Device</strong> means any device that can access the Service such as a
-                                    computer, a
-                                    cellphone or a digital tablet.</li>
-                                <li><strong>Service</strong> refers to the Website.</li>
-                                <li><strong>Terms and Conditions</strong> (also referred as "Terms") mean these
-                                    Terms and Conditions
-                                    that form the entire agreement between You and the Company regarding the use of
-                                    the
-                                    Service. This Terms and Conditions agreement has been created with the help of
-                                    the Terms
-                                    and
-                                    Conditions Generator.</li>
-                                <li><strong>Third-party Social Media Service</strong> means any services or content
-                                    (including data,
-                                    information, products or services) provided by a third-party that may be
-                                    displayed,
-                                    included or made available by the Service.</li>
-                                <li><strong>Website</strong> refers to Newline Alebrije, accessible from ?</li>
-                                <li><strong>You</strong> means the individual accessing or using the Service, or the
-                                    company, or
-                                    other
-                                    legal
-                                    entity on behalf of which such individual is accessing or using the Service, as
-                            </ul>
-                            <h5>Acknowledgment</h5>
-                            <p>These are the Terms and Conditions governing the use of this Service and the
-                                agreement
-                                that operates between You and the Company. These Terms and Conditions set out the
-                                rights
-                                and obligations of all users regarding the use of the Service.
-
-                                Your access to and use of the Service is conditioned on Your acceptance of and
-                                compliance with these Terms and Conditions. These Terms and Conditions apply to all
-                                visitors, users and others who access or use the Service.
-
-                                By accessing or using the Service You agree to be bound by these Terms and
-                                Conditions.
-                                If You disagree with any part of these Terms and Conditions then You may not access
-                                the
-                                Service.
-
-                                You represent that you are over the age of 18. The Company does not permit those
-                                under
-                                18 to use the Service.
-
-                                Your access to and use of the Service is also conditioned on Your acceptance of and
-                                compliance with the Privacy Policy of the Company. Our Privacy Policy describes Our
-                                policies and procedures on the collection, use and disclosure of Your personal
-                                information when You use the Application or the Website and tells You about Your
-                                privacy
-                                rights and how the law protects You. Please read Our Privacy Policy carefully before
-                                using Our Service.</p>
-                            <h5>Links to Other Websites</h5>
-                            <p>Our Service may contain links to third-party web sites or services that are not owned
-                                or
-                                controlled by the Company.
-
-                                The Company has no control over, and assumes no responsibility for, the content,
-                                privacy
-                                policies, or practices of any third party web sites or services. You further
-                                acknowledge
-                                and agree that the Company shall not be responsible or liable, directly or
-                                indirectly,
-                                for any damage or loss caused or alleged to be caused by or in connection with the
-                                use
-                                of or reliance on any such content, goods or services available on or through any
-                                such
-                                web sites or services.
-
-                                We strongly advise You to read the terms and conditions and privacy policies of any
-                                third-party web sites or services that You visit.</p>
-                            <h5>Governing Law</h5>
-                            <p>The laws of the Country, excluding its conflicts of law rules, shall govern this
-                                Terms
-                                and Your use of the Service. Your use of the Application may also be subject to
-                                other
-                                local, state, national, or international laws.</p>
-                            <h5>Changes to These Terms and Conditions</h5>
-                            <p>We reserve the right, at Our sole discretion, to modify or replace these Terms at any
-                                time. If a revision is material We will make reasonable efforts to provide at least
-                                30
-                                days' notice prior to any new terms taking effect. What constitutes a material
-                                change
-                                will be determined at Our sole discretion.
-
-                                By continuing to access or use Our Service after those revisions become effective,
-                                You
-                                agree to be bound by the revised terms. If You do not agree to the new terms, in
-                                whole
-                                or in part, please stop using the website and the Service.</p>
-                            <h5>Contact Us</h5>
-                            <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
-                            <ul>
-                                <li> By email: newlinealebrije@gmail.com</li>
-
-                                <li>By phone number: 081-999-77*</li>
-                            </ul>
                         </div>
-                    </fieldset>
+                        <div class="container-image-link2">
+                            <p>You don't know what is an astrology element?<br>
+                                <a href="https://www.allure.com/story/zodiac-signs-elements-fire-earth-air-water"
+                                    target="_blank" rel="noopener"
+                                    aria-label="What ia an astrological element link (opens in a new page)"><strong>Click
+                                here!</strong>
+                                </a>
+                            </p>
+                        </div>
+                    </aside>
+                    <div class="terms-condition">
+                        <!--Terms and condition div-->
+                        <fieldset class="form">
+                            <legend>TERMS AND CONDITIONS</legend>
+                            <div id="terms">
+                                <h5>Terms and Conditions for Newline Alebrije</h5>
+                                <p>Last updated: November 30, 2022
+                                    <br>
+                                    Please read these terms and conditions carefully before using Our Service.
+                                </p>
+                                <h5>Interpretation</h5>
+                                <ul>
+                                    <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or
+                                        "Our" in this Agreement)
+                                        refers to Newline Alebrije, Underworld square death court n 3 .
+                                    </li>
+                                    <li><strong>Device</strong> means any device that can access the Service such as a
+                                        computer, a
+                                        cellphone or a digital tablet.
+                                    </li>
+                                    <li><strong>Service</strong> refers to the Website.</li>
+                                    <li><strong>Terms and Conditions</strong> (also referred as "Terms") mean these
+                                        Terms and Conditions
+                                        that form the entire agreement between You and the Company regarding the use of
+                                        the
+                                        Service. This Terms and Conditions agreement has been created with the help of
+                                        the Terms
+                                        and
+                                        Conditions Generator.
+                                    </li>
+                                    <li><strong>Third-party Social Media Service</strong> means any services or content
+                                        (including data,
+                                        information, products or services) provided by a third-party that may be
+                                        displayed,
+                                        included or made available by the Service.
+                                    </li>
+                                    <li><strong>Website</strong> refers to Newline Alebrije, accessible from ?</li>
+                                    <li><strong>You</strong> means the individual accessing or using the Service, or the
+                                        company, or
+                                        other
+                                        legal
+                                        entity on behalf of which such individual is accessing or using the Service, as
+                                </ul>
+                                <h5>Acknowledgment</h5>
+                                <p>These are the Terms and Conditions governing the use of this Service and the
+                                    agreement
+                                    that operates between You and the Company. These Terms and Conditions set out the
+                                    rights
+                                    and obligations of all users regarding the use of the Service.
+                                    Your access to and use of the Service is conditioned on Your acceptance of and
+                                    compliance with these Terms and Conditions. These Terms and Conditions apply to all
+                                    visitors, users and others who access or use the Service.
+                                    By accessing or using the Service You agree to be bound by these Terms and
+                                    Conditions.
+                                    If You disagree with any part of these Terms and Conditions then You may not access
+                                    the
+                                    Service.
+                                    You represent that you are over the age of 18. The Company does not permit those
+                                    under
+                                    18 to use the Service.
+                                    Your access to and use of the Service is also conditioned on Your acceptance of and
+                                    compliance with the Privacy Policy of the Company. Our Privacy Policy describes Our
+                                    policies and procedures on the collection, use and disclosure of Your personal
+                                    information when You use the Application or the Website and tells You about Your
+                                    privacy
+                                    rights and how the law protects You. Please read Our Privacy Policy carefully before
+                                    using Our Service.
+                                </p>
+                                <h5>Links to Other Websites</h5>
+                                <p>Our Service may contain links to third-party web sites or services that are not owned
+                                    or
+                                    controlled by the Company.
+                                    The Company has no control over, and assumes no responsibility for, the content,
+                                    privacy
+                                    policies, or practices of any third party web sites or services. You further
+                                    acknowledge
+                                    and agree that the Company shall not be responsible or liable, directly or
+                                    indirectly,
+                                    for any damage or loss caused or alleged to be caused by or in connection with the
+                                    use
+                                    of or reliance on any such content, goods or services available on or through any
+                                    such
+                                    web sites or services.
+                                    We strongly advise You to read the terms and conditions and privacy policies of any
+                                    third-party web sites or services that You visit.
+                                </p>
+                                <h5>Governing Law</h5>
+                                <p>The laws of the Country, excluding its conflicts of law rules, shall govern this
+                                    Terms
+                                    and Your use of the Service. Your use of the Application may also be subject to
+                                    other
+                                    local, state, national, or international laws.
+                                </p>
+                                <h5>Changes to These Terms and Conditions</h5>
+                                <p>We reserve the right, at Our sole discretion, to modify or replace these Terms at any
+                                    time. If a revision is material We will make reasonable efforts to provide at least
+                                    30
+                                    days' notice prior to any new terms taking effect. What constitutes a material
+                                    change
+                                    will be determined at Our sole discretion.
+                                    By continuing to access or use Our Service after those revisions become effective,
+                                    You
+                                    agree to be bound by the revised terms. If You do not agree to the new terms, in
+                                    whole
+                                    or in part, please stop using the website and the Service.
+                                </p>
+                                <h5>Contact Us</h5>
+                                <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
+                                <ul>
+                                    <li> By email: newlinealebrije@gmail.com</li>
+                                    <li>By phone number: 081-999-77*</li>
+                                </ul>
+                            </div>
+                        </fieldset>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-        <!--Next-page-button-->
-        <div class="next-page"><a href="about-us.html" aria-label="Click here to go to the next page">
+            </section>
+            <!--Next-page-button-->
+            <div class="next-page"><a href="about-us.html" aria-label="Click here to go to the next page">
                 <i class="fa-solid fa-circle-arrow-right"></i>
-            </a>
-        </div>
-
-        <!--footer-->
-        <footer class="footer">
-            <div class="container-social-media">
-                <div class="social-media">
-                    <a href="https://www.instagram.com/alebrijes_de_madera_/?igshid=YmMyMTA2M2Y%3D" target="_blank"
-                        rel="noopener" aria-label="Visit our instagram page(opens in a new page)"><i
-                            class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a href="https://es-la.facebook.com/alebrijesss/" target="_blank" rel="noopener"
-                        aria-label="Visit our facebook page(opens in a new page)"><i class="fa-brands fa-facebook"></i>
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=zUIgZsmOLpo" target="_blank" rel="noopener"
-                        aria-label="Visit our youtube page(opens in a new page)"><i class="fa-brands fa-youtube"></i>
-                    </a>
-                    <a href="https://github.com/michmattera/newline-alebrije" target="_blank" rel="noopener"
-                        aria-label="Visit our github page(opens in a new page)"><i class="fa-brands fa-github"></i>
-                    </a>
-                </div>
+                </a>
             </div>
-        </footer>
-
-        <!--Font Awesome kit-->
-        <script src="https://kit.fontawesome.com/73f93bff4b.js" crossorigin="anonymous"></script>
-    </div>
+            <!--footer-->
+            <footer class="footer">
+                <div class="container-social-media">
+                    <div class="social-media">
+                        <a href="https://www.instagram.com/alebrijes_de_madera_/?igshid=YmMyMTA2M2Y%3D" target="_blank"
+                            rel="noopener" aria-label="Visit our instagram page(opens in a new page)"><i
+                            class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://es-la.facebook.com/alebrijesss/" target="_blank" rel="noopener"
+                            aria-label="Visit our facebook page(opens in a new page)"><i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=zUIgZsmOLpo" target="_blank" rel="noopener"
+                            aria-label="Visit our youtube page(opens in a new page)"><i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="https://github.com/michmattera/newline-alebrije" target="_blank" rel="noopener"
+                            aria-label="Visit our github page(opens in a new page)"><i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+            <!--Font Awesome kit-->
+            <script src="https://kit.fontawesome.com/73f93bff4b.js" crossorigin="anonymous"></script>
+        </div>
     </body>
 </html>
