@@ -171,7 +171,7 @@ hr {
     margin-top: 5%;
 }
 
-.complete-form:hover>*{
+.complete-form:hover{
     background-color: #E9E8E5;
 }
 
