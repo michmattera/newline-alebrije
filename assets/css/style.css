@@ -1298,8 +1298,8 @@ legend {
     }
 
     .big-text-side {
-        font-size: 70%;
-        height: 300%;
+        font-size: 68%;
+        height: 45%;
         margin: 2.5% 0 0 0;
         border-radius: 0%;
         border: none;
@@ -1412,7 +1412,7 @@ legend {
 
     /*big text and small image section*/
     .big-text-side {
-        font-size: 65%;
+        font-size: 55%;
     }
 
     .big-text-side>p {
@@ -1435,7 +1435,7 @@ legend {
     }
 
     #company-name {
-        font-size: 148%;
+        font-size: 140%;
         margin: 7% 0 7% 2%;
     }
 
@@ -1605,7 +1605,7 @@ legend {
 /*Media queries for max-width 300px (for navigation link responsiveness)*/
 @media screen and (max-width: 300px) {
     #company-name {
-        font-size: 120%;
+        font-size: 117%;
         margin: 10% 5% 10% 1%;
     }
 
